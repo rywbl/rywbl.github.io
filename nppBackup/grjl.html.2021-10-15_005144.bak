@@ -1,4 +1,4 @@
-ï»¿<html xmlns:v="urn:schemas-microsoft-com:vml"
+<html xmlns:v="urn:schemas-microsoft-com:vml"
 xmlns:o="urn:schemas-microsoft-com:office:office"
 xmlns:w="urn:schemas-microsoft-com:office:word"
 xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
@@ -648,7 +648,7 @@ w\:* {behavior:url(#default#VML);}
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:å®‹ä½“;
+	{font-family:ËÎÌå;
 	panose-1:2 1 6 0 3 1 1 1 1 1;
 	mso-font-alt:SimSun;
 	mso-font-charset:134;
@@ -663,7 +663,7 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-pitch:variable;
 	mso-font-signature:0 0 0 0 0 0;}
 @font-face
-	{font-family:å¾®è½¯é›…é»‘;
+	{font-family:Î¢ÈíÑÅºÚ;
 	panose-1:2 11 5 3 2 2 4 2 2 4;
 	mso-font-charset:134;
 	mso-generic-font-family:swiss;
@@ -677,13 +677,13 @@ w\:* {behavior:url(#default#VML);}
 	mso-font-pitch:variable;
 	mso-font-signature:-536870145 1073786111 1 0 415 0;}
 @font-face
-	{font-family:"\@å¾®è½¯é›…é»‘";
+	{font-family:"\@Î¢ÈíÑÅºÚ";
 	mso-font-charset:0;
 	mso-generic-font-family:auto;
 	mso-font-pitch:auto;
 	mso-font-signature:0 0 0 0 0 0;}
 @font-face
-	{font-family:"\@å®‹ä½“";
+	{font-family:"\@ËÎÌå";
 	panose-1:2 1 6 0 3 1 1 1 1 1;
 	mso-font-charset:134;
 	mso-generic-font-family:auto;
@@ -699,8 +699,8 @@ w\:* {behavior:url(#default#VML);}
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
-	mso-fareast-font-family:å®‹ä½“;
-	mso-bidi-font-family:å®‹ä½“;}
+	mso-fareast-font-family:ËÎÌå;
+	mso-bidi-font-family:ËÎÌå;}
 a:link, span.MsoHyperlink
 	{mso-style-priority:99;
 	color:#0563C1;
@@ -725,8 +725,8 @@ p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
 	mso-pagination:widow-orphan;
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;
-	mso-fareast-font-family:å®‹ä½“;
-	mso-bidi-font-family:å®‹ä½“;}
+	mso-fareast-font-family:ËÎÌå;
+	mso-bidi-font-family:ËÎÌå;}
 p.msonormal0, li.msonormal0, div.msonormal0
 	{mso-style-name:msonormal;
 	mso-style-unhide:no;
@@ -736,8 +736,8 @@ p.msonormal0, li.msonormal0, div.msonormal0
 	margin-left:0cm;
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
-	font-family:å®‹ä½“;
-	mso-bidi-font-family:å®‹ä½“;}
+	font-family:ËÎÌå;
+	mso-bidi-font-family:ËÎÌå;}
 p.msochpdefault, li.msochpdefault, div.msochpdefault
 	{mso-style-name:msochpdefault;
 	mso-style-unhide:no;
@@ -748,8 +748,8 @@ p.msochpdefault, li.msochpdefault, div.msochpdefault
 	mso-pagination:widow-orphan;
 	font-size:12.0pt;
 	font-family:"Calibri",sans-serif;
-	mso-fareast-font-family:å®‹ä½“;
-	mso-bidi-font-family:å®‹ä½“;}
+	mso-fareast-font-family:ËÎÌå;
+	mso-bidi-font-family:ËÎÌå;}
 span.SpellE
 	{mso-style-name:"";
 	mso-spl-e:yes;}
@@ -779,7 +779,7 @@ div.WordSection1
 <style>
  /* Style Definitions */
  table.MsoNormalTable
-	{mso-style-name:æ™®é€šè¡¨æ ¼;
+	{mso-style-name:ÆÕÍ¨±í¸ñ;
 	mso-tstyle-rowband-size:0;
 	mso-tstyle-colband-size:0;
 	mso-style-noshow:yes;
@@ -792,7 +792,7 @@ div.WordSection1
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;}
 table.MsoTableGrid
-	{mso-style-name:ç½‘æ ¼å‹;
+	{mso-style-name:Íø¸ñĞÍ;
 	mso-tstyle-rowband-size:0;
 	mso-tstyle-colband-size:0;
 	mso-style-priority:39;
@@ -808,7 +808,7 @@ table.MsoTableGrid
 	font-size:10.0pt;
 	font-family:"Calibri",sans-serif;}
 table.MsoTableGridLight
-	{mso-style-name:ç½‘æ ¼å‹æµ…è‰²;
+	{mso-style-name:Íø¸ñĞÍÇ³É«;
 	mso-tstyle-rowband-size:0;
 	mso-tstyle-colband-size:0;
 	mso-style-priority:40;
@@ -847,24 +847,24 @@ table.MsoTableGridLight
 
 <p class=MsoNormal style='margin-left:378.0pt;mso-para-margin-left:37.8gd;
 text-indent:28.0pt;mso-char-indent-count:1.0;line-height:37.0pt'><b><span
-style='font-size:28.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#3E3A39'>ä¸ªäººç®€å†<span
+style='font-size:28.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#3E3A39'>¸öÈË¼òÀú<span
 lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-left:378.0pt;mso-para-margin-left:37.8gd;
 text-indent:10.0pt;mso-char-indent-count:1.0;line-height:37.0pt'><b><span
-lang=EN-US style='mso-bidi-font-size:28.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;
+lang=EN-US style='mso-bidi-font-size:28.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#3E3A39'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:37.0pt'><span lang=EN-US><span style='mso-no-proof:yes'><img
 width=718 height=4 id="_x0000_i1030"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span><span
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span><span
 style='color:black;mso-themecolor:text1'><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-right:328.8pt;mso-para-margin-right:32.88gd;
 text-indent:432.0pt;mso-char-indent-count:27.0;line-height:21.15pt'><b><span
-style='font-size:16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:black;mso-themecolor:
-text1'>ä¸ªäººä¿¡æ¯<span lang=EN-US><o:p></o:p></span></span></b></p>
+style='font-size:16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:black;mso-themecolor:
+text1'>¸öÈËĞÅÏ¢<span lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:328.8pt;margin-bottom:
 0cm;margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;
@@ -890,20 +890,20 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
  </v:formulas>
  <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
  <o:lock v:ext="edit" aspectratio="t"/>
-</v:shapetype><v:shape id="å›¾ç‰‡_x0020_2" o:spid="_x0000_s1026" type="#_x0000_t75"
+</v:shapetype><v:shape id="Í¼Æ¬_x0020_2" o:spid="_x0000_s1026" type="#_x0000_t75"
  style='position:absolute;left:0;text-align:left;margin-left:0;margin-top:860pt;
  width:79.5pt;height:113.25pt;z-index:-251658240;visibility:visible;
  mso-wrap-style:square;mso-wrap-distance-left:9pt;mso-wrap-distance-top:0;
  mso-wrap-distance-right:9pt;mso-wrap-distance-bottom:0;
  mso-position-horizontal:left;mso-position-horizontal-relative:text;
  mso-position-vertical:absolute;mso-position-vertical-relative:text'>
- <v:imagedata src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image008.jpg"/>
+ <v:imagedata src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image008.jpg"/>
  <w:wrap type="tight"/>
 </v:shape><![endif]--><![if !vml]><img width=106 height=151
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image008.jpg"
-align=left hspace=12 v:shapes="å›¾ç‰‡_x0020_2"><![endif]><b><span style='font-size:
-3.0pt;mso-bidi-font-size:16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:white;
-mso-themecolor:background1'>ä¸ªäººä¿¡æ¯<span lang=EN-US><o:p></o:p></span></span></b></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image008.jpg"
+align=left hspace=12 v:shapes="Í¼Æ¬_x0020_2"><![endif]><b><span style='font-size:
+3.0pt;mso-bidi-font-size:16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:white;
+mso-themecolor:background1'>¸öÈËĞÅÏ¢<span lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:328.8pt;margin-bottom:
 0cm;margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;
@@ -926,18 +926,18 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
   line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å§“å ï¼š<span lang=EN-US>&nbsp;
-  </span></span></b><span lang=EN-US style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ĞÕÃû £º<span lang=EN-US>&nbsp;
+  </span></span></b><span lang=EN-US style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
   color:#595757'>&nbsp;</span><span class=GramE><span style='font-size:10.5pt;
-  font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ç‹åšäº®</span></span></p>
+  font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Íõ²©ÁÁ</span></span></p>
   </td>
   <td width=274 style='width:205.25pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt'>
   <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
   line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>æ‰‹æœºï¼š</span></b><span
-  lang=EN-US style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>18556551206</span></p>
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÊÖ»ú£º</span></b><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>18556551206</span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;height:22.7pt'>
@@ -946,8 +946,8 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
   line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å¹´é¾„ ï¼š<span lang=EN-US>&nbsp;&nbsp;
-  </span></span></b><span lang=EN-US style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÄêÁä £º<span lang=EN-US>&nbsp;&nbsp;
+  </span></span></b><span lang=EN-US style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
   color:#595757'>26</span></p>
   </td>
   <td width=274 style='width:205.25pt;padding:0cm 5.4pt 0cm 5.4pt;height:22.7pt'>
@@ -955,17 +955,17 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
   line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å±…ä½åœ°ï¼š</span></b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757;mso-bidi-font-weight:bold'>å®‰å¾½</span><span
-  style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åˆè‚¥<span
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¾Ó×¡µØ£º</span></b><span
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757;mso-bidi-font-weight:bold'>°²»Õ</span><span
+  style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ºÏ·Ê<span
   lang=EN-US><o:p></o:p></span></span></p>
   <p class=MsoNormal style='text-align:justify;text-justify:inter-ideograph;
   line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b
   style='mso-bidi-font-weight:normal'><span style='font-size:10.5pt;font-family:
-  "å¾®è½¯é›…é»‘",sans-serif;color:#595757'>æˆ·å£æ‰€åœ¨åœ°</span></b><span style='font-size:10.5pt;
-  font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ï¼šé™•è¥¿å®é¸¡<span lang=EN-US><o:p></o:p></span></span></p>
+  "Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>»§¿ÚËùÔÚµØ</span></b><span style='font-size:10.5pt;
+  font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>£ºÉÂÎ÷±¦¼¦<span lang=EN-US><o:p></o:p></span></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2;mso-yfti-lastrow:yes;height:22.7pt'>
@@ -973,13 +973,13 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
   <p class=MsoNormal style='mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><b><span
-  style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é‚®ç®±ï¼š<span lang=EN-US>&nbsp;&nbsp;
+  style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÓÊÏä£º<span lang=EN-US>&nbsp;&nbsp;
   &nbsp;</span></span></b><span lang=EN-US style='font-size:10.5pt;font-family:
-  "å¾®è½¯é›…é»‘",sans-serif;color:#595757'><a href="mailto:rywbl@mail.hfut.edu.cn">rywbl@mail.hfut.edu.cn</a><o:p></o:p></span></p>
+  "Î¢ÈíÑÅºÚ",sans-serif;color:#595757'><a href="mailto:rywbl@mail.hfut.edu.cn">rywbl@mail.hfut.edu.cn</a><o:p></o:p></span></p>
   <p class=MsoNormal style='mso-element:frame;mso-element-frame-hspace:9.0pt;
   mso-element-wrap:around;mso-element-anchor-vertical:paragraph;mso-element-anchor-horizontal:
   column;mso-element-left:center;mso-element-top:.05pt;mso-height-rule:exactly'><span
-  lang=EN-US style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'><span
+  lang=EN-US style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'><span
   style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   </span><a href="mailto:838976824@qq.com">838976824@qq.com</a> <o:p></o:p></span></p>
   </td>
@@ -988,10 +988,10 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
   inter-ideograph;line-height:13.2pt;mso-element:frame;mso-element-frame-hspace:
   9.0pt;mso-element-wrap:around;mso-element-anchor-vertical:paragraph;
   mso-element-anchor-horizontal:column;mso-element-left:center;mso-element-top:
-  .05pt;mso-height-rule:exactly'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-  color:#595757'>å·¥ä½œç»éªŒï¼š</span></b><span lang=EN-US style='font-size:10.5pt;
-  font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>3.5 </span><span
-  style='font-size:10.5pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å¹´<span
+  .05pt;mso-height-rule:exactly'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+  color:#595757'>¹¤×÷¾­Ñé£º</span></b><span lang=EN-US style='font-size:10.5pt;
+  font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>3.5 </span><span
+  style='font-size:10.5pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Äê<span
   lang=EN-US><o:p></o:p></span></span></p>
   </td>
  </tr>
@@ -1001,28 +1001,28 @@ mso-para-margin-right:32.88gd;mso-para-margin-bottom:0cm;mso-para-margin-left:
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:21.15pt'><b><span lang=EN-US style='font-size:5.0pt;mso-bidi-font-size:
-16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#3E3A39'><br clear=all
+16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#3E3A39'><br clear=all
 style='mso-special-character:line-break'>
 <o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:21.15pt'><span lang=EN-US><span style='mso-no-proof:yes'><img
 border=0 width=718 height=4 id="_x0000_i1029"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span></span><b><span
-lang=EN-US style='font-size:16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#3E3A39'><o:p></o:p></span></b></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span></span><b><span
+lang=EN-US style='font-size:16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#3E3A39'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:200.0pt;mso-char-indent-count:12.5;line-height:150%'><b><span
-style='font-size:16.0pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#3E3A39'>æ±‚èŒæ„å‘</span></b><span lang=EN-US style='font-size:12.0pt;
+style='font-size:16.0pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#3E3A39'>ÇóÖ°ÒâÏò</span></b><span lang=EN-US style='font-size:12.0pt;
 line-height:150%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åº”è˜å²—ä½ï¼š
-</span></b><span style='font-size:10.5pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>å·¥è‰ºå·¥ç¨‹å¸ˆ</span><span lang=EN-US style='font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-&nbsp;&nbsp;&nbsp; </span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>æœŸæœ›è–ªèµ„ï¼š</span></b><span lang=EN-US style='font-family:"Times New Roman",serif'>&nbsp;
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ó¦Æ¸¸ÚÎ»£º
+</span></b><span style='font-size:10.5pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>¹¤ÒÕ¹¤³ÌÊ¦</span><span lang=EN-US style='font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; </span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>ÆÚÍûĞ½×Ê£º</span></b><span lang=EN-US style='font-family:"Times New Roman",serif'>&nbsp;
 9000<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
@@ -1032,58 +1032,58 @@ line-height:150%'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 mso-line-height-alt:1.0pt'><span style='position:absolute;z-index:-1895824384'><span
 lang=EN-US><span style='mso-no-proof:yes'><img border=0 width=718 height=4
 id="_x0000_i1028"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span></span></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:198.0pt;mso-char-indent-count:16.5;line-height:150%'><span
 lang=EN-US style='font-size:12.0pt;line-height:150%;font-family:"Times New Roman",serif'>&nbsp;</span><b><span
-style='font-size:16.0pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#3E3A39'>æ•™è‚²èƒŒæ™¯</span></b><span lang=EN-US style='font-size:12.0pt;
+style='font-size:16.0pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#3E3A39'>½ÌÓı±³¾°</span></b><span lang=EN-US style='font-size:12.0pt;
 line-height:150%;font-family:"Times New Roman",serif'>&nbsp;</span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
+line-height:150%'><b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#595757'><o:p>&nbsp;</o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å­¦æ ¡åç§°ï¼š</span></b><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åˆè‚¥å·¥ä¸š</span><span
-style='font-size:10.5pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>å¤§å­¦</span><b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ñ§Ğ£Ãû³Æ£º</span></b><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ºÏ·Ê¹¤Òµ</span><span
+style='font-size:10.5pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>´óÑ§</span><b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp; </span></b><b><span style='font-family:
-"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>æ‰€å­¦ä¸“ä¸šï¼š </span></b><span style='font-family:
-"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åŒ–å­¦å·¥ç¨‹ä¸å·¥è‰º</span><span lang=EN-US
-style='font-size:10.5pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
+"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ËùÑ§×¨Òµ£º </span></b><span style='font-family:
+"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>»¯Ñ§¹¤³ÌÓë¹¤ÒÕ</span><span lang=EN-US
+style='font-size:10.5pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å°±è¯»æ—¶é—´ï¼š </span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>2014.9~2018.7<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></b></span></p>
+</span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¾Í¶ÁÊ±¼ä£º </span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>2014.9~2018.7<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></b></span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å­¦æ ¡åç§°ï¼š</span></b><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>æ‰¶é£é«˜çº§ä¸­å­¦<b><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;<span
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ñ§Ğ£Ãû³Æ£º</span></b><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>·ö·ç¸ß¼¶ÖĞÑ§<b><span lang=EN-US>&nbsp;&nbsp;&nbsp;&nbsp;<span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></span></b></span><span lang=EN-US style='font-size:10.5pt;line-height:
-150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å°±è¯»æ—¶é—´ï¼š </span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>2011.6~2014.6<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¾Í¶ÁÊ±¼ä£º </span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>2011.6~2014.6<b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <o:p></o:p></b></span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>è€ƒç ”æˆç»©ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757;mso-bidi-font-weight:
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¿¼ÑĞ³É¼¨£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757;mso-bidi-font-weight:
 bold'>312<span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é«˜è€ƒæˆç»©ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757;mso-bidi-font-weight:
+</span></span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¸ß¿¼³É¼¨£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757;mso-bidi-font-weight:
 bold'>529<b><span style='mso-spacerun:yes'>&nbsp; </span><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;</span><span
 style='mso-spacerun:yes'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><o:p></o:p></b></span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
+line-height:150%'><b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#595757'><span style='mso-spacerun:yes'>&nbsp; </span><span
 style='mso-spacerun:yes'>&nbsp;</span></span></b><span lang=EN-US
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757;mso-bidi-font-weight:bold'><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757;mso-bidi-font-weight:bold'><span
 style='mso-spacerun:yes'>&nbsp;</span><span
 style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
 
@@ -1091,12 +1091,12 @@ style='mso-spacerun:yes'>&nbsp;</span><o:p></o:p></span></p>
 text-indent:10.0pt;mso-char-indent-count:1.0;mso-line-height-alt:1.0pt'><span
 lang=EN-US><span style='mso-no-proof:yes'><img border=0 width=718 height=4
 id="_x0000_i1027"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span></span></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:198.0pt;mso-char-indent-count:16.5;line-height:21.15pt'><span
 lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span><b><span
-style='font-size:16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#3E3A39'>å·¥ä½œç»å†</span></b><span
+style='font-size:16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#3E3A39'>¹¤×÷¾­Àú</span></b><span
 lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
@@ -1104,85 +1104,85 @@ text-indent:165.0pt;mso-char-indent-count:16.5;line-height:21.15pt'><span
 lang=EN-US><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å…¬å¸åç§°ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åˆè‚¥é‘«æ™Ÿå…‰ç”µç§‘æŠ€æœ‰é™å…¬å¸ï¼ˆäº¬ä¸œæ–¹ï¼‰</span><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ç¨å‰æœˆè–ªï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style='color:#595757'>11161</span></span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>ï¼ˆ<span lang=EN-US>9071</span>ï¼‰</span></p>
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¹«Ë¾Ãû³Æ£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ºÏ·ÊöÎêÉ¹âµç¿Æ¼¼ÓĞÏŞ¹«Ë¾£¨¾©¶«·½£©</span><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ë°Ç°ÔÂĞ½£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='color:#595757'>11161</span></span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>£¨<span lang=EN-US>9071</span>£©</span></p>
 
 <p class=MsoNormal style='margin-left:227.0pt;mso-para-margin-left:22.7gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åœ¨èŒæ—¶é—´ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp; <span
-style='color:#595757'>2018.07-</span></span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>è‡³ä»Š</span><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÔÚÖ°Ê±¼ä£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp; <span
+style='color:#595757'>2018.07-</span></span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>ÖÁ½ñ</span><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>èŒä½åç§°ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<span style='color:#595757'>Cell</span></span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>å·¥è‰ºå·¥ç¨‹å¸ˆ</span></p>
+</span><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ö°Î»Ãû³Æ£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<span style='color:#595757'>Cell</span></span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>¹¤ÒÕ¹¤³ÌÊ¦</span></p>
 
 <p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-70.0pt;line-height:
-150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å·¥ä½œæè¿°ï¼š</span></b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>äº¬ä¸œæ–¹ ä¸ºé¢æ¿è¡Œä¸šå…¬å¸ï¼Œæœ¬äººè´Ÿè´£ è‹¹æœ äº§å“çš„<span
-lang=EN-US>Cell</span>å·¥è‰º<span class=GramE>æ®µäº§å“</span>å“è´¨ç›‘æ§å·¥ä½œã€‚</span></p>
+150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¹¤×÷ÃèÊö£º</span></b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif'>&nbsp;&nbsp;&nbsp;&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¾©¶«·½ ÎªÃæ°åĞĞÒµ¹«Ë¾£¬±¾ÈË¸ºÔğ Æ»¹û ²úÆ·µÄ<span
+lang=EN-US>Cell</span>¹¤ÒÕ<span class=GramE>¶Î²úÆ·</span>Æ·ÖÊ¼à¿Ø¹¤×÷¡£</span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>1</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€</span><span
+line-height:150%'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>1</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢</span><span
 lang=EN-US style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:å¾®è½¯é›…é»‘;color:#595757'>&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ä¸ºè‹¹æœ<span lang=EN-US>9.7inch</span>ã€<span
-lang=EN-US>10.2inch</span>ã€<span lang=EN-US>10.9inch</span>å¹³æ¿åŠ<span lang=EN-US>13.3inch
-</span>ç¬”è®°æœ¬<span class=GramE>é‡äº§å“</span>çš„<span lang=EN-US>Cell</span>è¿‡ç¨‹å·¥åºç®¡æ§æ‹…å½“ï¼Œè´Ÿè´£<span
-lang=EN-US>5</span>æ¬¾<span lang=EN-US><o:p></o:p></span></span></p>
+mso-fareast-font-family:Î¢ÈíÑÅºÚ;color:#595757'>&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÎªÆ»¹û<span lang=EN-US>9.7inch</span>¡¢<span
+lang=EN-US>10.2inch</span>¡¢<span lang=EN-US>10.9inch</span>Æ½°å¼°<span lang=EN-US>13.3inch
+</span>±Ê¼Ç±¾<span class=GramE>Á¿²úÆ·</span>µÄ<span lang=EN-US>Cell</span>¹ı³Ì¹¤Ğò¹Ü¿Øµ£µ±£¬¸ºÔğ<span
+lang=EN-US>5</span>¿î<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span class=GramE><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>é‡äº§å“</span></span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>çš„é‡äº§æ€§èƒ½æŒç»­ç›‘æ§ï¼Œè¿›è¡Œè¿‡ç¨‹æ•°æ®ç›‘æ§ï¼Œ<span class=GramE>ç¡®ä¿äº§çº¿åŠ</span>äº§å“æ— é‡å¤§å“è´¨æ³¢åŠ¨ï¼› </span></p>
+line-height:150%'><span class=GramE><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>Á¿²úÆ·</span></span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>µÄÁ¿²úĞÔÄÜ³ÖĞø¼à¿Ø£¬½øĞĞ¹ı³ÌÊı¾İ¼à¿Ø£¬<span class=GramE>È·±£²úÏß¼°</span>²úÆ·ÎŞÖØ´óÆ·ÖÊ²¨¶¯£» </span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>2</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€</span><span
+line-height:150%'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>2</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢</span><span
 lang=EN-US style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:å¾®è½¯é›…é»‘;color:#595757'>&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>è´Ÿè´£<span class=GramE>é‡äº§å“</span>ç”Ÿäº§æœŸé—´æå‰å®Œæˆé‡<span
-class=GramE>äº§è‰¯ç‡æ”¹å–„</span>æ¡ä»¶ç¡®è®¤ï¼Œä¿è¯å·¥è‰ºæ”¹å–„æ¡ä»¶åŠæ—¶æŠ•å…¥ï¼›</span></p>
+mso-fareast-font-family:Î¢ÈíÑÅºÚ;color:#595757'>&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¸ºÔğ<span class=GramE>Á¿²úÆ·</span>Éú²úÆÚ¼äÌáÇ°Íê³ÉÁ¿<span
+class=GramE>²úÁ¼ÂÊ¸ÄÉÆ</span>Ìõ¼şÈ·ÈÏ£¬±£Ö¤¹¤ÒÕ¸ÄÉÆÌõ¼ş¼°Ê±Í¶Èë£»</span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>3</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€</span><span
+line-height:150%'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>3</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢</span><span
 lang=EN-US style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:å¾®è½¯é›…é»‘;color:#595757'>&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ååŠ©ç›‘æ§<span class=GramE>é‡äº§ç”Ÿ</span>äº§æœŸé—´è´Ÿè´£äº§å“å“è´¨åŠäº§å“æ€§èƒ½ï¼Œè‹¥æ€§èƒ½ä¸è¾¾æ ‡ï¼ŒåŠæ—¶é€šæŠ¥ç”Ÿäº§éƒ¨é—¨åœäº§ï¼Œåˆ†æè§£å†³ä¸è‰¯<span
+mso-fareast-font-family:Î¢ÈíÑÅºÚ;color:#595757'>&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Ğ­Öú¼à¿Ø<span class=GramE>Á¿²úÉú</span>²úÆÚ¼ä¸ºÔğ²úÆ·Æ·ÖÊ¼°²úÆ·ĞÔÄÜ£¬ÈôĞÔÄÜ²»´ï±ê£¬¼°Ê±Í¨±¨Éú²ú²¿ÃÅÍ£²ú£¬·ÖÎö½â¾ö²»Á¼<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>4</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€</span><span
+line-height:150%'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>4</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢</span><span
 lang=EN-US style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:å¾®è½¯é›…é»‘;color:#595757'>&nbsp; </span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é‡äº§å·¥è‰ºæ³¢åŠ¨é£é™©<span class=GramE>æ‰¹é£é™©</span>åŠå·¥è‰ºè¿‡ç¨‹è¯„ä¼°ä¸å‰åç«¯åè°ƒå¯¹åº”å®‰æ’æŠ•å…¥ï¼Œä¿è¯äº§å“ç¨³å®šå‡ºè´§ï¼›</span></p>
+mso-fareast-font-family:Î¢ÈíÑÅºÚ;color:#595757'>&nbsp; </span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Á¿²ú¹¤ÒÕ²¨¶¯·çÏÕ<span class=GramE>Åú·çÏÕ</span>¼°¹¤ÒÕ¹ı³ÌÆÀ¹ÀÓëÇ°ºó¶ËĞ­µ÷¶ÔÓ¦°²ÅÅÍ¶Èë£¬±£Ö¤²úÆ·ÎÈ¶¨³ö»õ£»</span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
-line-height:150%'><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>5</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€</span><span
+line-height:150%'><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>5</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢</span><span
 lang=EN-US style='font-size:7.0pt;line-height:150%;font-family:"Times New Roman",serif;
-mso-fareast-font-family:å¾®è½¯é›…é»‘;color:#595757'>&nbsp; </span><span class=GramE><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é‡äº§ç®¡æ§</span></span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>åŸºå‡†åŠå¯¼å…¥è¯„ä¼°åŠç›¸å…³å·¥è‰ºæ–‡ä»¶<span
-lang=EN-US>SOP</span>ç¼–å†™æŒ‡å®šï¼Œç¡®ä¿äº§å“å¦‚æœŸå®Œæˆé‡äº§ï¼›<span lang=EN-US><o:p></o:p></span></span></p>
+mso-fareast-font-family:Î¢ÈíÑÅºÚ;color:#595757'>&nbsp; </span><span class=GramE><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>Á¿²ú¹Ü¿Ø</span></span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>»ù×¼¼°µ¼ÈëÆÀ¹À¼°Ïà¹Ø¹¤ÒÕÎÄ¼ş<span
+lang=EN-US>SOP</span>±àĞ´Ö¸¶¨£¬È·±£²úÆ·ÈçÆÚÍê³ÉÁ¿²ú£»<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:302.75pt;mso-para-margin-left:28.4gd;
 text-align:justify;text-justify:inter-ideograph;text-indent:-18.75pt;
@@ -1191,92 +1191,92 @@ line-height:150%'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:13.55pt'><span lang=EN-US><span style='mso-no-proof:yes'><img
 border=0 width=718 height=4 id="_x0000_i1026"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span></span><b><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'><o:p></o:p></span></b></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span></span><b><span
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:200.0pt;mso-char-indent-count:12.5;line-height:150%'><b><span
-style='font-size:16.0pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#3E3A39'>é¡¹ç›®ç»éªŒ<span lang=EN-US><o:p></o:p></span></span></b></p>
+style='font-size:16.0pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#3E3A39'>ÏîÄ¿¾­Ñé<span lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:125.0pt;mso-char-indent-count:12.5;line-height:150%'><span
 lang=EN-US><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é¡¹ç›®åç§°ï¼š<span
-lang=EN-US>&nbsp;&nbsp;&nbsp; </span></span></b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>è‹¹æœ<span lang=EN-US>10.2inch</span>ã€<span lang=EN-US>10.87inch</span>ã€<span
-lang=EN-US>13.3inch</span>å¹³æ¿å¼€å‘é¡¹ç›®ï¼ˆäº¬ä¸œæ–¹å·¥ä½œæœŸé—´ï¼‰</span><span lang=EN-US
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÏîÄ¿Ãû³Æ£º<span
+lang=EN-US>&nbsp;&nbsp;&nbsp; </span></span></b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>Æ»¹û<span lang=EN-US>10.2inch</span>¡¢<span lang=EN-US>10.87inch</span>¡¢<span
+lang=EN-US>13.3inch</span>Æ½°å¿ª·¢ÏîÄ¿£¨¾©¶«·½¹¤×÷ÆÚ¼ä£©</span><span lang=EN-US
 style='font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 </span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é¡¹ç›®æ—¶é—´ï¼š</span></b><span
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÏîÄ¿Ê±¼ä£º</span></b><span
 lang=EN-US style='font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>10.2inch
-2018.9-2019.4</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ï¼›<span
-lang=EN-US>10.87inch 2019.09-</span>è‡³ä»Š </span><span lang=EN-US
+</span><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>10.2inch
+2018.9-2019.4</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>£»<span
+lang=EN-US>10.87inch 2019.09-</span>ÖÁ½ñ </span><span lang=EN-US
 style='font-family:"Times New Roman",serif'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é¡¹ç›®èŒä½ï¼š<span
-lang=EN-US>Cell</span>å·¥è‰ºåŠè®¾å¤‡è¯„ä¼°</span></b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>æ‹…å½“</span><span lang=EN-US style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÏîÄ¿Ö°Î»£º<span
+lang=EN-US>Cell</span>¹¤ÒÕ¼°Éè±¸ÆÀ¹À</span></b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>µ£µ±</span><span lang=EN-US style='font-family:"Times New Roman",serif'><o:p></o:p></span></p>
 
 <p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
-text-indent:-70.0pt;line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>é¡¹ç›®èŒè´£ï¼š<span lang=EN-US>&nbsp; </span></span></b><span lang=EN-US
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>1.</span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>è´Ÿè´£ä¸‰æ¬¾é‡äº§å¼€å‘å‰æœŸè‰¯ç‡çˆ¬å¡é˜¶æ®µè‰¯ç‡éªŒè¯æ¡ä»¶çš„æ£€è®¨åŠå®‰æ’æŠ•å…¥ï¼›</span></p>
-
-<p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
-text-indent:-70.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
-"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>2.</span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>è´Ÿè´£å¤š<span class=GramE>æ¬¾é‡äº§å“</span>å‚å†…è‰¯ç‡æ³¢åŠ¨é£é™©ç‚¹ç›‘æ§åŠé£é™©æ‰¹ååŒå¤„ç†ï¼Œä¿è¯<span
-class=GramE>é‡äº§è‰¯ç‡</span>ç¨³å®š<span lang=EN-US>;</span></span></p>
+text-indent:-70.0pt;line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>ÏîÄ¿Ö°Ôğ£º<span lang=EN-US>&nbsp; </span></span></b><span lang=EN-US
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>1.</span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¸ºÔğÈı¿îÁ¿²ú¿ª·¢Ç°ÆÚÁ¼ÂÊÅÀÆÂ½×¶ÎÁ¼ÂÊÑéÖ¤Ìõ¼şµÄ¼ìÌÖ¼°°²ÅÅÍ¶Èë£»</span></p>
 
 <p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
 text-indent:-70.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
-"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>3.</span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>è´Ÿè´£å¤š<span class=GramE>æ¬¾é‡äº§å“</span>æ–°çº¿ä½“æ–°è®¾å¤‡å¯¼å…¥é‡äº§éªŒè¯åŠæ”¾é‡åˆ°é‡äº§å¯¼å…¥æµç¨‹ä¼˜åŒ–ï¼Œä¿éšœè®¾å¤‡å¯¼å…¥æ—¥ç¨‹ï¼›</span></p>
+"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>2.</span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¸ºÔğ¶à<span class=GramE>¿îÁ¿²úÆ·</span>³§ÄÚÁ¼ÂÊ²¨¶¯·çÏÕµã¼à¿Ø¼°·çÏÕÅúĞ­Í¬´¦Àí£¬±£Ö¤<span
+class=GramE>Á¿²úÁ¼ÂÊ</span>ÎÈ¶¨<span lang=EN-US>;</span></span></p>
 
 <p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
-text-indent:-70.0pt;line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>é¡¹ç›®ä¸šç»©ï¼š</span></b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>&nbsp; 1</span><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#595757'>ã€ <span lang=EN-US>10.2inch </span>ä¸ºæœ¬äººè´Ÿè´£çš„ç¬¬ä¸€æ¬¾æ–°äº§å“ï¼Œè‰¯ç‡æå‡é˜¶æ®µåŒå·¥è‰ºå¼€å‘ï¼Œ<span
-lang=EN-US>Cell</span>å·¥å‚ä»¥åŠ<span class=SpellE><span lang=EN-US>Array&amp;MDL</span></span>å‰åç«¯ç§¯ææ²Ÿé€š<span
+text-indent:-70.0pt;line-height:150%'><b><span lang=EN-US style='font-family:
+"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>3.</span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¸ºÔğ¶à<span class=GramE>¿îÁ¿²úÆ·</span>ĞÂÏßÌåĞÂÉè±¸µ¼ÈëÁ¿²úÑéÖ¤¼°·ÅÁ¿µ½Á¿²úµ¼ÈëÁ÷³ÌÓÅ»¯£¬±£ÕÏÉè±¸µ¼ÈëÈÕ³Ì£»</span></p>
+
+<p class=MsoNormal style='margin-left:294.0pt;mso-para-margin-left:22.4gd;
+text-indent:-70.0pt;line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>ÏîÄ¿Òµ¼¨£º</span></b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>&nbsp; 1</span><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#595757'>¡¢ <span lang=EN-US>10.2inch </span>Îª±¾ÈË¸ºÔğµÄµÚÒ»¿îĞÂ²úÆ·£¬Á¼ÂÊÌáÉı½×¶ÎÍ¬¹¤ÒÕ¿ª·¢£¬<span
+lang=EN-US>Cell</span>¹¤³§ÒÔ¼°<span class=SpellE><span lang=EN-US>Array&amp;MDL</span></span>Ç°ºó¶Ë»ı¼«¹µÍ¨<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:229.0pt;mso-para-margin-left:22.9gd;
 text-indent:60.0pt;mso-char-indent-count:6.0;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>äº¤æµï¼Œä¿éšœè‰¯ç‡æŒ‰ç…§æ—¥ç¨‹å¿«é€Ÿæå‡ã€‚æå‡è¿‡ç¨‹ä¸­è‰¯ç‡æ³¢åŠ¨å¼‚å¸¸ç‚¹å‚å†…å¿«é€Ÿå®šä½ï¼Œå¿«é€Ÿå¯¹åº”ï¼Œå®ç°ä¸è‰¯å¿«é€Ÿå¯¹åº”å¹¶<span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>½»Á÷£¬±£ÕÏÁ¼ÂÊ°´ÕÕÈÕ³Ì¿ìËÙÌáÉı¡£ÌáÉı¹ı³ÌÖĞÁ¼ÂÊ²¨¶¯Òì³£µã³§ÄÚ¿ìËÙ¶¨Î»£¬¿ìËÙ¶ÔÓ¦£¬ÊµÏÖ²»Á¼¿ìËÙ¶ÔÓ¦²¢<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:229.0pt;mso-para-margin-left:22.9gd;
 text-indent:60.0pt;mso-char-indent-count:6.0;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å¾—åˆ°æ”¹å–„ï¼Œè‡ªå·±è´Ÿè´£çš„äº§å“æˆä¸ºå…¬å¸å†…é¾™å¤´è·åˆ©äº§å“ã€‚<span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>µÃµ½¸ÄÉÆ£¬×Ô¼º¸ºÔğµÄ²úÆ·³ÉÎª¹«Ë¾ÄÚÁúÍ·»ñÀû²úÆ·¡£<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:60.0pt;mso-char-indent-count:6.0;line-height:150%'><span
-lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>2</span><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€ é™†ç»­è´Ÿè´£<span lang=EN-US>10.82inch.13.3inch</span>ç­‰å¤šæ¬¾è‹¹æœé‡ç‚¹å®¢æˆ·äº§å“é‡äº§åˆæœŸè‰¯ç‡æå‡å·¥ä½œï¼Œè‰¯ç‡æå‡ç›®æ ‡è¿…é€Ÿè¾¾æˆ</span></p>
+lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>2</span><span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢ Â½Ğø¸ºÔğ<span lang=EN-US>10.82inch.13.3inch</span>µÈ¶à¿îÆ»¹ûÖØµã¿Í»§²úÆ·Á¿²ú³õÆÚÁ¼ÂÊÌáÉı¹¤×÷£¬Á¼ÂÊÌáÉıÄ¿±êÑ¸ËÙ´ï³É</span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
-line-height:150%'><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>å…¶ä»–é¡¹ç›®ï¼š<span
-lang=EN-US>&nbsp; 1</span>ã€ <span lang=EN-US>13.5inch</span>ï¼Œ<span lang=EN-US>15.6inck</span>å¤š<span
-class=GramE>æ¬¾é‡ç‚¹</span>å®¢æˆ·å¼€å‘å“å‚å†…éªŒè¯<span class=GramE>å“æŠ•å…¥</span>åŠå“è´¨è·Ÿè¸ªç›‘æ§</span></b></p>
+line-height:150%'><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÆäËûÏîÄ¿£º<span
+lang=EN-US>&nbsp; 1</span>¡¢ <span lang=EN-US>13.5inch</span>£¬<span lang=EN-US>15.6inck</span>¶à<span
+class=GramE>¿îÖØµã</span>¿Í»§¿ª·¢Æ·³§ÄÚÑéÖ¤<span class=GramE>Æ·Í¶Èë</span>¼°Æ·ÖÊ¸ú×Ù¼à¿Ø</span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
-line-height:150%'><b><span lang=EN-US style='font-family:"å¾®è½¯é›…é»‘",sans-serif;
+line-height:150%'><b><span lang=EN-US style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;
 color:#595757'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-2</span></b><b><span style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ã€ å¤š<span
-class=GramE>æ¬¾é‡äº§å“</span>å‚å†…æ¼å…‰<span lang=EN-US>&amp;Drop</span>ç­‰é¡½å›ºæ€§ä¸è‰¯æŒç»­æ€§æ”¹å–„<span
-lang=EN-US>Cell</span>å‚å†…å·¥è‰ºæ¨åŠ¨æ”¹å–„ <span lang=EN-US><o:p></o:p></span></span></b></p>
+2</span></b><b><span style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¡¢ ¶à<span
+class=GramE>¿îÁ¿²úÆ·</span>³§ÄÚÂ©¹â<span lang=EN-US>&amp;Drop</span>µÈÍç¹ÌĞÔ²»Á¼³ÖĞøĞÔ¸ÄÉÆ<span
+lang=EN-US>Cell</span>³§ÄÚ¹¤ÒÕÍÆ¶¯¸ÄÉÆ <span lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:150%'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
@@ -1284,13 +1284,13 @@ line-height:150%'><span lang=EN-US><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:21.15pt'><span lang=EN-US><span style='mso-no-proof:yes'><img
 border=0 width=718 height=4 id="_x0000_i1025"
-src="file:///C:/Users/Administrator/Desktop/ä¸ªäººç®€å†-Personal.files/image009.png"></span></span><b><span
-lang=EN-US style='font-size:16.0pt;font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#3E3A39'><o:p></o:p></span></b></p>
+src="file:///C:/Users/Administrator/Desktop/¸öÈË¼òÀú-Personal.files/image009.png"></span></span><b><span
+lang=EN-US style='font-size:16.0pt;font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#3E3A39'><o:p></o:p></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:200.0pt;mso-char-indent-count:12.5;line-height:150%'><b><span
-style='font-size:16.0pt;line-height:150%;font-family:"å¾®è½¯é›…é»‘",sans-serif;
-color:#3E3A39'>è‡ªæˆ‘è¯„ä»·<span lang=EN-US><o:p></o:p></span></span></b></p>
+style='font-size:16.0pt;line-height:150%;font-family:"Î¢ÈíÑÅºÚ",sans-serif;
+color:#3E3A39'>×ÔÎÒÆÀ¼Û<span lang=EN-US><o:p></o:p></span></span></b></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 text-indent:125.0pt;mso-char-indent-count:12.5;line-height:150%'><span
@@ -1300,29 +1300,29 @@ lang=EN-US><o:p>&nbsp;</o:p></span></p>
 margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;mso-para-margin-right:
 .4gd;mso-para-margin-bottom:0cm;mso-para-margin-left:22.4gd;mso-para-margin-bottom:
 .0001pt;text-align:justify;text-justify:inter-ideograph;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>äº¬ä¸œæ–¹å·¥ä½œçš„ä¸‰å¹´æ—¶é—´é‡Œï¼Œæ€»å…±è´Ÿè´£äº†<span
-lang=EN-US>5</span>ä¸ªäº§å“<span lang=EN-US>Cell</span><span class=GramE>å·¥è‰ºæ®µé‡äº§</span>è¯„ä¼°å·¥ä½œï¼Œå…¶ä¸­å®Œæ•´çš„å‚ä¸äº†<span
-lang=EN-US>3</span>ä¸ªæ–°äº§å“å¼€å‘é¡¹ç›®ï¼Œåœ¨å·¥ä½œ<span lang=EN-US><o:p></o:p></span></span></p>
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>¾©¶«·½¹¤×÷µÄÈıÄêÊ±¼äÀï£¬×Ü¹²¸ºÔğÁË<span
+lang=EN-US>5</span>¸ö²úÆ·<span lang=EN-US>Cell</span><span class=GramE>¹¤ÒÕ¶ÎÁ¿²ú</span>ÆÀ¹À¹¤×÷£¬ÆäÖĞÍêÕûµÄ²ÎÓëÁË<span
+lang=EN-US>3</span>¸öĞÂ²úÆ·¿ª·¢ÏîÄ¿£¬ÔÚ¹¤×÷<span lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:4.0pt;margin-bottom:0cm;
 margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;mso-para-margin-right:
 .4gd;mso-para-margin-bottom:0cm;mso-para-margin-left:22.4gd;mso-para-margin-bottom:
 .0001pt;text-align:justify;text-justify:inter-ideograph;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>ä¸­ç§¯ç´¯äº†è¾ƒå¼ºçš„æ²Ÿé€šäº¤æµèƒ½åŠ›å’Œä¸šåŠ¡åè°ƒèƒ½åŠ›ã€‚å››å¹´å·¥è‰ºç›¸å…³å·¥ä½œï¼ŒåŸ¹å…»äº†ç»†å¿ƒã€è´Ÿè´£çš„å·¥ä½œæ€åº¦ï¼Œå“è´¨æ„è¯†ã€åŸåˆ™æ€§å¼ºï¼Œ<span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÖĞ»ıÀÛÁË½ÏÇ¿µÄ¹µÍ¨½»Á÷ÄÜÁ¦ºÍÒµÎñĞ­µ÷ÄÜÁ¦¡£ËÄÄê¹¤ÒÕÏà¹Ø¹¤×÷£¬ÅàÑøÁËÏ¸ĞÄ¡¢¸ºÔğµÄ¹¤×÷Ì¬¶È£¬Æ·ÖÊÒâÊ¶¡¢Ô­ÔòĞÔÇ¿£¬<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:4.0pt;margin-bottom:0cm;
 margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;mso-para-margin-right:
 .4gd;mso-para-margin-bottom:0cm;mso-para-margin-left:22.4gd;mso-para-margin-bottom:
 .0001pt;text-align:justify;text-justify:inter-ideograph;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>é¡¹ç›®å¼€å‘æœŸé—´ï¼Œç§¯æä¸»åŠ¨çš„æ‰¿æ‹…è‡ªå·±çš„èŒè´£ï¼Œæ€§æ ¼éšå’Œï¼Œæœ‰å¼ºçƒˆçš„å›¢é˜Ÿæ„è¯†ï¼Œé‡åˆ°çªå‘æƒ…å†µï¼Œèƒ½å¤Ÿè¿…é€Ÿååº”å¹¶è°ƒåŠ¨å›¢é˜Ÿè§£å†³ï¼Œ<span
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÏîÄ¿¿ª·¢ÆÚ¼ä£¬»ı¼«Ö÷¶¯µÄ³Ğµ£×Ô¼ºµÄÖ°Ôğ£¬ĞÔ¸ñËæºÍ£¬ÓĞÇ¿ÁÒµÄÍÅ¶ÓÒâÊ¶£¬Óöµ½Í»·¢Çé¿ö£¬ÄÜ¹»Ñ¸ËÙ·´Ó¦²¢µ÷¶¯ÍÅ¶Ó½â¾ö£¬<span
 lang=EN-US><o:p></o:p></span></span></p>
 
 <p class=MsoNormal style='margin-top:0cm;margin-right:4.0pt;margin-bottom:0cm;
 margin-left:224.0pt;margin-bottom:.0001pt;mso-para-margin-top:0cm;mso-para-margin-right:
 .4gd;mso-para-margin-bottom:0cm;mso-para-margin-left:22.4gd;mso-para-margin-bottom:
 .0001pt;text-align:justify;text-justify:inter-ideograph;line-height:150%'><span
-style='font-family:"å¾®è½¯é›…é»‘",sans-serif;color:#595757'>èƒ½å¤ŸæŠŠå“è´¨æ„è¯†èå…¥åˆ°ç”Ÿäº§ä¸­ï¼Œç§¯æå­¦ä¹ æ–°çš„äº‹ç‰©å’Œä¹äºæ¥å—æ–°çš„æŒ‘æˆ˜ã€‚</span></p>
+style='font-family:"Î¢ÈíÑÅºÚ",sans-serif;color:#595757'>ÄÜ¹»°ÑÆ·ÖÊÒâÊ¶ÈÚÈëµ½Éú²úÖĞ£¬»ı¼«Ñ§Ï°ĞÂµÄÊÂÎïºÍÀÖÓÚ½ÓÊÜĞÂµÄÌôÕ½¡£</span></p>
 
 <p class=MsoNormal style='margin-left:224.0pt;mso-para-margin-left:22.4gd;
 line-height:12.1pt'><span lang=EN-US style='font-size:12.0pt;font-family:"Times New Roman",serif'>&nbsp;</span></p>
