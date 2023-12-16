@@ -1,0 +1,13 @@
+	jQuery.extend({
+		setSessionTimeZone:function(){
+				return jQuery.ajax({
+					url: (window.ecologyContentPath || "") + "/api/dateformat/timezone",
+					type:"post",
+					dataType:"json",
+					data:{timeZoneOffset: new Date().getTimezoneOffset()},
+					error:function(xhr,msg,e){
+						if(window.console)console.log("/js/zone/timeZone error!");
+					}
+				});
+		}
+	});

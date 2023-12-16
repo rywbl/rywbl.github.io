@@ -1,0 +1,728 @@
+.homepage{
+  background-color: #fff !important;
+}
+
+/* 
+路径：
+门户/门户页面背景色调整/css.css(787cfe38445c459db4258e85bcb6f4c7)
+*/
+.secondary-verify-dialog{
+  width: 300px;
+}
+
+.secondary-verify-dialog{
+  width: 300px; 
+}
+
+.secondary-verify-dialog .am-list-body{
+  border-bottom: none;
+  padding-top: 20px;
+}
+
+.secondary-verify-dialog .am-list-body .tip{
+  text-align: left;
+}
+
+.secondary-verify-dialog .tip .encrypt_tip{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.secondary-verify-dialog .tip .encrypt_tip .tip_item{
+  flex: 1;
+  word-break: break-all;
+}
+
+.secondary-verify-dialog .am-list-body .am-list-line .am-list-content{
+  white-space: normal;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-item .am-list-line{
+  border-bottom: none;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-inputitem{
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-inputitem .auth-code-timer{
+  padding-right: 8px;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-inputitem .auth-code-require{
+  color: red;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-inputitem .am-list-line{
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.secondary-verify-dialog .am-list-body .ca-auth-inputitem .am-list-line .am-input-control input{
+  padding-left: 8px;
+}
+
+.secondary-verify-dialog .message-btn{
+  padding-top: 5px;
+  padding-left: 0px;
+  text-align: left;
+}
+
+.secondary-verify-dialog .message-btn a{
+  color: rgb(0, 0, 238);
+}
+
+.qys_check{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+/* 
+路径：
+人力资源/官方插件/二次验证密码4EM_V2/style/index.css(4c233b671208426e9ec5978d291695d5)
+*/
+.secondary_verify_com{
+  width: 100%;
+  height: 100%;
+  padding: 30px 20px;
+}
+
+.secondary_verify_com .secondary_verify_form{
+  width: 100%;
+  height: 100%;
+}
+
+.secondary_verify_com .secondary_verify_form .double_auth_info{
+  width: 100%;
+  padding: 0px 25px;
+}
+
+.secondary_verify_com .secondary_verify_form .double_auth_info .user_info{
+  color: #00a9ff;
+}
+
+.secondary_verify_com .secondary_verify_form .authCode{
+  /* width: 300px; */
+}
+
+.secondary_verify_com .secondary_verify_form .authCode .value{
+  float: left;
+  /* width: 200px; */
+}
+
+.secondary_verify_com .secondary_verify_form .authCode .resend{
+  float: left;
+  margin-left: 20px;
+}
+
+.secondary_verify_com .secondary_verify_form .notSet{
+  clear: both;
+  padding-top: 10px;
+}
+
+.secondary_verify_com .ca_auth{
+  width: 100%;
+}
+
+.secondary_verify_com .ca_auth>div{
+  text-align: center;
+  padding-top: 10px;
+}
+
+.secondary_verify_com .ca_auth>div:first-child{
+  padding-top: 0px;
+}
+
+.share_com{
+  width: 100%;
+  height: 100%;
+  padding: 30px 30px;
+}
+
+.share_com .tip{
+  padding: 0px 25px;
+  color: #999999;
+}
+
+.share_com .tip .encrypt_tip{
+  display: flex;
+  display: -webkit-flex;
+}
+
+.share_com .tip .encrypt_tip .tip_item{
+  flex: 1;
+  word-break: break-all;
+}
+
+.share_com .wea-input-normal{
+  width: 200px;
+}
+
+/* .common_second_verify_dialog .ant-modal-mask{
+  z-index: 1150;
+}
+
+.common_second_verify_dialog .ant-modal-wrap{
+  z-index: 1150;
+} */
+
+/* 
+路径：
+人力资源/官方插件/二次验证密码4EC_V2/style/index.css(b54b34fa4a8141b1998ca0b959b8a102)
+*/
+.meeting-video-mobile-main{
+  width: 100%;
+  height: 120px;
+  border-bottom:1px solid #E2E2E2;
+}
+.meeting-video-mobile-main{
+  width: 100%;
+  height: 120px;
+  border-bottom:1px solid #E2E2E2;
+}
+.meeting-video-mobile-joinmeeting{
+  float: left;
+  width: 33.3%;
+  margin-top: 15px;
+}
+.meeting-video-mobile-quickstart{
+  float: left;
+  width: 33.3%;
+  margin-top: 15px;
+}
+.meeting-video-mobile-ordermeeting{
+  float: left;
+  width: 33.3%;
+  margin-top: 15px;
+  /* border:0.05px solid */
+}
+.bt-join{
+  background-image:  url('/cloudstore/release/d12f07c3ea244b3dbffb89160ad38f50/resources/join.png');
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  /* margin-left: 33%; */
+  margin: 0 auto;
+   border: none;
+   background-size: contain;
+}
+.bt-quick{
+  background-image:  url('/cloudstore/release/d12f07c3ea244b3dbffb89160ad38f50/resources/quick.png');
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  /* margin-left: 33%; */
+  margin: 0 auto;
+   border: none;
+   background-size: contain;
+}
+.bt-order{
+  background-image:  url('/cloudstore/release/d12f07c3ea244b3dbffb89160ad38f50/resources/order.png');
+  border-radius: 12px;
+  width: 52px;
+  height: 52px;
+  /* margin-left: 33%; */
+  margin: 0 auto;
+      border: none;
+      background-size: contain;
+}
+.join-font{
+  /* margin-left: 33%;
+  display: block;
+  margin-top: 5px; */
+  display: inline-block;
+    width: 100%;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin-top: 10px;
+}
+.meeting-video-nodata{
+   background-image:  url('/cloudstore/release/d12f07c3ea244b3dbffb89160ad38f50/resources/nodata.png');
+   background-repeat: no-repeat;
+    float: left;
+    width: 150px;
+    height: 150px;
+    margin-left: 40%;
+    margin-top: 200px
+}
+.nodata-main{
+    /* border: 1px solid; */
+    /* align-content: center; */
+    margin-top: 115px;
+    /* margin-left: 5px; */
+    color: #B7C7E5;
+        margin-left: 10px;
+}
+.video-history-main{
+  /* background-image:  url('/cloudstore/release/d12f07c3ea244b3dbffb89160ad38f50/resources/history.png'); */
+   background-repeat: no-repeat;
+   /* border: 1px solid; */
+    width: 66px;
+    /* height: 20px; */
+    position: absolute;
+    margin-left: calc(100% - 66px);
+    margin-top: 11px;
+    border-radius: 81px 0 0 81px;
+        font-family: PingFangSC-Regular;
+    /* font-size: 10px; */
+    color: #4878D3;
+    letter-spacing: -0.39px;
+    text-align: center;
+    background: #DCE8FF;
+}
+.video-d{
+  width: 33px;
+  height: 38px;
+  /* border: 1px solid; */
+  float: left;
+  font-size: 28px;
+}
+.video-m{
+  float: left;
+  margin-left: 5px;
+  margin-top: 15px;
+}
+.video-date{
+  float: left;
+  width: 100%;
+}
+.meeting-video-info{
+  float: left;
+  width: 97%;
+  margin-left: 10px;
+  /* border: 1px solid; */
+}
+.video-data-item{
+  /* border: 1px solid; */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  float: left;
+  width: 100%;
+  border-bottom:1px solid #E2E2E2;
+}
+.video-item-name{
+  height: 45px;
+}
+.video-item-left{
+  float: left;
+  width: 50%;
+      line-height: 25px;
+}
+.video-item-left-left{
+  float: left;
+  width: 60%;
+  line-height: 25px;
+  color: #999999;
+}
+.video-item-right-right{
+  float: right;
+  width: 40%;
+      line-height: 25px;
+      color: #999999;
+      display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.video-item-right{
+  float: right;
+  width: 40%;
+      line-height: 25px;
+}
+.video-history-date-duration{
+  float: left;
+  width: 33%;
+  text-align: center;
+  /* margin-top: 4%; */
+  
+}
+.video-history-date-time-info{
+  float: left;
+  width: 33%;
+  text-align: center;
+  font-size: 30px;
+}
+.video-history-date{
+  border-bottom:1px solid #E2E2E2;
+}
+.video-history-date-date{
+      margin-bottom: 15px;
+}
+.video-history-date-time{
+     margin-top: 15px;
+}
+.video-history-date-date-begin{
+  float: left;
+  width: 33%;
+  text-align: center;
+  font-size: 10px;
+}
+.video-history-date-date-end{
+  text-align: center;
+    width: 33.3%;
+    display: inline-block;
+    margin-left: 33%;
+    font-size: 10px;
+}
+.video-split{
+    height: 10px;
+    /* border: 1px solid; */
+    background: #F3F7FE;
+}
+.video-history-date-duration-main{
+  width: 120px;
+    /* text-align: center; */
+    margin-left: 15%;
+}
+.duration-left{
+      width: 19.9px;
+    height: 1px;
+    border: 1px solid #E2E2E2;
+    background: #E2E2E2 100%;
+    float: left;
+    /* margin-left: 12px; */
+    margin-top: 5px;
+}
+.duration-center{
+  font-family: PingFangSC-Regular;
+    /* font-size: 8px; */
+    color: #333333;
+    letter-spacing: 0;
+    float: left;
+    background: #F3F7FE;
+    border-radius: 2px;
+        margin-left: 5px;
+    margin-right: 5px;
+}
+.duration-right{
+      width: 19.9px;
+    border: 1px solid #E2E2E2;
+    height: 1px;
+    background: #E2E2E2 100%;
+    float: left;
+    margin-top: 5px;
+}
+.video-m-m{
+  float: left;
+}
+.video-m-week{
+  float: left;
+  margin-left: 5px;
+}
+
+.meeting-video-mobile-index .videomeetingListDiv {
+  overflow-y: auto;
+}
+.video-history-info{
+      margin-top: 2px;
+    margin-left: 8px;
+}
+/* .vidoe-scroll{
+  overflow-y:scorll;
+  -webkit-overflow-scrolling:touch;
+} */
+.durtion-center-center{
+  /* height: 45px; */
+    /* vertical-align: center; */
+    margin-top: 20px;
+}
+.video-item-main{
+  margin-left: 10px;
+}
+
+/* 
+路径：
+视频会议插件/视频会议应用/style/index.css(a13db9bd832142218544e06569a6aebc)
+*/
+.meeting-myvideomeeting-create .wea-date-picker {
+  width: 100%;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .videomtstarturl .wea-form-item-wrapper,
+.meeting-myvideomeeting-create .wea-form-cell .videomtjoinurl .wea-form-item-wrapper{
+  display: block !important;
+  line-height: 30px;
+  max-height: 30px;
+  overflow: hidden;
+}
+.meeting-myvideomeeting-create .wea-form-cell .meeting-video-view-copy {
+  padding: 0;
+  margin-left: -15px;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .meeting-video-view-copy .wea-form-item-label {
+  display: none;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .meeting-video-view-copy .meeting-video-view-copy-button {
+  color: #4CB1FC;
+  cursor: pointer;
+  background: #fff;
+  border: 0;
+  line-height: 30px;
+  padding: 0px 15px;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .meeting-video-view-copy .meeting-video-view-copy-button::after{
+  display: none;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .meeting-video-view-copy .meeting-video-view-copy-button:hover {
+  color: #353AB7;
+  text-decoration: underline;
+}
+
+.meeting-video-modal-info .ant-confirm-header .ant-confirm-header-icon{
+  color: #fa0;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .videomtstarturl .ant-col-14, .meeting-myvideomeeting-create .wea-form-cell .videomtjoinurl .ant-col-14 {
+  margin-top: -1px;
+}
+
+.meeting-myvideomeeting-create .wea-form-cell .browsertype .ant-col-14{
+  padding-top: 5px;
+}
+
+.wea-more-button  .wea-right-menu .wea-right-menu-item .meeting-video-content{
+  display: inline-flex;
+}
+.mtpassword .wea-input-normal  {
+  width: 93%;
+    float: left;
+}
+.helpful{
+      margin-top: 5px;
+    padding-left: 5px;
+    float: left;
+}
+
+/* 
+路径：
+视频会议插件/视频会议插件pc/视频会议pc/style/myVideoMeeting.css(7d3350e9d89a480ba1498c6aa4e39fda)
+*/
+.meeting-video-mobile-content {
+  display: block !important;
+  border-right: 0px !important;
+}
+.meeting-video-mobile-content .meeting-video {
+  border: 0;
+}
+
+.meeting-video-mobile-layer-form .videomtbegindate .am-list-form .am-list-form-header,
+.meeting-video-mobile-layer-form .videomtbegindate .am-list-form .am-list-form-body,
+.meeting-video-mobile-layer-form .videomtenddate .am-list-form .am-list-form-header,
+.meeting-video-mobile-layer-form .videomtenddate .am-list-form .am-list-form-body
+{
+  display: inline-flex;
+}
+.meeting-video-mobile-layer-form .videomtbegindate .am-list-form .am-list-form-body,
+.meeting-video-mobile-layer-form .videomtenddate .am-list-form .am-list-form-body {
+  width: calc(100% - 120px);
+}
+
+.meeting-video-mobile-layer-form .videomtname .am-list-form .am-list-content,
+.meeting-video-mobile-layer-form .mtpassword .am-list-form .am-list-content {
+  margin-left: 20px;
+}
+
+.meeting-video-mobile-layer-form .videomtstarturl .am-list-form .am-list-content .wm-form-item-value, 
+.meeting-video-mobile-layer-form .videomtjoinurl .am-list-form .am-list-content .wm-form-item-value{
+  white-space: nowrap;
+}
+
+
+.meeting-video-view-copy {
+  padding: 0;
+  padding-left: 5px;
+}
+.videomtstarturl .am-list-form.line.border, .videomtjoinurl .am-list-form.line.border{
+  border: 0;
+}
+.videomtstarturl .am-list-content , .videomtjoinurl .am-list-content {
+  height: 45px;
+}
+
+.meeting-video-view-copy .wea-form-item-label {
+  display: none;
+}
+
+.meeting-video-view-copy .meeting-video-view-copy-button {
+  display: inline-block;
+  color: #4CB1FC;
+  cursor: pointer;
+  background: #fff;
+  border: 0;
+  line-height: 45px;
+  padding: 0px 15px;
+}
+
+.meeting-video-view-copy .meeting-video-view-copy-button::after{
+  display: none;
+}
+
+.meeting-video-view-copy .meeting-video-view-copy-button:hover {
+  color: #353AB7;
+  text-decoration: underline;
+}
+
+.meeting-video-mobile-layer-form .am-list-body{
+  border-bottom: 0; 
+}
+.meeting-video-mobile-layer-form .wm-form-item-wrap .am-list-content {
+  margin-left: 20px;
+}
+.meeting-video-mobile-layer-form .videomtbegindate .wm-form-item-wrap .am-list-content, .meeting-video-mobile-layer-form .videomtenddate .wm-form-item-wrap .am-list-content  {
+  margin-left: 0px;
+}
+.meeting-video-mobile-layer-form .wm-form-item-wrap .am-list-content .wm-form-item-browser-span-item  {
+  margin-top: 11px;
+}
+
+/* 
+路径：
+视频会议插件/视频会议插件mobile/视频会议mobile/style/index.css(a5584120b99e46aa8b1c2140956a89e6)
+*/
+/* 公共样式 */
+
+/* loading 效果 */
+.wea-demo-loading {
+  position: relative;
+  height: 100%;
+  text-align: center;
+  
+}
+
+.wea-demo-loading>div {
+    position: absolute;
+    top: 50%;
+    margin-top: -10px;
+}
+
+/* 
+路径：
+用户弹窗确认界面/用户弹窗确认界面/style/index.css(41ddb47b0cdb4e8eabb4c9f3069da923)
+*/
+.custom-report4template {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.custom-report4template .searchGroup {
+  width: 100%;
+  padding: 8px 20px;
+}
+.custom-report4template .searchGroup .radioGroupShow {
+  text-align: center;
+  line-height: 30px;
+  margin-bottom: 8px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+.custom-report4template .searchGroup .radioGroupShow span {
+  padding: 3px;
+  cursor: pointer;
+}
+.custom-report4template .searchGroup .radioGroupHide {
+  margin-bottom: 0px;
+}
+.custom-report4template .searchGroup .wea-form-item-wrapper {
+  padding: 0px;
+}
+.custom-report4template .searchGroup .wea-form-item-wrapper > div {
+  padding-left: 8px;
+}
+.custom-report4template .searchGroup .displaySetting {
+  display: table;
+  border-collapse: collapse;
+  width: 100%;
+}
+.custom-report4template .searchGroup .displaySetting > div {
+  display: table-row;
+  border-bottom: 1px solid #dddddd;
+  width: 100%;
+}
+.custom-report4template .searchGroup .displaySetting > div .tbCell {
+  display: table-cell;
+  vertical-align: middle;
+  word-wrap: break-word;
+  white-space: nowrap;
+  padding: 8px;
+}
+.custom-report4template .searchGroup .displaySetting > div .tbCell:first-child {
+  padding-left: 14px;
+}
+.custom-report4template .searchGroup .displaySetting > div .tbCell:last-child {
+  word-break: normal;
+  white-space: normal;
+}
+.custom-report4template .searchGroup .displaySetting > div .tbCell .wea-select {
+  margin-top: 0px;
+}
+.custom-report4template .searchGroup .displaySetting > div:last-child {
+  border-bottom: none;
+}
+.custom-report4template .dataList {
+  width: 100%;
+  padding: 0px 20px 8px 20px;
+}
+.custom-report4template .dataList > div {
+  width: 100%;
+  height: 100%;
+}
+.custom-report4template .wea-new-table .ant-table-thead tr th:first-child {
+  padding-left: 0;
+}
+.custom-report4template .wea-new-table .ant-table-thead tr th {
+  text-align: center;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+}
+.custom-report4template .ant-table-fixed td {
+  text-align: center;
+}
+.custom-report4template .wea-new-table .ant-table-thead > tr > th > span {
+  white-space: normal;
+  text-overflow: unset;
+}
+.hrm-col-set-transfer {
+  padding: 25px 22px;
+  position: relative;
+}
+.hrm-col-set-transfer .header {
+  padding-left: 24px;
+}
+.hrm-col-set-transfer .hrm-transfer-item {
+  padding: 10px 0 10px 24px;
+  border-bottom: 1px solid #e2e2e2;
+  color: #333;
+  position: relative;
+}
+.hrm-col-set-transfer .hrm-transfer-item .ascOrDesc {
+  position: absolute;
+  right: 30px;
+}
+.hrm-col-set-transfer .hrm-transfer-item .ascOrDesc:hover {
+  color: #27aef3;
+  cursor: pointer;
+}
+.hrm-col-set-transfer .hrm-transfer-item .transfer-item-type {
+  padding-top: 10px;
+}
+
+
+.custom-report4template .btn{
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+}
+
+/* 
+路径：
+考勤页面(谢)/考勤页面/init.css(ad2d3eef64404da29e598c214e4f3252)
+*/
