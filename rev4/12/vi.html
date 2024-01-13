@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+        <title>debian原装vi命令使用方法_重新启航的技术博客_51CTO博客</title>
+    <meta name="keywords" content="debian原装vi命令使用方法,博客,51CTO博客">
+<meta name="description" content="debian原装vi命令使用方法，Debian中的vi是一个非常流行的文本编辑器，它可以用来编辑Unix/Linux系统中的文本文件。下面是一些常用的vi命令：vi命令：进入vi编辑模式，按下i键开始输入，按下Esc键退出编辑模式。:set命令：设置编辑器的选项，例如设置插入模式为i。:i命令：开始输入当前光标所在的行。:r命令：从当前位置开始查找并替换文本。:c命令：删除当前光标所">    <meta name="applicable-device" content="pc">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="msvalidate.01" content="91C5324FE68C0A46FA65F3FEC225EA65">
+    
+<meta http-equiv="x-dns-prefetch-control" content="on">
+<link rel="preconnect" href="https://cdn.51cto.com/">
+<link rel="dns-prefetch" href="https://cdn.51cto.com/">
+<link rel="preconnect" href="https://static2.51cto.com/edu/">
+<link rel="dns-prefetch" href="https://static2.51cto.com/edu/">
+<link rel="preconnect" href="https://s2.51cto.com/">
+<link rel="dns-prefetch" href="https://s2.51cto.com/">
+<link rel="preload" as="image" href="https://s2.51cto.com/images/100/base/empty.png?x-oss-process=image/format,webp/ignore-error,1">
+    <link rel="canonical" href="https://blog.51cto.com/bomby/6319241">
+    <link type="favicon" rel="shortcut icon" href="https://blog.51cto.com/favicon.ico">
+        <script src="vi_files/push.js"></script><script src="vi_files/hm.js"></script><script async="" src="vi_files/sensorsdata.min.js"></script><script src="vi_files/antidomxss_v702.js"></script><script src="vi_files/interfaceacting230515.js"></script><script type="application/ld+json">{"@context":"https://ziyuan.baidu.com/contexts/cambrian.jsonld","@id":"https://blog.51cto.com/bomby/6319241","appid":"1576672126670053","title":"debian原装vi命令使用方法_重新启航的技术博客_51CTO博客","images":[],"description":"Debian 中的 vi 是一个非常流行的文本编辑器，它可以用来编辑 Unix/Linux 系统中的文本文件。下面是一些常用的 vi 命令：\nvi 命令：进入 vi 编辑模式，按下 i 键开始输入，按下 Esc 键退出编辑模式。\n:set ","pubDate":"2023-05-21T13:55:49","upDate":"2023-05-21T13:55:49"}</script>
+                                <style data-name="css-inline-enable-style-block" type="text/css">
+.blue{color:#3e71f6}.Page{margin:0 auto;width:1200px}.Page.Max{min-width:1000px;width:90%}.Page.M764{width:764px}.white-open{background:#fff;display:none;height:100%;left:0;opacity:0;position:fixed;top:0;width:100%;z-index:10}.blue-btn{background:#3e71f6;border:1px solid #3e71f6}.blue-btn:hover{background:#3477e6;border:1px solid #3477e6}.Header{background:#fff;box-shadow:0 3px 10px hsla(0,0%,40%,.03);display:flex;height:70px;justify-content:center;min-width:1200px;position:relative;z-index:21}.fgline{background:#333;display:inline-block;height:11px;margin:29px 4px 0;transform:rotate(22.5deg);width:1px}.Content{padding-top:20px;z-index:10}.Content,.Footer{position:relative}.Footer{background:#eaeaeb;color:#999;font-size:12px;margin-top:20px;overflow:hidden;padding:40px 0}.Footer dl{font-size:14px;margin-right:40px}.Footer dl dt{color:#333;font-size:16px;margin-bottom:10px}.Footer dl td{height:28px;padding-right:28px}.Footer dl td a{color:#666}.Footer dl td a:hover{color:#3e71f6}.Footer dl img{margin-right:20px}.Footer .copy a{color:#999}.Footer .copy a:hover{color:#333}.pagination{font-size:12px;margin:30px auto;text-align:center}.pagination li{display:inline-block;line-height:1;overflow:hidden}.pagination li.disabled,.pagination li.disabled:hover{color:#333;cursor:default;font-size:14px;padding:0 5px}.pagination li:last-child.last.disabled{color:#999;font-size:12px}.pagination li a,.pagination li.active b{color:#999;display:block;line-height:1;padding:0 5px;text-align:center;width:24px}.pagination li.active b{color:#333}.pagination li a:hover,.pagination li.active a{color:#333;font-size:14px}.pagination li.first a,.pagination li.first_page a,.pagination li.last a,.pagination li.last_page a,.pagination li.next a,.pagination li.prev a{text-align:center;width:50px}.pagination li.next:hover a,.pagination li.prev:hover a{font-size:12px}.pagination li:last-child.last.noLink{background:0;border-color:transparent;margin:0}.noList{margin:100px auto;text-align:center}.noList p{color:#999;font-size:14px;line-height:3}.is-vip-bg,.is-vip-bg-2,.is-vip-bg-3,.is-vip-bg-4,.is-vip-bg-5,.is-vip-bg-6,.is-vip-bg-7{height:100%;position:relative}.is-vip-bg-6 i{right:5px}.vip-icon{bottom:0;cursor:pointer;display:inline-block;position:absolute;right:-5px}.vip-icon-1{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat left 0;bottom:6px;height:32px;right:8px;width:32px}.webp .vip-icon-1{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-2{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat left -64px;height:22px;width:22px}.webp .vip-icon-2{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-3{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat left -108px;height:20px;width:20px}.webp .vip-icon-3{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-4{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat left -152px;height:18px;width:18px}.webp .vip-icon-4{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-5{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat left -152px;bottom:11px;height:18px;left:20px;position:absolute;width:18px}.webp .vip-icon-5{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-1.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat right 0}.webp .vip-icon-1.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-2.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat right -64px}.webp .vip-icon-2.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-3.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat right -108px}.webp .vip-icon-3.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-4.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat right -152px}.webp .vip-icon-4.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.vip-icon-5.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat right -152px}.webp .vip-icon-5.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.is-vip-bg-6{position:relative}.is-vip-bg-7 .vip-icon-4{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat 0 100%;bottom:0;height:28px;position:absolute;right:0;width:28px}.webp .is-vip-bg-7 .vip-icon-4{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.is-vip-bg-7 .vip-icon-4.on{background:url("https://s2.51cto.com/images/100/blog/old/vip.png") no-repeat 100% 100%}.webp .is-vip-bg-7 .vip-icon-4.on{background-image:url("https://s2.51cto.com/images/100/blog/old/vip.png?x-oss-process=image/format,webp")}.is-vip-bg-3 i{bottom:0;right:12px}.is-vip-bg-4 i{bottom:0;right:0}.center-bg .vip-icon{bottom:6px;right:0}.comment-creat .is-vip-bg-6 i{bottom:-2px;right:-2px}.special-column .column-1 .column-box .center a.h2{font-size:18px}.special-column .column-1 .column-box .center h5 span{font-size:14px}.Footer{background:#fff;box-shadow:0 -1px 20px 10px hsla(0,3%,94%,.32);padding-top:35px}.Footer .Logo{box-sizing:border-box;display:block;height:60px;padding-top:16px;width:214px}.Footer .copy{color:#bbb;text-align:left}.Footer .copy a{color:#666;font-size:14px}.Footer .copy a:hover{color:#3e71f6}.Footer tr:first-child{border:0}.Footer table td{border:0;font-size:14px}.Footer a.zhiCustomBtn,.aboutList a.zhiCustomBtn{display:block}.Footer dt{font-weight:700}.Footer dl td{padding-bottom:5px}dl.foot_ab td{padding-right:43px}dl.foot_link{margin-right:20px}.urlTransfer{box-sizing:border-box;min-height:700px;padding-top:130px}.urlTransfer .logo{background:url("https://s2.51cto.com/images/100/blog/old/logo3.png") no-repeat 50%;background-size:217px 37px;height:37px;margin:0 auto;width:217px}.webp .urlTransfer .logo{background-image:url("https://s2.51cto.com/images/100/blog/old/logo3.png?x-oss-process=image/format,webp")}.urlTransfer .inner{background:#fff;box-sizing:border-box;margin:20px auto 0;padding:26px 39px;width:445px}.urlTransfer .inner .tit{background:#f7f7f7;color:#222;font-size:16px;height:45px;line-height:45px;width:240px}.urlTransfer .inner .tit i{color:#d3313a;float:left;font-size:25px;margin:0}.urlTransfer .inner .tips{color:#222;font-size:16px;margin-top:15px}.urlTransfer .inner .btn{background:#d3313a;border-radius:2px;color:#fff;cursor:pointer;display:block;height:36px;line-height:36px;margin-top:20px;text-align:center;width:100px}.urlTransfer .inner .btn:hover{background:#c22d36;color:#fff}.urlTransfer .inner .url{-webkit-line-clamp:2;line-clamp:2;-webkit-box-orient:vertical;color:#999;display:-webkit-box;font-size:16px;margin-top:10px;overflow:hidden;text-overflow:ellipsis;word-break:break-all}.urlTransfer .inner .url span{cursor:pointer}.urlTransfer .inner .url span:hover{color:#666}.common_scales_light{animation-duration:1s;-webkit-animation-duration:1s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-name:scales_light;-webkit-animation-name:scales_light}@keyframes scales_light{0%{transform:scale(100%)}50%{transform:scale(96%)}to{transform:scale(100%)}}@-webkit-keyframes scales_light{0%{-webkit-transform:scale(100%)}50%{-webkit-transform:scale(96%)}to{-webkit-transform:scale(100%)}}.home-top-old .top-box .item-lf{padding-right:27px!important}.blog-search{font-size:14px!important}.right-fixadv{bottom:60%;position:fixed;right:20px;width:100px;z-index:999}.right-fixadv .ins{position:relative}.right-fixadv .ins span{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_ac0aa035.png") no-repeat -61px -277px;content:"";cursor:pointer;display:block;height:32px;position:absolute;right:-10px;top:-30px;transform:scale(.5);width:32px;z-index:99}.webp .right-fixadv .ins span{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_ac0aa035.png?x-oss-process=image/format,webp")}.right-fixadv img{width:100%}@media screen and (max-width:1199px){.Footer dl,.Footer dl.foot_link{margin-right:0}}.ac-box{display:block}.ac-box,.ac-box img{width:100%}input::-ms-clear{display:none;height:0;width:0}button,input,input[type=button]{outline:0}.header-content{display:flex;height:70px;justify-content:space-between;margin:1px auto}.header-content .header-left{display:flex;position:relative;width:50%}.header-content .header-left .Logo{box-sizing:border-box;padding-top:25px;width:100px}.header-content .header-left .Logo a{display:block;height:100%;overflow:hidden;position:relative}.header-content .header-left .Logo a img{z-index:2}.header-content .header-left .Logo h1,.header-content .header-left .Logo h2{position:absolute;text-indent:-9999em;z-index:-1}.header-content .header-left .Navigates{display:flex;font-size:16px;line-height:70px;list-style:none}.header-content .header-left .Navigates li{margin-left:38px}.header-content .header-left .Navigates li:first-child{margin-left:43px}.header-content .header-left .Navigates li a{color:#333}.header-content .header-left .Navigates li:hover a{color:#3e71f6}.header-content .header-left .Navigates .first a{display:block;height:70px;position:relative;width:100px}.header-content .header-left .Navigates .first a img{bottom:0;left:0;margin:auto;position:absolute;right:0;top:0;width:100px}.header-content .header-left .Navigates .first a img.otherimg{width:130px}.header-content .header-left .Navigates .cur a{color:#3e71f6}.header-content .header-right{display:flex;line-height:70px;list-style:none}.header-content .header-right li{margin-left:28px}.header-content .header-right .search{background:#f7f7f7;border-radius:3px;height:28px;line-height:28px;margin-top:21px;position:relative}.header-content .header-right .search .form-search{display:flex;justify-content:space-between;width:244px}.header-content .header-right .search .form-search input{background:0;border:none;flex:1;height:28px;line-height:28px;padding-left:10px}.header-content .header-right .search .form-search .blogsou{background:0;color:#999;display:inline-block;height:14px;line-height:14px;margin:7px 13px;padding:0;width:14px;z-index:99}.header-content .header-right .search .form-search .bloga-shanchutupian{color:#999;cursor:pointer;display:none}.header-content .header-right .search .form-search input:valid+.bloga-shanchutupian{display:block}.header-content .header-right .search .focusSelect_his{background:#fff;border-radius:10px;box-shadow:0 -2px 15px 0 rgba(0,0,0,.06);display:none;left:0;padding-bottom:10px;position:absolute;text-align:left;top:35px;width:100%;z-index:2}.header-content .header-right .search .focusSelect_his .hishead{border-bottom:1px solid #f6f7f8;color:#9399a6;display:block;font-size:14px;line-height:1.1;margin:20px 20px 10px;padding-bottom:10px;position:relative}.header-content .header-right .search .focusSelect_his .hishead .clearhis{color:#9399a6;cursor:pointer;float:right;font-size:14px}.header-content .header-right .search .focusSelect_his .his-item{align-items:center;color:#121212;cursor:pointer;display:flex;font-size:14px;justify-content:space-between;margin-bottom:17px;min-width:0;padding:0 20px}.header-content .header-right .search .focusSelect_his .his-item span{-webkit-line-clamp:2;-webkit-box-orient:vertical;display:-webkit-box;flex:1;line-height:25px;overflow:hidden;text-overflow:ellipsis}.header-content .header-right .search .focusSelect_his .his-item .close-his-item{color:#9399a6;display:none;font-size:12px}.header-content .header-right .search .focusSelect_his .his-item:hover .close-his-item{display:block;height:25px}.header-content .header-right .search .focusSelect_key{display:none;width:100%}.header-content .header-right .write{position:relative}.header-content .header-right .write a{color:#3e71f6}.header-content .header-right .write a .iconblog{margin-right:2px}.header-content .header-right .write .new_bloger{background-color:#ee502f;border-radius:50px;color:#fff;font-size:18px;font-weight:500;line-height:20px;padding:4px 14px;position:absolute;right:-56px;text-align:center;top:6px;transform:scale(.5);white-space:nowrap}.header-content .header-right .creative{position:relative}.header-content .header-right .creative a{color:#3e71f6}.header-content .header-right .creative .task{background:url("https://s2.51cto.com/blog/activity3.png") no-repeat top;background-size:225px 34px;bottom:-10px;display:inline-block;height:34px;left:-138px;position:absolute;width:225px}.webp .header-content .header-right .creative .task{background-image:url("https://s2.51cto.com/blog/activity3.png?x-oss-process=image/format,webp")}.header-content .header-right .message,.header-content .header-right .message .message-link{position:relative}.header-content .header-right .message .message-link i{background:#e31436;border-radius:10px;color:#fff;display:inline-block;font-size:12px;font-style:normal;left:23px;line-height:1;padding:1px 4px;position:absolute;top:-6px}.header-content .header-right .message div{background:#fff;border-radius:10px;box-shadow:0 -2px 15px 0 rgba(0,0,0,.06);display:none;left:-30px;position:absolute;top:26px;width:87px;z-index:99}.header-content .header-right .message div .ins{padding:24px 18px 24px 27px}.header-content .header-right .message div .ins a{color:#121212;display:block;font-size:14px;font-weight:400;line-height:20px;margin-bottom:17px}.header-content .header-right .message div .ins a i{background:#e31436;border-radius:10px;color:#fff;display:inline-block;font-size:12px;font-style:normal;left:23px;line-height:1;margin-left:2px;padding:1px 4px}.header-content .header-right .message div .ins a:hover{color:#3e71f6}.header-content .header-right .message div .ins a:last-child{margin-bottom:0}.header-content .header-right .message:hover div{display:block}.header-content .header-right .user{position:relative}.header-content .header-right .user .is-vip-bg-1{display:inline-block}.header-content .header-right .user .is-vip-bg-1 img{border-radius:12px;height:24px;margin-top:23px;width:24px}.header-content .header-right .user .vip-icon{left:15px;position:absolute;top:27px}.header-content .header-right .user .user-alert{border-radius:10px;box-shadow:0 3px 10px hsla(0,0%,40%,.07);display:none;left:-280px;overflow:hidden;position:absolute;top:54px;z-index:99}.header-content .header-right .user .user-alert .ins{background:#fff;border-radius:10px;box-sizing:border-box;width:300px}.header-content .header-right .user .user-alert .ins .vip-icon{left:55px;top:50px}.header-content .header-right .user .user-alert .ins .user-base{align-items:center;background:linear-gradient(180deg,rgba(226,239,255,.5),hsla(0,0%,100%,0));color:#121212;display:block;display:flex;filter:blur(0);font-size:15px;font-weight:500;padding:10px 20px 0}.header-content .header-right .user .user-alert .ins .user-base img{border-radius:100%;height:50px;margin-right:10px;width:50px}.header-content .header-right .user .user-alert .ins .user-message{margin-top:11px;padding:0 20px}.header-content .header-right .user .user-alert .ins .user-message .user-medal{border-bottom:1px solid #f5f5f5;display:flex;flex-wrap:wrap}.header-content .header-right .user .user-alert .ins .user-message .user-medal img{height:27px;margin-right:13px;padding-bottom:14px;width:24px}.header-content .header-right .user .user-alert .ins .user-message .user-modal{border-bottom:1px solid #f5f5f5;display:flex}.header-content .header-right .user .user-alert .ins .user-message .user-modal .stat-item{color:#9f9f9f;flex:1;font-size:14px;font-weight:400;line-height:26px;margin-left:3px;padding:14px 0;text-align:left}.header-content .header-right .user .user-alert .ins .user-message .user-modal .stat-item:first-child{margin-left:0}.header-content .header-right .user .user-alert .ins .user-message .user-modal .stat-item .stat-num{color:#000;font-family:DINAlternate-Bold,DINAlternate;font-size:18px;font-weight:700;line-height:21px}.header-content .header-right .user .user-alert .ins .user-menu{border-bottom:1px solid #f5f5f5;display:flex;flex-wrap:wrap;padding:19px 20px 0}.header-content .header-right .user .user-alert .ins .user-menu a{box-sizing:border-box;color:#525d6c;display:block;font-size:14px;font-weight:400;line-height:20px;margin-bottom:20px;position:relative;width:50%}.header-content .header-right .user .user-alert .ins .user-menu a .iconblog{margin-right:8px}.header-content .header-right .user .user-alert .ins .user-menu a:nth-child(2n){padding-left:5px}.header-content .header-right .user .user-alert .ins .user-menu a .dot{background:#e31436;border-radius:5px;display:inline-block;height:5px;position:absolute;width:5px}.header-content .header-right .user .user-alert .ins .login-out{color:#525d6c;display:block;font-size:14px;font-weight:400;line-height:45px;text-align:center}.header-content .header-right .user:hover .user-alert{display:block}@media screen and (max-width:1580px){.header-content{width:1200px}}@media screen and (min-width:1581px)and (max-width:1767px){.header-content{width:1390px}}@media screen and (min-width:1768px){.header-content{width:1580px}}.Header-old .header-content{width:1200px}.home-top{background:#303030;font-size:12px;font-weight:400;height:30px;line-height:30px;position:relative;width:100%}.home-top,.home-top a,.home-top a:hover{color:#fff}.home-top .w1200{margin:0 auto;width:1200px}.home-top .left_nav{align-items:center;display:flex}.home-top .top_right{display:flex}.home-top .top_right .item-rt{margin-left:30px}.home-top .top_right .item-rt .i{font-size:12px}.home-top .top_right .item-rt.collection{cursor:pointer}.home-top .top_box{align-content:center;display:flex;height:30px;justify-content:space-between}.home-top .top_box .item-lf{padding-right:30px;position:relative}.home-top .top_box .item-lf.hot{align-items:center;display:flex}.home-top .top_box .item-lf.hot .hot-div{font-size:12px;height:14px;position:absolute;right:2px;top:-1px;width:26px}.home-top .top_box .item-lf.hot .hot-div img{height:14px;width:26px}.home-top .top_box .subweb{display:inline-block;height:30px}.home-top .top_box .subweb:hover{cursor:pointer;font-weight:600}.home-top .top_box .subweb.subweb-tag{position:relative}.home-top .top_box .subweb.subweb-tag .tagicon{display:block;height:13px;position:absolute;right:-28px;top:-3px;width:26px}.home-top .top_box .subweb.subweb-tag .tagicon img{width:100%}.home-top .nav-more-container{background:#303030;height:0;position:absolute;top:30px;transition:height .3s;width:100%;z-index:1000}.home-top .nav-more-container.height1{height:30px}.home-top .nav-more-container.height2,.home-top .nav-more-container.height3{height:120px}.home-top .nav-more-container .nav-contant-box{height:0;position:relative;transition:height .3s}.home-top .nav-more-container .nav-contant-box.height1{height:30px}.home-top .nav-more-container .nav-contant-box.height2,.home-top .nav-more-container .nav-contant-box.height3{height:120px}.home-top .nav-more-container .nav-contant{box-sizing:border-box;font-size:0;height:0;overflow:hidden;position:absolute;transition:height .3s;width:100%}.home-top .nav-more-container .nav-contant.height1{height:30px}.home-top .nav-more-container .nav-contant.height2,.home-top .nav-more-container .nav-contant.height3{height:120px}.home-top .nav-more-container .nav-contant a{color:#fff;font-size:12px;line-height:25px;margin-right:50px}.home-top .nav-more-container .nav-contant a:hover{color:#f40d04}.home-top .nav-more-container .nav-contant .ewmbox{display:inline-block;text-align:center;width:135px}.home-top .nav-more-container .nav-contant .ewmbox .imgbox{background:#fff;border:4px solid #fff;border-radius:4px;height:66px;margin:15px auto 0;overflow:hidden;width:66px}.home-top .nav-more-container .nav-contant .ewmbox img{background:#fff;border-radius:4px;height:66px;width:66px}.home-top .nav-more-container .nav-contant .ewmbox .txt{color:#c8c8c8;font-size:12px;padding-top:5px}.home-top .nav-more-container .nav-contant.wechatImageList{text-align:center}.home-top .nav-more-container .nav-contant.wechatImageList .ewmbox{width:135px}.home-top .nav-more-container .nav-contant.appImageList{text-align:center}.home-top .nav-more-container .nav-contant.appImageList .ewmbox{width:160px}.home-top .nav-more-container .nav-contant.nav-contant9{text-align:right}.home-top .nav-more-container .nav-contant.nav-contant9 .loginout{cursor:pointer;font-size:12px}.home-top .search-top i{font-size:14px}@media screen and (min-width:1768px){.home-top .w1200{width:1580px}}.publish-box{bottom:20px;display:block;height:103px;position:fixed;right:50px;width:331px;z-index:999999}.publish-box img{width:100%}.publish-box .publish-close{bottom:90px;cursor:pointer;display:inline-block;height:30px;position:fixed;right:52px;width:30px}@font-face{font-family:iconblog;src:url("https://static2.51cto.com/edu/blog/blog-static/iconFont/iconfont.woff2?t=1681350793988") format("woff2"),url("https://static2.51cto.com/edu/blog/blog-static/iconFont/iconfont.woff?t=1681350793988") format("woff"),url("https://static2.51cto.com/edu/blog/blog-static/iconFont/iconfont.ttf?t=1681350793988") format("truetype")}.iconblog{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:iconblog!important;font-size:16px;font-style:normal}.blogyijianfk:before{content:"\e6c4"}.blogyonghu:before{content:"\e6c3"}.blogyinhao:before{content:"\e6bf"}.blogpaixu:before{content:"\e6c0"}.blogxuanzhong:before{content:"\e6c1"}.blogxuanxiang:before{content:"\e6c2"}.blogfanhuidb:before{content:"\e6a3"}.blogfenxiang2:before{content:"\e6a4"}.blogchuangzuozx:before{content:"\e6a5"}.blogijilu:before{content:"\e6a6"}.blogshoucang-4:before{content:"\e6a7"}.blogqianbao:before{content:"\e6a8"}.blogzhuanlan:before{content:"\e6a9"}.blogquan:before{content:"\e6bd"}.blogwode:before{content:"\e6be"}.bloggengduo1:before{content:"\e695"}.blogsousuo:before{content:"\e698"}.blogxiewz:before{content:"\e69b"}.bloghuati1:before{content:"\e69c"}.bloggaiban:before{content:"\e693"}.bloga-2023:before{content:"\e694"}.blogjichuxinxi:before{content:"\e704"}.blogimport:before{content:"\e700"}.blogqiandao:before{content:"\e6ff"}.blogyidaka:before{content:"\e6fe"}.blogqiandaoqueren:before{content:"\e6fc"}.blogshenfenrenzhengbeifen:before{content:"\e6f8"}.bloggonggaobeifen:before{content:"\e6f7"}.blogunfold:before{content:"\e6f4"}.bloghuati:before{content:"\e6f3"}.blogrongyurenzheng:before{content:"\e6f1"}.blogpaixujiang:before{content:"\e6ee"}.blogpaixusheng:before{content:"\e6ed"}.blogxunzhangguanli:before{content:"\e6ec"}.bloghelp:before{content:"\e6eb"}.blogxiewenzhang:before{content:"\e6ea"}.blogzuixinblogzuixin:before{content:"\e63f"}.blogzuire:before{content:"\e63e"}.blogxiangshangpaixu:before{content:"\e6e6"}.blogzhujiao2:before{content:"\e6e0"}.blogzhujiang2:before{content:"\e6df"}.blogxuesheng2:before{content:"\e6de"}.blogyitijiao2:before{content:"\e6dd"}.blogrili2:before{content:"\e6dc"}.blogpaixu2:before{content:"\e6db"}.blogjiezhishijian2:before{content:"\e6da"}.blogdanxuanxuanzhong:before{content:"\e6d9"}.blogdanxuanweixuanzhong:before{content:"\e6d8"}.blogzuoye2:before{content:"\e6d5"}.blogshijian2:before{content:"\e6d4"}.blogjiaoshi2:before{content:"\e6d3"}.blogmulu:before{content:"\e63d"}.bloga-bianzu9:before{content:"\e63b"}.bloga-bianzu8:before{content:"\e63c"}.bloga-bianzu10:before{content:"\e638"}.bloga-bianzu12:before{content:"\e639"}.bloga-bianzu6:before{content:"\e63a"}.bloga-bianzu11:before{content:"\e637"}.bloga-bianzu7:before{content:"\e636"}.bloga-shanchutupian:before{content:"\e6cd"}.blogtianjiabeifen:before{content:"\e6cc"}.blogtishibeifen:before{content:"\e6cb"}.blogtishi2beifen:before{content:"\e6ca"}.blogjubaobeifen:before{content:"\e6c7"}.blogfuwuqibeifen:before{content:"\e6bc"}.blogqiyexinxihuabeifen:before{content:"\e6bb"}.blogyouxikaifabeifen:before{content:"\e6ba"}.blogrengongzhinengbeifen:before{content:"\e6b9"}.blogruanjianyanfabeifen:before{content:"\e6b8"}.blogkaoshirenzhengbeifen:before{content:"\e6b7"}.bloghongmengbeifen:before{content:"\e6b6"}.blogofficebangongbeifen:before{content:"\e6b5"}.blogqianrushibeifen:before{content:"\e6b4"}.blogyidongkaifabeifen:before{content:"\e6b3"}.blogbianchengyuyanbeifen:before{content:"\e6b2"}.blogqianduankaifabeifen:before{content:"\e6b1"}.blogyunjisuanbeifen:before{content:"\e6b0"}.blogshujukubeifen:before{content:"\e6af"}.blogxitongyunweibeifen:before{content:"\e6ae"}.blogwangluoanquanbeifen:before{content:"\e6ad"}.blogJavabeifen:before{content:"\e6ac"}.blogpythonbeifen:before{content:"\e6ab"}.blogdashujubeifen:before{content:"\e6aa"}.bloga-15beifen41:before{content:"\e6a2"}.bloga-15beifen4:before{content:"\e6a1"}.bloga-15beifen5:before{content:"\e6a0"}.bloga-15beifen2:before{content:"\e69f"}.bloga-15beifen3:before{content:"\e69e"}.bloga-15beifen:before{content:"\e69d"}.blogchenggongtishi:before{content:"\e69a"}.blogxiepinglun:before{content:"\e699"}.blogwodeqianbaobeifen:before{content:"\e697"}.blogdianzanxuanzhong:before{content:"\e696"}.bloga-icbokewenda:before{content:"\e692"}.bloga-icyijianfankui:before{content:"\e691"}.bloga-icfenxiangbeifen:before{content:"\e690"}.bloga-icwodedingyuezhuanlan:before{content:"\e68f"}.bloga-icdingyuezhuanlan:before{content:"\e68e"}.bloga-icshouye:before{content:"\e68d"}.bloga-icyonghu:before{content:"\e68c"}.blogshanchu1:before{content:"\e68a"}.blogyuedu:before{content:"\e689"}.blogpinglun3:before{content:"\e687"}.blogfenxiang1:before{content:"\e686"}.bloggengduo:before{content:"\e67f"}.blogshanchu18:before{content:"\e67e"}.blogquxiao18:before{content:"\e67d"}.bloglink:before{content:"\e67c"}.blogshanchu:before{content:"\e67b"}.blogdianzan:before{content:"\e679"}.blogremensousuo:before{content:"\e676"}.bloglishijilu:before{content:"\e675"}.bloga-blogdianzanxe622:before{content:"\e622"}.blogchuangzuoshezhibeifen:before{content:"\e631"}.blogchuangzuoliebiao:before{content:"\e632"}.blogchuangzuoshouye:before{content:"\e633"}.blogchuangzuoqushi:before{content:"\e634"}.blogchuangzuotianjia:before{content:"\e635"}.blogchuangzuogongju:before{content:"\e623"}.blogchuangzuolanhufan:before{content:"\e624"}.blogchuangzuoguanli:before{content:"\e625"}.blogchuangzuohuodong:before{content:"\e626"}.blogchuangzuorli:before{content:"\e628"}.blogchuangzuochuangzuo:before{content:"\e629"}.blogchuangzuoshezhi:before{content:"\e62b"}.blogchuangzuoshuju:before{content:"\e62f"}.blogchuangzuoxiazai:before{content:"\e630"}.blogfenxiang:before{content:"\e61b"}.blogNextpage:before{content:"\e62e"}.blogPreviouspage:before{content:"\e62d"}.blogxuanzhongbeifen1:before{content:"\e62c"}.blogweixuanzhongbeifen:before{content:"\e62a"}.blogright:before{content:"\e627"}.blogshouqi:before{content:"\e620"}.blogyuedu1:before{content:"\e621"}.blogsixin1:before{content:"\e61f"}.blogshoucang:before{content:"\e61e"}.blogpinglun1:before{content:"\e61d"}.blogzhankai:before{content:"\e61c"}.blogbianji1:before{content:"\e61a"}.blogguanzhu:before{content:"\e619"}.blogbianji:before{content:"\e617"}.blogshanchu2:before{content:"\e618"}.blogfenxiangqq:before{content:"\e614"}.blogfenxiangweixin:before{content:"\e615"}.blogfenxiangweibo:before{content:"\e616"}.blogqqqun:before{content:"\e611"}.blogboke:before{content:"\e612"}.blogguan:before{content:"\e613"}.blogpinglun:before{content:"\e605"}.blogpinglun2:before{content:"\e606"}.blogshang:before{content:"\e607"}.blogsixin:before{content:"\e608"}.blogshou:before{content:"\e609"}.blogzan2:before{content:"\e60a"}.blogfen:before{content:"\e60b"}.blogshan:before{content:"\e60c"}.blogzhi:before{content:"\e60d"}.blogsou:before{content:"\e60e"}.blogzan:before{content:"\e60f"}.blogduo:before{content:"\e610"}.blogxie:before{content:"\e604"}@font-face{font-family:fontDIN;src:url("https://cdn.51cto.com/fonts/din/DIN.ttf"),url("https://cdn.51cto.com/fonts/din/DIN.eot")}@font-face{font-family:fontDIN-bold;src:url("https://cdn.51cto.com/fonts/din/DIN-Bold.ttf"),url("https://cdn.51cto.com/fonts/din/DIN-Bold.eot")}@font-face{font-family:fontDIN-medium;src:url("https://cdn.51cto.com/fonts/din/DIN-Medium.ttf"),url("https://cdn.51cto.com/fonts/din/DIN-Medium.eot")}::-webkit-scrollbar{-webkit-appearance:none;height:10px;width:10px}::-webkit-scrollbar-thumb{background-color:rgba(0,0,0,.3);border:2px solid #fff;border-radius:4px}::-webkit-scrollbar-thumb:hover{background-color:rgba(0,0,0,.5)}::-webkit-scrollbar-thumb:window-inactive{background-color:rgba(0,0,0,.2)}.msg-index-box{background:#fff;border-radius:10px;left:50%;margin-left:-300px;padding:25px 10px;position:fixed;top:30%;width:606px;z-index:9999}.msg-index-box .top-bg{background:url("https://s2.51cto.com/images/100/blog/index/followbg.png") no-repeat top;height:129px;left:0;position:absolute;top:0;width:626px}.webp .msg-index-box .top-bg{background-image:url("https://s2.51cto.com/images/100/blog/index/followbg.png?x-oss-process=image/format,webp")}.msg-index-box .follow-close{background:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png") -61px -206px;cursor:pointer;height:18px;position:absolute;right:14px;top:14px;width:19px;z-index:1}.webp .msg-index-box .follow-close{background-image:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png?x-oss-process=image/format,webp")}.msg-index-box .con-box{left:0;position:absolute;top:0;width:100%}.msg-index-box .icon-bg{left:97px;position:absolute;top:48px}.msg-index-box .icon-1{background:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png") -8px -206px;height:31px;width:37px}.webp .msg-index-box .icon-1{background-image:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png?x-oss-process=image/format,webp")}.msg-index-box .icon-2{background:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png") -92px -199px;height:38px;width:38px}.webp .msg-index-box .icon-2{background-image:url("https://s2.51cto.com/images/100/blog/index/sprites_indexfp0908.png?x-oss-process=image/format,webp")}.msg-index-box h2{color:#4285f4;font-size:26px;line-height:1;margin-bottom:20px;margin-top:26px;text-align:center}.msg-index-box .con{color:#333;font-size:14px;line-height:24px;text-align:center}.msg-index-box .con a{color:#4285f4}.msg-index-box .code-bg{background:url("https://s2.51cto.com/images/100/blog/index/followcode.png") no-repeat;height:148px;margin:20px auto 0;width:148px}.webp .msg-index-box .code-bg{background-image:url("https://s2.51cto.com/images/100/blog/index/followcode.png?x-oss-process=image/format,webp")}.msg-index-box .code-bg img{width:100%}.msg-index-box .tipBox{line-height:20px;margin:0 auto;text-align:left;width:350px}.msg-index-box .tipBox .btn{color:#3e71f6;cursor:pointer}.msg-index-box .tipBox .txt{display:inline-block;line-height:12px;max-width:120px}.msg-index-box .btn-box{margin-top:20px;text-align:center}.msg-index-box .btn-box p{border-radius:6px;cursor:pointer;display:inline-block;font-size:14px;height:28px;line-height:28px;padding:0 16px}.msg-index-box .btn-1{border:1px solid #fff;color:#666;margin-right:46px}.msg-index-box .btn-2{border:1px solid #4285f4;color:#4285f4}.Header{top:30px}.hljs-center{text-align:center}.hljs-right{text-align:right}#result{overflow:auto}.detail-content-left s{text-decoration:line-through}.cto-mermaid{text-align:center}.cto-mermaid svg{max-width:100%}#result img{height:auto}.report-dialog-root{display:none}.am-engine img{vertical-align:middle}.mb24{margin-bottom:24px}.mb30{margin-bottom:30px}body{background:#f7f8f9}.Header{position:fixed;width:100%}.home-top{position:fixed;top:0;z-index:999}.detail-content-new{background:#f7f8f9;padding:114px 0 30px}.detail-content-new .jia1,.detail-content-new .jia2{color:#3e71f6}.detail-content-new .fixtitle{background:#fff;box-shadow:0 3px 10px #efefef;display:none;height:61px;left:0;line-height:61px;position:fixed;top:0;width:100%;z-index:999}.detail-content-new .fixtitle h3{box-sizing:border-box;color:#333;font-size:24px;overflow:hidden;padding:0 35px;text-overflow:ellipsis;white-space:nowrap;width:883px}.detail-content-new .fixtitle .messbox .checkFollow{background:#3e71f6;border:none;border-radius:0;border-radius:2px;box-sizing:border-box;color:#666;color:#fff;cursor:pointer;float:right;font-size:14px;height:32px;line-height:32px;margin:13px 0 0 15px;text-align:center;width:90px}.detail-content-new .fixtitle .messbox .checkFollow.in{background:0;border:1px solid #789bf9;color:#3e71f6;padding-left:0}.detail-content-new .fixtitle .messbox .checkFollow.on{background:#3e71f6;font-family:iconblog;padding-left:19px;text-align:left}.detail-content-new .fixtitle .messbox .checkFollow.on:before{content:"";font-size:20px;vertical-align:bottom}.detail-content-new .fixtitle .messbox .checkFollow.on:hover{background:#3d62f5}.detail-content-new .fixtitle .messbox .checkFollow.off{background:#ddd;padding-left:0}.detail-content-new .fixtitle .messbox .name{color:#17233f;float:right;margin-left:10px;max-width:110px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .fixtitle .messbox strong{float:right;height:34px;margin-top:13px;position:relative;width:34px}.detail-content-new .fixtitle .messbox .avatar img{border-radius:34px;height:34px;width:34px}.detail-content-new .Page .common-section{background:#fff;border-radius:2px}.detail-content-new .Page .detail-content-left{float:left;width:874px}.detail-content-new .Page .detail-content-left.set-right{float:right}.detail-content-new .Page .detail-content-left .common-spacing{padding:15px 35px}.detail-content-new .Page .detail-content-left .content-taotao-h{display:none}.detail-content-new .Page .detail-content-left .article-detail{padding-bottom:27px}.detail-content-new .Page .detail-content-left .article-detail>.title{word-wrap:break-word;font-size:37px;line-height:40px;margin-bottom:5px;padding:5px 0 10px;word-break:break-all}.detail-content-new .Page .detail-content-left .article-detail>.title h1{color:#333;display:inline;font-size:28px}.detail-content-new .Page .detail-content-left .article-detail>.title span{border-radius:4px;color:#fff;display:inline-block;font-size:14px;line-height:24px;margin-right:1px;position:relative;text-align:center;top:-4px;width:36px}.detail-content-new .Page .detail-content-left .article-detail>.title span:first-child{margin-left:20px}.detail-content-new .Page .detail-content-left .article-detail>.title span.tuijian{background:#f3c352}.detail-content-new .Page .detail-content-left .article-detail>.title span.original{background:#99cea4}.detail-content-new .Page .detail-content-left .article-detail>.title span.reprint{background:#84c4fa}.detail-content-new .Page .detail-content-left .article-detail>.title span.translation{background:#fea4a4}.detail-content-new .Page .detail-content-left .article-detail>.title span.type_selected{background:#84a0fa}.detail-content-new .Page .detail-content-left .article-detail>.title .examine{background:#f4f5f6;color:#b7bdc9;display:inline-block;font-size:14px;font-weight:400;height:22px;line-height:22px;text-align:center;width:49px}.detail-content-new .Page .detail-content-left .article-detail .messbox{background:#f9f9fa;border-radius:2px;color:#6b7486;padding:15px 15px 5px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1{line-height:1}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 a{color:#6b7486}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 .fl{padding-right:12px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 time{font-family:fontDIN}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 #copyright-btn{cursor:pointer;font-size:12px;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none;user-select:none}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-line1 #copyright-btn:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag{margin-top:15px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong{float:left;font-weight:400;margin-right:22px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong em{font-style:normal;line-height:24px;margin-right:11px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong a,.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong span{background:#efeff1;color:#5c6578;display:inline-block;font-size:12px;height:24px;line-height:24px;margin-bottom:10px;margin-right:13px;padding:0 8px}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong a:last-child,.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong span:last-child{margin-right:0}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong a.subject,.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong span.subject{background:#e6ebfa;color:#3e71f6}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong a.subject i,.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong span.subject i{float:left;font-size:12px;margin:0 4px 0 0}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .article-detail .messbox p.mess-tag strong b{color:#6b7486;font-family:fontDIN;font-size:14px;font-weight:400}.detail-content-new .Page .detail-content-left .article-detail .copytext{color:#9399a6;display:none;font-size:12px;margin-top:10px;word-break:break-all}.detail-content-new .Page .detail-content-left .article-detail .copytext a{color:#9399a6}.detail-content-new .Page .detail-content-left .article-detail .copytext2{color:#9399a6;font-size:12px;margin-top:10px;word-break:break-all}.detail-content-new .Page .detail-content-left .article-detail .recommend-video{display:none;justify-content:space-between;margin:20px auto}.detail-content-new .Page .detail-content-left .article-detail .recommend-video.recommend-video-1{justify-content:center}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video{width:49%}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a{background:#f8f8fb;border-radius:2px;box-sizing:border-box;display:flex;height:130px;padding:14px}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .pic{border-radius:2px;overflow:hidden;position:relative;width:184px}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .pic:after{background:rgba(0,0,0,.3) url("https://s2.51cto.com/blog/sprites/videoicon.png") no-repeat 50%;content:"";height:104px;left:0;position:absolute;top:0;width:184px}.webp .detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .pic:after{background-image:url("https://s2.51cto.com/blog/sprites/videoicon.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .pic img{height:104px;width:184px}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .detail{display:flex;flex-direction:column;justify-content:center;line-height:1.7;padding-left:14px;width:calc(100% - 200px)}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .detail .title{color:#17233f;font-size:16px;max-height:58px;overflow:hidden}.detail-content-new .Page .detail-content-left .article-detail .recommend-video .video a .detail .dec{color:#8c92a2;font-size:14px;max-height:45px;overflow:hidden}.detail-content-new .Page .detail-content-left .article-detail .article-content-wrap{border-bottom:1px solid #f3f3f3;color:#17233f;font-size:16px;margin-bottom:30px;padding-bottom:30px;word-break:break-all}.detail-content-new .Page .detail-content-left .article-detail .article-content-wrap img{cursor:zoom-in;max-width:100%}.detail-content-new .Page .detail-content-left .article-detail .article-content-wrap .artical-content-bak{max-width:100%;padding:0 0 20px!important}.detail-content-new .Page .detail-content-left .article-detail .article-content-wrap .all-question{color:#3e71f6;cursor:pointer}.detail-content-new .Page .detail-content-left .article-detail .label-list{margin-top:20px;padding-left:90px;position:relative}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text{color:#9399a6;display:inline;font-size:13px;line-height:35px;margin-right:15px;word-break:break-all}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text:hover{color:#7d828c}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text:nth-child(3n-2){color:#b6c2bb}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text:nth-child(3n-2):hover{color:#9ea8a2}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text:nth-child(3n-1){color:#e0d6d1}.detail-content-new .Page .detail-content-left .article-detail .label-list .tag-text:nth-child(3n-1):hover{color:#c7beb9}.detail-content-new .Page .detail-content-left .article-detail .label-list span{color:#17233f;font-size:16px;left:0;position:absolute;top:0}.detail-content-new .Page .detail-content-left .article-detail .label-list a{background:#f6f7f8;border-radius:2px;color:#6b7484;display:inline-block;height:30px;line-height:30px;margin:0 12px 15px 0;max-width:80%;overflow:hidden;padding:0 20px;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .article-detail .label-list a.cur,.detail-content-new .Page .detail-content-left .article-detail .label-list a:hover{background:#3e71f6;color:#fff}.detail-content-new .Page .detail-content-left .article-detail .action-box{text-align:center}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li{display:inline-block;list-style:none;position:relative;width:105px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li:last-child{margin-bottom:0}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li.share:hover .bdsharebuttonbox{display:block}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li .bdsharebuttonbox{left:8px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong{display:inline-block;font-weight:400;position:relative;text-align:center;width:80px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan1.png") no-repeat top;background-size:47px 47px;display:inline-block;height:47px;width:47px}.webp .detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan1.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise.on a i{background:url("https://s2.51cto.com/images/100/blog/old/zan2.png") no-repeat top;background-size:47px 47px}.webp .detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan2.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise.no-praise a i,.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.is-praise.on.no-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan.gif") no-repeat top;background-size:47px 47px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt a i{background:url("https://s2.51cto.com/images/100/blog/old/ping1.png") no-repeat top;background-size:47px 47px;display:inline-block;height:47px;width:47px}.webp .detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping1.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt.on a i{background:url("https://s2.51cto.com/images/100/blog/old/ping2.png") no-repeat top;background-size:47px 47px}.webp .detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping2.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt.no-favorites a i,.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.favorites-opt.on.no-favorites a i{background:url("https://s2.51cto.com/images/100/blog/old/ping.gif") no-repeat top;background-size:47px 47px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong:hover a{box-shadow:0 8px 16px 0 rgba(23,35,63,.12)}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a{background:#fff;border:1px solid #f4f4f4;border-radius:47px;box-shadow:0 8px 16px 0 rgba(23,35,63,.04);display:block;height:47px;line-height:47px;margin:0 auto 5px;width:47px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i{color:#818797}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogshang,.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogzan{font-size:19px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogshou{font-size:21px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogpinglun{font-size:19px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogfen{font-size:23px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong a i.blogzhi{font-size:18px}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong span{color:#979da9;line-height:1}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong span b{font-weight:400}.detail-content-new .Page .detail-content-left .article-detail .action-box ul li strong.on a i{color:#3e71f6}.detail-content-new .Page .detail-content-left .article-detail .lists{margin-top:40px}.detail-content-new .Page .detail-content-left .article-detail .lists p{color:#818797;max-width:45%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .article-detail .lists p a{color:#818797}.detail-content-new .Page .detail-content-left .article-detail .lists p a:hover{color:#17233f}.detail-content-new .Page .detail-content-left .article-detail .lists p:last-child{text-align:right}.detail-content-new .Page .detail-content-left .article-edit{margin-bottom:10px;margin-top:10px}.detail-content-new .Page .detail-content-left .article-edit a{color:#9399a6;display:inline-block;font-size:12px;height:23px;line-height:23px;margin-left:20px}.detail-content-new .Page .detail-content-left .article-edit a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .article-edit a i{float:left;font-size:14px;margin-right:5px;opacity:.8}.detail-content-new .Page .detail-content-left .common-sub-title{border-bottom:1px solid #f5f5f5;height:48px;line-height:48px;margin-bottom:3px}.detail-content-new .Page .detail-content-left .common-sub-title h2,.detail-content-new .Page .detail-content-left .common-sub-title strong{color:#333;display:inline-block;font-size:20px}.detail-content-new .Page .detail-content-left .common-sub-title .more{color:#999}.detail-content-new .Page .detail-content-left .comment-textarea{padding-top:20px}.detail-content-new .Page .detail-content-left .comment-textarea .avatar{float:left;height:40px;margin-right:15px;position:relative;width:40px}.detail-content-new .Page .detail-content-left .comment-textarea .avatar img{border-radius:40px;height:40px;width:40px}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box{float:left;width:749px}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-show{background:#fff;border:1px solid #e5e5e5;border-radius:2px;box-sizing:border-box;color:#818797;cursor:pointer;height:44px;line-height:44px;margin-bottom:20px;position:relative}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-show span{display:inline-block;overflow:hidden;padding-left:15px;text-overflow:ellipsis;white-space:nowrap;width:80%}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-show strong{background:#f5f5f5;border-left:1px solid #e5e5e5;display:inline-block;height:42px;line-height:42px;position:absolute;right:0;text-align:center;top:0;width:78px}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-hide{display:none}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-hide .top{margin-bottom:10px}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-hide .top textarea{background:#fff;border:1px solid #e5e5e5;border-radius:2px;box-sizing:border-box;color:#17233f;height:78px;outline:0;padding:12px 15px;resize:none;width:100%}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-hide .bot .publish-btn{background:#3e71f6;border-radius:2px;color:#fff;cursor:pointer;display:inline-block;height:35px;line-height:35px;text-align:center;width:110px}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box .textarea-hide .bot span{color:#9399a6;font-size:12px;line-height:35px;margin-right:16px}.detail-content-new .Page .detail-content-left .comment-num{border-bottom:1px solid #f5f5f5;color:#333;font-size:20px;height:56px;line-height:56px}.detail-content-new .Page .detail-content-left .comment-num span{color:#999}.detail-content-new .Page .detail-content-left .comment-num span b{font-family:fontDIN;font-weight:400}.detail-content-new .Page .detail-content-left .comment-num .sort{cursor:pointer;font-size:14px;font-weight:400;margin-left:15px}.detail-content-new .Page .detail-content-left .comment-num .sort.on{color:#3e71f6}.detail-content-new .Page .detail-content-left .comment-num .sort .iconblog{float:left;font-size:14px;margin-right:5px}.detail-content-new .Page .detail-content-left .comment-box{padding-bottom:27px}.detail-content-new .Page .detail-content-left .comment-List-box .floor-1{border-bottom:1px solid #f5f5f5;padding-top:25px}.detail-content-new .Page .detail-content-left .comment-List-box .floor-1.floor-n{display:none}.detail-content-new .Page .detail-content-left .comment-List-box .floor-2{padding-left:50px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List{display:flex;padding-bottom:25px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .avatar{float:left;height:40px;margin-right:10px;margin-top:4px;position:relative;width:40px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .avatar img{border-radius:40px;height:40px;width:40px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail{float:left;width:754px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail h3{color:#17233f;font-size:14px;height:28px;line-height:1;line-height:28px;margin-bottom:4px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail h3 .tag{background:#ebf1fe;border-radius:2px;color:#3e71f6;display:inline-block;font-size:12px;height:20px;line-height:20px;margin-left:7px;margin-top:4px;padding:0 8px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail h3 i{font-style:normal;margin:0 12px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail h3 .time{color:#9399a6;font-family:fontDIN;font-size:14px;font-weight:400}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .reply-content{background:#f9f9fa;border-radius:2px;color:#9399a6;font-size:16px;margin-bottom:12px;margin-top:17px;padding:10px 15px;word-break:break-word}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .content{color:#17233f;font-size:16px;margin-bottom:12px;word-break:break-word}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action{height:23px;line-height:23px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span{color:#9399a6;cursor:pointer;float:left;margin-right:20px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span:hover i{color:#818797}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span.on,.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span.on i{color:#3e71f6}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span i{color:#c5c8cf;float:left;margin-right:6px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .action span b{font-weight:400}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .textarea-hide{margin-top:25px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .textarea-hide .top{margin-bottom:10px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .textarea-hide .top textarea{background:#fff;border:1px solid #e5e5e5;border-radius:2px;box-sizing:border-box;color:#17233f;height:78px;outline:0;padding:12px 15px;resize:none;width:100%}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .textarea-hide .bot .publish-btn{background:#3e71f6;border-radius:2px;color:#fff;cursor:pointer;display:inline-block;font-weight:400;height:32px;line-height:32px;text-align:center;width:110px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail .textarea-hide .bot span{color:#9399a6;cursor:pointer;line-height:35px;margin-right:16px}.detail-content-new .Page .detail-content-left .comment-List-box .more-toggle{color:#17233f;cursor:pointer;display:inline-block;padding-bottom:25px;padding-right:20px;position:relative}.detail-content-new .Page .detail-content-left .comment-List-box .more-toggle:hover,.detail-content-new .Page .detail-content-left .comment-List-box .more-toggle:hover i{color:#3e71f6}.detail-content-new .Page .detail-content-left .comment-List-box .more-toggle i{color:#9399a6;position:absolute;right:0;top:-2px;transform:rotate(-90deg);-ms-transform:rotate(-90deg);-moz-transform:rotate(-90deg);-webkit-transform:rotate(-90deg);-o-transform:rotate(-90deg)}.detail-content-new .Page .detail-content-left .pagination{font-size:12px;margin:60px auto 0;text-align:center}.detail-content-new .Page .detail-content-left .pagination li{border-radius:2px;color:#666;display:inline-block;font-size:14px;height:30px;line-height:30px;margin:0 6px;overflow:hidden;text-align:center}.detail-content-new .Page .detail-content-left .pagination li.disabled,.detail-content-new .Page .detail-content-left .pagination li.disabled:hover{color:#333;cursor:default;font-size:12px;padding:0}.detail-content-new .Page .detail-content-left .pagination li:last-child.last.disabled{color:#999;font-size:12px}.detail-content-new .Page .detail-content-left .pagination li a{background:#f3f4f5;color:#666;display:block;font-family:fontDIN;height:30px;line-height:30px;padding:0;text-align:center;width:30px}.detail-content-new .Page .detail-content-left .pagination li a:hover{background:#edeeef;color:#333;font-size:14px}.detail-content-new .Page .detail-content-left .pagination li.active a{color:#333;font-size:14px}.detail-content-new .Page .detail-content-left .pagination li.active b{background:#4973ee;color:#fff;display:block;font-family:fontDIN;font-weight:400;line-height:30px;padding:0;text-align:center;width:30px}.detail-content-new .Page .detail-content-left .pagination li.first a,.detail-content-new .Page .detail-content-left .pagination li.first_page a,.detail-content-new .Page .detail-content-left .pagination li.last a,.detail-content-new .Page .detail-content-left .pagination li.last_page a,.detail-content-new .Page .detail-content-left .pagination li.next a,.detail-content-new .Page .detail-content-left .pagination li.prev a{text-align:center;width:30px}.detail-content-new .Page .detail-content-left .pagination li.next:hover a,.detail-content-new .Page .detail-content-left .pagination li.prev:hover a{font-size:14px}.detail-content-new .Page .detail-content-left .pagination li:last-child.last.noLink{background:0;border-color:transparent;margin:0}.detail-content-new .Page .detail-content-left .pagination li.prev a{background:#f3f4f5;font-family:iconblog;font-size:20px;height:30px;width:30px}.detail-content-new .Page .detail-content-left .pagination li.prev a:before{content:""}.detail-content-new .Page .detail-content-left .pagination li.prev a:hover{background:#edeeef;font-size:20px}.detail-content-new .Page .detail-content-left .pagination li.next a{background:#f3f4f5;font-family:iconblog;font-size:20px;height:30px;width:30px}.detail-content-new .Page .detail-content-left .pagination li.next a:before{content:""}.detail-content-new .Page .detail-content-left .pagination li.next a:hover{background:#edeeef;font-size:20px}.detail-content-new .Page .detail-content-left .pagination li.first,.detail-content-new .Page .detail-content-left .pagination li.last{margin:0 2px}.detail-content-new .Page .detail-content-left .pagination li.first a,.detail-content-new .Page .detail-content-left .pagination li.last a{background:0;width:auto}.detail-content-new .Page .detail-content-left .recommend-about li{border-bottom:1px solid #f5f5f5;list-style:none;padding:17px 0 16px;position:relative}.detail-content-new .Page .detail-content-left .recommend-about li .list-subjuct{background:#e9f1ff;border-radius:16px;bottom:17px;box-sizing:border-box;display:none;height:22px;line-height:22px;max-width:250px;overflow:hidden;padding:0 13px;position:absolute;right:0;text-overflow:ellipsis;white-space:nowrap;z-index:2}.detail-content-new .Page .detail-content-left .recommend-about li .list-subjuct .fontsizeIcon{color:#3e71f6;font-size:14px}.detail-content-new .Page .detail-content-left .recommend-about li .list-subjuct span{color:#3e71f6;font-family:PingFang SC;font-size:12px;font-weight:500}.detail-content-new .Page .detail-content-left .recommend-about li:last-child{border-bottom:none}.detail-content-new .Page .detail-content-left .recommend-about li a,.detail-content-new .Page .detail-content-left .recommend-about li:hover .list-subjuct{display:block}.detail-content-new .Page .detail-content-left .recommend-about li .pic{background:#f7f7f8;float:right;height:45px;line-height:45px;margin-left:15px;margin-top:6px;position:relative;text-align:center;width:74px}.detail-content-new .Page .detail-content-left .recommend-about li .pic img{border-radius:2px;bottom:0;left:0;margin:auto;max-height:45px;max-width:74px;position:absolute;right:0;top:0}.detail-content-new .Page .detail-content-left .recommend-about li .pic span{background:rgba(0,0,0,.4);border-radius:1px;bottom:4px;color:#f5f5f5;font-size:12px;height:16px;line-height:20px;position:absolute;right:4px;text-align:center;width:25px}.detail-content-new .Page .detail-content-left .recommend-about li .tit{color:#17233f;font-size:18px;font-weight:700;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .recommend-about li .tit em{color:#cd4b50;font-style:normal}.detail-content-new .Page .detail-content-left .recommend-about li .tit:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .recommend-about li .tit:hover em{color:#cd4b50}.detail-content-new .Page .detail-content-left .recommend-about li p{color:#585858;margin-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .recommend-about li p em{color:#cd4b50;font-style:normal}.detail-content-new .Page .detail-content-left .recommend-cloumn li{border-bottom:1px solid #f5f5f5;list-style:none;padding:25px 0}.detail-content-new .Page .detail-content-left .recommend-cloumn li:last-child{border-bottom:none}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dt{float:left;height:116px;margin-right:10px;width:213px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dt img{height:116px;width:213px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd{float:left;width:580px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd h3{font-weight:400;line-height:1;margin:5px 0 10px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd h3:hover .cloumn-subscribe{display:block}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd h3 .title{display:inline-block;max-width:455px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd h3 .title:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd h3 .cloumn-subscribe{color:#3e71f6;display:none;float:right;font-size:12px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .dec{color:#9399a6;line-height:1;margin-bottom:17px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .mess{color:#9399a6;line-height:1;margin-bottom:20px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .mess b{background:#9399a6;display:inline-block;height:14px;margin:0 6px;width:1px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .price{line-height:1}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .price span{color:#17233f;padding-right:18px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd .price strong{color:#9399a6;font-weight:400}.detail-content-new .Page .detail-content-left .recommend-course{margin:20px 0 15px}.detail-content-new .Page .detail-content-left .recommend-course li{float:left;list-style:none;margin-left:21px;width:185px}.detail-content-new .Page .detail-content-left .recommend-course li:first-child{margin-left:0}.detail-content-new .Page .detail-content-left .recommend-course li:nth-child(5),.detail-content-new .Page .detail-content-left .recommend-course li:nth-child(6){display:none}.detail-content-new .Page .detail-content-left .recommend-course li .pic{height:112px;width:185px}.detail-content-new .Page .detail-content-left .recommend-course li .pic img{border-radius:5px;height:112px;width:185px}.detail-content-new .Page .detail-content-left .recommend-course li .main{padding-top:12px}.detail-content-new .Page .detail-content-left .recommend-course li .main h3{font-weight:400;line-height:1;margin-bottom:10px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-left .recommend-course li .main h3 a{color:#17233f}.detail-content-new .Page .detail-content-left .recommend-course li .main h3 a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-left .recommend-course li .main .num{color:#b4b8c1;line-height:1;margin-bottom:13px}.detail-content-new .Page .detail-content-left .recommend-course li .main .price{color:#17233f;font-size:12px;line-height:1}.detail-content-new .Page .detail-content-right{float:right;width:302px}.detail-content-new .Page .detail-content-right .common-spacing{padding:8px 20px 12px}.detail-content-new .Page .detail-content-right .common-sub-title{border-bottom:1px solid #f5f5f5;height:38px;line-height:38px}.detail-content-new .Page .detail-content-right .common-sub-title h2,.detail-content-new .Page .detail-content-right .common-sub-title strong{color:#333;display:inline-block;font-size:16px;max-width:215px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .common-sub-title .more{color:#999}.detail-content-new .Page .detail-content-right .fix-table{box-sizing:border-box;position:fixed;top:100px;width:298px}.detail-content-new .Page .detail-content-right .user-intr{padding:25px 10px}.detail-content-new .Page .detail-content-right .user-intr .top .avatar .avatar-img{height:65px;margin:0 auto;position:relative;width:65px}.detail-content-new .Page .detail-content-right .user-intr .top .avatar .avatar-img img{border-radius:65px;height:65px;width:65px}.detail-content-new .Page .detail-content-right .user-intr .top .username{color:#333;font-size:16px;font-weight:700;line-height:1;padding:13px 0 8px;text-align:center}.detail-content-new .Page .detail-content-right .user-intr .top .username a{color:#333;display:inline-block;font-size:16px;height:22px;line-height:22px}.detail-content-new .Page .detail-content-right .user-intr .top .username a .blog-user{display:inline-block;height:22px;max-width:185px;overflow:hidden;text-overflow:ellipsis;vertical-align:bottom;white-space:nowrap;word-break:break-all}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon{display:inline-block;margin-left:-2px;position:relative;vertical-align:middle}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul{display:inline-block}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li{float:left;height:18px;list-style:none;margin-left:5px;width:16px}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_identity.png") no-repeat;background-size:16px auto;display:inline-block;height:18px;width:16px}.webp .detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_identity.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.qybz{background-position:0 -80px}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.zj{background-position:0 -60px}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.bkzx{background-position:0 0}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.tjzx{background-position:0 -40px}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.js{background-position:0 -20px}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.zjbz{background-position:0 -108px;background-size:14px auto}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.top_hr{background-position:0 -88px;background-size:14px auto}.detail-content-new .Page .detail-content-right .user-intr .top .username .icon ul li a.mrzx{background-position:-6px -257px;background-size:28px auto}.detail-content-new .Page .detail-content-right .user-intr .bottom{margin-bottom:8px}.detail-content-new .Page .detail-content-right .user-intr .bottom.loading{background:url("https://s2.51cto.com/images/100/blog/old/loading1.gif") no-repeat center 36px}.detail-content-new .Page .detail-content-right .user-intr .bottom .lines{background:#f5f5f5;height:1px;margin:0 10px}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name{text-align:center}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name:first-child ul{padding-top:0}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name:last-child ul{padding-top:11px}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul{display:inline-block;line-height:1;padding:18px 0 6px;width:100%}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li{float:left;font-size:14px;list-style:none;text-align:center;width:25%}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .num{color:#17233f;font-family:fontDIN-medium;font-size:18px;padding-bottom:8px}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .num a{color:#17233f;font-family:fontDIN-medium;font-size:18px}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .num a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .num span{font-size:17px}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .label-name{color:#9399a6;font-size:12px;line-height:1}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .label-name a{color:#9399a6}.detail-content-new .Page .detail-content-right .user-intr .bottom .num-name ul li .label-name a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-right .user-intr .operating{margin-top:8px;padding-left:16px}.detail-content-new .Page .detail-content-right .user-intr .operating.operating2 button{display:block;float:none;margin:0 auto}.detail-content-new .Page .detail-content-right .user-intr .operating button{background-color:#fff;background-image:none!important;border:1px solid #789bf9;border-radius:0;border-radius:2px;cursor:pointer;float:left;height:35px;line-height:35px;padding:0;width:110px}.detail-content-new .Page .detail-content-right .user-intr .operating button:hover{border:1px solid #3d62f5}.detail-content-new .Page .detail-content-right .user-intr .operating button:hover a,.detail-content-new .Page .detail-content-right .user-intr .operating button:hover a i{color:#3d62f5}.detail-content-new .Page .detail-content-right .user-intr .operating button a{color:#3e71f6;display:inline-block;font-size:14px;height:35px;line-height:35px}.detail-content-new .Page .detail-content-right .user-intr .operating button a i{float:left;font-size:18px;margin-right:5px}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow{background:#3e71f6;border:none;border-radius:0;border-radius:2px;box-sizing:border-box;color:#666;color:#fff;float:left;font-size:14px;height:35px;line-height:35px;margin:0 25px 0 0;text-align:center;width:110px}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.in,.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.mutual{background:0;border:1px solid #789bf9;color:#3e71f6;padding-left:0}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.on{background:#3e71f6;font-family:iconblog;padding-left:30px;text-align:left}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.on:before{content:"";font-size:20px;vertical-align:bottom}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.on:hover{background:#3d62f5}.detail-content-new .Page .detail-content-right .user-intr .operating .checkFollow.off{background:#ddd;padding-left:0}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list{margin-bottom:10px}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a{box-sizing:border-box;color:#6c7486;display:block;height:48px;line-height:48px;padding-left:25px;position:relative;width:100%}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a:after{background:url("https://s2.51cto.com/images/100/blog/list/css_sprites_0913.png") no-repeat;content:"";height:90px;position:absolute;right:-5px;top:-20px;transform:scale(.45);width:90px}.webp .detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a:after{background-image:url("https://s2.51cto.com/images/100/blog/list/css_sprites_0913.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.new{background:url("https://s2.51cto.com/images/100/blog/list/blist1.png") no-repeat;background-size:100% 100%}.webp .detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.new{background-image:url("https://s2.51cto.com/images/100/blog/list/blist1.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.new:after{background-position:-2px -2px}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.week{background:url("https://s2.51cto.com/images/100/blog/list/blist3.png") no-repeat;background-size:100% 100%}.webp .detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.week{background-image:url("https://s2.51cto.com/images/100/blog/list/blist3.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.week:after{background-position:-96px -2px}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.default{background:url("https://s2.51cto.com/images/100/blog/list/blist2.png") no-repeat;background-size:100% 100%}.webp .detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.default{background-image:url("https://s2.51cto.com/images/100/blog/list/blist2.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a.default:after{background-position:-2px -96px}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list a b{font-family:fontDIN-bold;font-weight:700;margin-left:5px}.detail-content-new .Page .detail-content-right .blogger-ranking .rank-list:last-child{margin-bottom:0}.detail-content-new .Page .detail-content-right .identify-list{padding:0 14px 5px}.detail-content-new .Page .detail-content-right .identify-list .item{padding-bottom:5px;text-align:center}.detail-content-new .Page .detail-content-right .identify-list .item span{box-sizing:border-box;display:inline-block;height:25px;line-height:25px;max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .identify-list .item span i{float:left;height:22px;margin-right:4px;width:20px}.detail-content-new .Page .detail-content-right .identify-list .item.item1 span i{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png") no-repeat;background-position:-5px -5px;background-size:90px auto}.webp .detail-content-new .Page .detail-content-right .identify-list .item.item1 span i{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .identify-list .item.item2 span i{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png") no-repeat;background-position:-35px -5px;background-size:90px auto}.webp .detail-content-new .Page .detail-content-right .identify-list .item.item2 span i{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .identify-list .item.item3 span i{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png") no-repeat;background-position:-65px -5px;background-size:90px auto}.webp .detail-content-new .Page .detail-content-right .identify-list .item.item3 span i{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .identify-list .item.item4 span i{background:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png") no-repeat;background-position:-5px -37px;background-size:90px auto}.webp .detail-content-new .Page .detail-content-right .identify-list .item.item4 span i{background-image:url("https://s2.51cto.com/images/100/blog/sprites/sprites_detail_new.png?x-oss-process=image/format,webp")}.detail-content-new .Page .detail-content-right .medal-list{display:flex;flex-wrap:wrap;margin-bottom:6px;padding:0 11px}.detail-content-new .Page .detail-content-right .medal-list .item{cursor:pointer;display:flex;height:42.5px;justify-content:center;margin-bottom:9px;width:52px}.detail-content-new .Page .detail-content-right .medal-list .item img{height:40.5px;width:36px}.detail-content-new .Page .detail-content-right .common-list{padding:7px 0 3px}.detail-content-new .Page .detail-content-right .common-list.common-list-dot li .title a,.detail-content-new .Page .detail-content-right .common-list.common-list-dot li a.title{padding-left:10px}.detail-content-new .Page .detail-content-right .common-list.common-list-dot li .title a:before,.detail-content-new .Page .detail-content-right .common-list.common-list-dot li a.title:before{background:#b9bdc5;border-radius:4px;content:"";display:inline-block;height:4px;left:0;position:absolute;top:10px;width:4px}.detail-content-new .Page .detail-content-right .common-list#classification-list li a:hover span{color:#3e71f6}.detail-content-new .Page .detail-content-right .common-list#classification-list li span:first-child{display:inline-block;max-width:206px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .common-list#classification-list li span:last-child{color:#5c6578;float:right}.detail-content-new .Page .detail-content-right .common-list li{list-style:none;padding:5px 0}.detail-content-new .Page .detail-content-right .common-list li:last-child{padding-bottom:0}.detail-content-new .Page .detail-content-right .common-list li a{color:#17233f;display:block;font-size:14px;font-weight:400;overflow:hidden;position:relative;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .common-list li a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-right .common-list li .dec{color:#9399a6;font-size:12px;overflow:hidden;padding-left:10px;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .common-list li .dec a{color:#9399a6;font-size:12px}.detail-content-new .Page .detail-content-right .common-list-lines{background:#f5f5f5;height:1px;margin-bottom:15px;margin-top:15px}.detail-content-new .Page .detail-content-right .years{color:#17233f}.detail-content-new .Page .detail-content-right .years a{color:#17233f;display:inline-block}.detail-content-new .Page .detail-content-right .years a:hover{color:#3e71f6}.detail-content-new .Page .detail-content-right .months{margin-top:10px}.detail-content-new .Page .detail-content-right .months a{border:1px solid #f0f0f0;display:block;float:left;height:55px;margin:0 20px 10px 0;text-align:center;width:48px}.detail-content-new .Page .detail-content-right .months a:hover span,.detail-content-new .Page .detail-content-right .months a:hover strong{color:#3e71f6}.detail-content-new .Page .detail-content-right .months a:nth-child(4n){margin-right:0}.detail-content-new .Page .detail-content-right .months a span{color:#9399a6;display:block;margin-bottom:2px;padding:1px 0;position:relative}.detail-content-new .Page .detail-content-right .months a span:after{background:#f5f5f5;bottom:0;content:"";height:1px;left:50%;margin-left:-12px;position:absolute;width:25px}.detail-content-new .Page .detail-content-right .months a strong{display:block;font-weight:400}.detail-content-new .Page .detail-content-right .nowYear{margin-top:15px}.detail-content-new .Page .detail-content-right .otherYear .years a{float:left;padding:3px 0;width:50%}.detail-content-new .Page .detail-content-right .directory{max-height:402px;overflow-x:hidden}.detail-content-new .Page .detail-content-right .directory::-webkit-scrollbar{display:none}.detail-content-new .Page .detail-content-right .directory-list{border-left:2px solid #f8f8f9;margin-bottom:20px;margin-top:12px;padding-left:12px}.detail-content-new .Page .detail-content-right .directory-list li{list-style:none}.detail-content-new .Page .detail-content-right .directory-list li:first-child{margin-bottom:7px}.detail-content-new .Page .detail-content-right .directory-list li span{cursor:pointer;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .directory-list li:hover span{color:#3e71f6}.detail-content-new .Page .detail-content-right .directory-list li.lv1{margin-bottom:7px}.detail-content-new .Page .detail-content-right .directory-list li.lv1.on .title span{color:#3e71f6}.detail-content-new .Page .detail-content-right .directory-list li.lv1.on .title:before{background:#3e71f6;content:"";display:inline-block;height:18px;left:-14px;position:absolute;top:3px;width:2px}.detail-content-new .Page .detail-content-right .directory-list li.lv1 .title{font-weight:400;position:relative}.detail-content-new .Page .detail-content-right .directory-list li.lv2,.detail-content-new .Page .detail-content-right .directory-list li.lv3{margin-bottom:5px}.detail-content-new .Page .detail-content-right .directory-list li.lv2.on .title span,.detail-content-new .Page .detail-content-right .directory-list li.lv3.on .title span{color:#3e71f6}.detail-content-new .Page .detail-content-right .directory-list li.lv2 .title,.detail-content-new .Page .detail-content-right .directory-list li.lv3 .title{font-size:12px;font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-right .directory-list li.lv2 .title:before,.detail-content-new .Page .detail-content-right .directory-list li.lv3 .title:before{background:#b9bdc5;border-radius:4px;content:"";float:left;height:4px;margin:8px 6px 0 0;width:4px}.detail-content-new .Page .detail-content-right .directory-list li.lv2.lv3,.detail-content-new .Page .detail-content-right .directory-list li.lv3.lv3{margin-left:12px}.detail-content-new .Page .detail-content-right .label-list .tag-text{color:#9399a6;display:inline;font-size:13px;line-height:35px;margin-right:15px;word-break:break-all}.detail-content-new .Page .detail-content-right .label-list .tag-text:hover{color:#7d828c}.detail-content-new .Page .detail-content-right .label-list .tag-text:nth-child(3n-2){color:#b6c2bb}.detail-content-new .Page .detail-content-right .label-list .tag-text:nth-child(3n-2):hover{color:#9ea8a2}.detail-content-new .Page .detail-content-right .label-list .tag-text:nth-child(3n-1){color:#e0d6d1}.detail-content-new .Page .detail-content-right .label-list .tag-text:nth-child(3n-1):hover{color:#c7beb9}.detail-content-new .Page .detail-content-directory{display:none;position:fixed;width:302px}.detail-content-new .Page .detail-content-directory .common-spacing{padding:8px 20px 12px}.detail-content-new .Page .detail-content-directory .common-sub-title{border-bottom:1px solid #efeff1;height:38px;line-height:38px}.detail-content-new .Page .detail-content-directory .common-sub-title h2,.detail-content-new .Page .detail-content-directory .common-sub-title strong{color:#333;display:inline-block;font-size:16px;max-width:215px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .detail-content-directory .common-sub-title .iconblog{color:#9399a6;cursor:pointer;float:right;font-size:12px;font-weight:700}.detail-content-new .Page .detail-content-directory .common-sub-title .iconblog:hover{color:#313d54}.detail-content-new .Page .common-content-directory.fix-table{box-sizing:border-box;position:fixed;top:100px;width:298px}.detail-content-new .Page .common-content-directory .directory{max-height:402px;overflow-x:hidden}.detail-content-new .Page .common-content-directory .directory::-webkit-scrollbar{display:none}.detail-content-new .Page .common-content-directory .directory-list{border-left:2px solid #f8f8f9;margin-bottom:20px;margin-top:12px;padding-left:12px}.detail-content-new .Page .common-content-directory .directory-list li{list-style:none}.detail-content-new .Page .common-content-directory .directory-list li:first-child{margin-bottom:7px}.detail-content-new .Page .common-content-directory .directory-list li span{cursor:pointer;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .common-content-directory .directory-list li:hover span{color:#3e71f6}.detail-content-new .Page .common-content-directory .directory-list li.lv1{margin-bottom:7px}.detail-content-new .Page .common-content-directory .directory-list li.lv1.on .title span{color:#3e71f6}.detail-content-new .Page .common-content-directory .directory-list li.lv1.on .title:before{background:#3e71f6;content:"";display:inline-block;height:18px;left:-14px;position:absolute;top:3px;width:2px}.detail-content-new .Page .common-content-directory .directory-list li.lv1 .title{font-weight:400;position:relative}.detail-content-new .Page .common-content-directory .directory-list li.lv2,.detail-content-new .Page .common-content-directory .directory-list li.lv3,.detail-content-new .Page .common-content-directory .directory-list li.lv4{margin-bottom:5px}.detail-content-new .Page .common-content-directory .directory-list li.lv2.on .title span,.detail-content-new .Page .common-content-directory .directory-list li.lv3.on .title span,.detail-content-new .Page .common-content-directory .directory-list li.lv4.on .title span{color:#3e71f6}.detail-content-new .Page .common-content-directory .directory-list li.lv2 .title,.detail-content-new .Page .common-content-directory .directory-list li.lv3 .title,.detail-content-new .Page .common-content-directory .directory-list li.lv4 .title{font-size:12px;font-weight:400;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.detail-content-new .Page .common-content-directory .directory-list li.lv2 .title:before,.detail-content-new .Page .common-content-directory .directory-list li.lv3 .title:before,.detail-content-new .Page .common-content-directory .directory-list li.lv4 .title:before{background:#b9bdc5;border-radius:4px;content:"";float:left;height:4px;margin:8px 6px 0 0;width:4px}.detail-content-new .Page .common-content-directory .directory-list li.lv2.lv3,.detail-content-new .Page .common-content-directory .directory-list li.lv3.lv3,.detail-content-new .Page .common-content-directory .directory-list li.lv4.lv3{margin-left:12px}.detail-content-new .Page .common-content-directory .directory-list li.lv2.lv4,.detail-content-new .Page .common-content-directory .directory-list li.lv3.lv4,.detail-content-new .Page .common-content-directory .directory-list li.lv4.lv4{margin-left:24px}.action-aside{left:50%;margin:-265px 0 0 -703px;position:fixed;top:50%;z-index:999}.action-aside.action-aside-right{bottom:200px;left:auto;margin:0;right:30px;top:auto}.action-aside ul li{list-style:none;margin-bottom:15px;position:relative}.action-aside ul li:last-child{margin-bottom:0}.action-aside ul li.share:hover .bdsharebuttonbox{display:block}.action-aside ul li.scrollTop{display:none}.action-aside ul li strong{display:inline-block;font-weight:400;position:relative;text-align:center;width:80px}.action-aside ul li strong:hover a{box-shadow:0 8px 16px 0 rgba(23,35,63,.12)}.action-aside ul li strong.is-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan1.png") no-repeat top;background-size:47px 47px;display:inline-block;height:47px;width:47px}.webp .action-aside ul li strong.is-praise a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan1.png?x-oss-process=image/format,webp")}.action-aside ul li strong.is-praise.on a i{background:url("https://s2.51cto.com/images/100/blog/old/zan2.png") no-repeat top;background-size:47px 47px}.webp .action-aside ul li strong.is-praise.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan2.png?x-oss-process=image/format,webp")}.action-aside ul li strong.is-praise.no-praise a i,.action-aside ul li strong.is-praise.on.no-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan.gif") no-repeat top;background-size:47px 47px}.action-aside ul li strong.favorites-opt a i{background:url("https://s2.51cto.com/images/100/blog/old/ping1.png") no-repeat top;background-size:47px 47px;display:inline-block;height:47px;width:47px}.webp .action-aside ul li strong.favorites-opt a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping1.png?x-oss-process=image/format,webp")}.action-aside ul li strong.favorites-opt.on a i{background:url("https://s2.51cto.com/images/100/blog/old/ping2.png") no-repeat top;background-size:47px 47px}.webp .action-aside ul li strong.favorites-opt.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping2.png?x-oss-process=image/format,webp")}.action-aside ul li strong.favorites-opt.no-favorites a i,.action-aside ul li strong.favorites-opt.on.no-favorites a i{background:url("https://s2.51cto.com/images/100/blog/old/ping.gif") no-repeat top;background-size:47px 47px}.action-aside ul li strong.sign{cursor:pointer}.action-aside ul li strong.sign a{position:relative}.action-aside ul li strong.sign a .dot{background:#e90d31;border-radius:50%;content:"";display:inline-block;height:5px;position:absolute;right:13px;top:10px;width:5px}.action-aside ul li strong.sign a i{font-size:24px}.action-aside ul li strong a{background:#fff;border:1px solid #f4f4f4;border-radius:47px;box-shadow:0 8px 16px 0 rgba(23,35,63,.04);display:block;height:47px;line-height:47px;margin:0 auto 5px;width:47px}.action-aside ul li strong a i{color:#8a92a5}.action-aside ul li strong a i.blogshang,.action-aside ul li strong a i.blogzan{font-size:19px}.action-aside ul li strong a i.blogshou{font-size:21px}.action-aside ul li strong a i.blogpinglun{font-size:19px}.action-aside ul li strong a i.blogfen{font-size:23px}.action-aside ul li strong a i.blogzhi{font-size:18px}.action-aside ul li strong a i.bloggengduo{font-size:24px}.action-aside ul li strong span{color:#979da9;line-height:1}.action-aside ul li strong span b{font-weight:400}.action-aside ul li strong.on a i{color:#3e71f6}.action-aside ul li strong .new{background:#e31436;border-radius:10px 10px 10px 2px;color:#fff;display:inline-block;font-size:12px;font-style:normal;line-height:1;padding:2px 5px;position:absolute;right:-7px;top:-4px}.bdsharebuttonbox{display:none;left:75px;padding-top:20px;position:absolute;top:-89px;z-index:99}.bdsharebuttonbox .ins{background:#fff;border-radius:2px;box-shadow:0 8px 16px 0 hsla(0,0%,40%,.1);padding:10px 0 8px;position:absolute;text-align:center;width:90px}.bdsharebuttonbox .ins a{background:0;color:#2e3d56;display:inline-block;float:none;font-size:12px;height:32px;line-height:32px;margin:0 0 2px;padding-left:0;width:55px}.bdsharebuttonbox .ins a:hover,.bdsharebuttonbox .ins a:hover i{color:#3e71f6}.bdsharebuttonbox .ins a i{color:#818797;float:left;margin-right:8px}.bdsharebuttonbox .ins a i.blogfenxiangweibo{font-size:19px}.bdsharebuttonbox .ins a i.blogfenxiangqq{font-size:18px}.bdsharebuttonbox .ins a i.blogfenxiangweixin{font-size:20px}.bdsharebuttonbox .ins img{height:59px;width:59px}.Footer{margin-top:60px!important}.footer{background-color:#f7f8f9;color:#9fa3a7;font-size:12px;padding:36px 0;text-align:center}.set-right{-webkit-animation:right-to-left .3s linear;animation:right-to-left .3s linear;right:0;z-index:9}.reset-right,.set-right{float:none!important;position:absolute;top:0}.reset-right{-webkit-animation:left-to-right .3s linear;animation:left-to-right .3s linear;right:326px}.arrowing{animation-duration:1s;-webkit-animation-duration:1s;animation-iteration-count:infinite;-webkit-animation-iteration-count:infinite;animation-name:arrowing;-webkit-animation-name:arrowing}@keyframes right-to-left{0%{right:326px}to{right:0}}@-webkit-keyframes right-to-left{0%{right:326px}to{right:0}}@keyframes left-to-right{0%{right:0}to{right:326px}}@-webkit-keyframes left-to-right{0%{right:0}to{right:326px}}@keyframes arrowing{0%{transform:scale(1)}50%{transform:scale(.9)}to{transform:scale(1)}}@-webkit-keyframes arrowing{0%{-webkit-transform:scale(1)}50%{-webkit-transform:scale(.9)}to{-webkit-transform:scale(1)}}*{-webkit-font-smoothing:antialiased;font-family:-apple-system,Helvetica Neue,Helvetica,Arial,PingFang SC,Hiragino Sans GB,WenQuanYi Micro Hei,Microsoft Yahei,sans-serif;margin:0;padding:0}a{color:#333;text-decoration:none}textarea{resize:none}button,input,input[type=button]{outline:0}button,input[type=button]{background-color:#00baf2;border:none;color:#fff;cursor:pointer;line-height:30px;padding:0 20px}button:hover,input[type=button]:hover{opacity:.9}img{border:none}body{color:#333;font-size:14px;line-height:1.75;text-align:left}.disabled{background:#999}.del{text-decoration:line-through}.clear{height:0;overflow:hidden;width:0}.clear,.clearfix{clear:both}.clearfix:after{clear:both;content:"";display:block}.Left,.fl{float:left}.Right,.fr{float:right}.tl{text-align:left}.tc{text-align:center}.tr{text-align:right}.fb{font-weight:700}.bluebg{background:#00baf2}.blue{color:#00baf2}.redbg{background:#ff4a56}.red{color:#ff4a56}.red:hover{color:#950b11}.Mask,.mask{background:rgba(0,0,0,.8);display:none;height:100%;left:0;position:fixed;top:0;width:100%;z-index:9999}label{margin-bottom:0!important}.blue-btn{background:#4285f4;border:1px solid #4285f4;color:#fff;cursor:pointer}.disabled-btn{background:#ddd;border:1px solid #ddd;color:#fff}.blue-btn:hover{background:#3c78dc;border:1px solid #3c78dc;color:#fff}.gray-btn{background:#fff;border:1px solid #ccc;color:#333;cursor:pointer}.gray-btn:hover{background:#e6e6e6;color:#000}.editor-side-new{font-size:16px;word-break:break-all}.editor-side-new blockquote{background:#f2f5f9;border-left:.2rem solid #4285f4;color:#819198;margin:1rem 0;padding:.8rem 1.2rem}.editor-side-new blockquote h1:last-child,.editor-side-new blockquote h2:last-child,.editor-side-new blockquote h3:last-child,.editor-side-new blockquote h4:last-child,.editor-side-new blockquote h5:last-child,.editor-side-new blockquote h6:last-child,.editor-side-new blockquote li:last-child,.editor-side-new blockquote ol:last-child,.editor-side-new blockquote p:last-child,.editor-side-new blockquote ul:last-child{margin-bottom:0}.editor-side-new blockquote p{font-size:16px;font-weight:400;line-height:1.7}@media screen and (max-width:1440px){.body_padding{padding-bottom:115px}.action-aside{z-index:999}.action-aside ul li{display:inline-block;margin:0 20px;width:80px}.action-aside ul li .bdsharebuttonbox{display:none;left:73px;padding-top:20px;position:absolute;top:-134px;z-index:99}.action-aside ul li strong{width:80px}.action-aside ul li strong span{font-size:12px}.action-aside ul li strong.is-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan1.png") no-repeat 50%;background-size:41px 41px;display:inline-block;height:35px;width:35px}.webp .action-aside ul li strong.is-praise a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan1.png?x-oss-process=image/format,webp")}.action-aside ul li strong.is-praise.on a i{background:url("https://s2.51cto.com/images/100/blog/old/zan2.png") no-repeat 50%;background-size:41px 41px}.webp .action-aside ul li strong.is-praise.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/zan2.png?x-oss-process=image/format,webp")}.action-aside ul li strong.is-praise.no-praise a i,.action-aside ul li strong.is-praise.on.no-praise a i{background:url("https://s2.51cto.com/images/100/blog/old/zan.gif") no-repeat 50%;background-size:41px 41px}.action-aside ul li strong.favorites-opt a i{background:url("https://s2.51cto.com/images/100/blog/old/ping1.png") no-repeat 50%;background-size:41px 41px;display:inline-block;height:35px;width:35px}.webp .action-aside ul li strong.favorites-opt a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping1.png?x-oss-process=image/format,webp")}.action-aside ul li strong.favorites-opt.on a i{background:url("https://s2.51cto.com/images/100/blog/old/ping2.png") no-repeat 50%;background-size:41px 41px}.webp .action-aside ul li strong.favorites-opt.on a i{background-image:url("https://s2.51cto.com/images/100/blog/old/ping2.png?x-oss-process=image/format,webp")}.action-aside ul li strong.favorites-opt.no-favorites a i,.action-aside ul li strong.favorites-opt.on.no-favorites a i{background:url("https://s2.51cto.com/images/100/blog/old/ping.gif") no-repeat 50%;background-size:41px 41px}.action-aside ul li strong a{border-radius:35px;height:35px;line-height:35px;margin-bottom:0;width:35px}.action-aside ul li strong a i{color:#8a92a5}.action-aside ul li strong a i.blogshang,.action-aside ul li strong a i.blogzan{font-size:15px}.action-aside ul li strong a i.blogshou{font-size:17px}.action-aside ul li strong a i.blogpinglun{font-size:15px}.action-aside ul li strong a i.blogfen{font-size:19px}.action-aside ul li strong a i.blogzhi{font-size:13px}.action-aside ul li strong a i.bloggengduo{font-size:18px}.action-aside ul li strong.sign{cursor:pointer}.action-aside ul li strong.sign a{position:relative}.action-aside ul li strong.sign a .dot{background:#e90d31;border-radius:50%;content:"";display:inline-block;height:4px;position:absolute;right:9px;top:8px;width:4px}.action-aside ul li strong.sign a i{font-size:18px}.action-aside ul li strong .new{transform:scale(.85);-webkit-transform:scale(.85);-moz-transform:scale(.85)}.action-aside-left{bottom:0;left:0;margin:0;position:fixed;text-align:center;top:auto;width:100%}.action-aside-left .inner{margin:0 auto;width:1200px}.action-aside-left .inner ul{background:#fff;box-shadow:0 0 14px -2px #efefef;padding:10px 0;width:874px}.action-aside.action-aside-right{z-index:999}}@media screen and (max-width:1199px){.Page{width:1000px}.detail-content-new .fixtitle h3{width:720px}.detail-content-new .Page .detail-content-left{width:674px}.detail-content-new .Page .detail-content-left .main-content{max-width:none}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box{width:549px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail{width:554px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd{float:left;width:380px}.detail-content-new .Page .detail-content-left .recommend-course{display:none}.action-aside-left .inner{width:1000px}.action-aside-left .inner ul{width:674px}.action-aside-left .inner ul li{margin:0 14px}}@media screen and (min-width:1200px)and (max-width:1580px){.Page{width:1200px}}@media screen and (min-width:1581px)and (max-width:1767px){.Page{width:1390px}.detail-content-new .Page .detail-content-left,.detail-content-new .fixtitle h3{width:1064px}.detail-content-new .Page .detail-content-left .main-content{max-width:none}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box{width:939px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail{width:944px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd{float:left;width:771px}.detail-content-new .Page .detail-content-left .recommend-course li{margin-left:27px;width:177px}.detail-content-new .Page .detail-content-left .recommend-course li:nth-child(5){display:block}.detail-content-new .Page .detail-content-left .recommend-course li .pic,.detail-content-new .Page .detail-content-left .recommend-course li .pic img{height:107px;width:177px}.action-aside{margin:-300px 0 0 -799px}}@media screen and (min-width:1768px){.Page{width:1580px}.detail-content-new .Page .detail-content-left,.detail-content-new .fixtitle h3{width:1254px}.detail-content-new .Page .detail-content-left .main-content{max-width:none}.detail-content-new .Page .detail-content-left .comment-textarea .textarea-box{width:1129px}.detail-content-new .Page .detail-content-left .comment-List-box .comment-List .comment-detail{width:1134px}.detail-content-new .Page .detail-content-left .recommend-cloumn li dl dd{float:left;width:961px}.detail-content-new .Page .detail-content-left .recommend-course li{margin-left:24px;width:177px}.detail-content-new .Page .detail-content-left .recommend-course li:nth-child(5),.detail-content-new .Page .detail-content-left .recommend-course li:nth-child(6){display:block}.detail-content-new .Page .detail-content-left .recommend-course li .pic,.detail-content-new .Page .detail-content-left .recommend-course li .pic img{height:107px;width:177px}.action-aside{margin:-300px 0 0 -892px}}.cto-mermaid svg{cursor:zoom-in}.artical-content-bak a img{cursor:pointer!important}.imgViewDom{background:hsla(0,0%,100%,.8);display:none;height:100%;left:0;overflow:auto;position:fixed;text-align:center;top:0;width:100%;z-index:99999999}.imgViewDom .img-content{height:100%;margin:0 auto;overflow:auto;position:relative;width:100%}.imgViewDom .small-img{cursor:zoom-out;left:50%!important;margin:0 auto;position:absolute!important;text-align:center;top:50%!important;transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-webkit-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%)}.cto-mermaid.gantt .titleText,.imgViewDom svg .titleText{font-size:24px!important}.cto-mermaid.gantt .section0,.imgViewDom svg .section0{fill:#e2eafe!important}.cto-mermaid.gantt .task0,.cto-mermaid.gantt .task1,.cto-mermaid.gantt .task2,.cto-mermaid.gantt .task3,.imgViewDom svg .task0,.imgViewDom svg .task1,.imgViewDom svg .task2,.imgViewDom svg .task3{fill:#9eb8fa!important;stroke-width:0!important}.cto-mermaid.gantt .grid .tick line,.imgViewDom svg .grid .tick line{stroke:#c1c5cc;opacity:.5}.cto-mermaid.gantt .grid .tick text,.imgViewDom svg .grid .tick text{font-size:14px!important}.cto-mermaid.seq .actor,.imgViewDom svg .actor{stroke-width:0;fill:#f3f5f9!important}.cto-mermaid.seq .messageText,.cto-mermaid.seq .noteText>tspan,.cto-mermaid.seq text.actor>tspan,.imgViewDom svg .messageText,.imgViewDom svg .noteText>tspan,.imgViewDom svg text.actor>tspan{fill:#1a233d!important}.cto-mermaid.seq .messageText,.imgViewDom svg .messageText{stroke:none!important}.cto-mermaid.seq .note,.imgViewDom svg .note{stroke-width:0}#result img{height:auto!important}.modal-bg{background:rgba(0,0,0,.45);bottom:0;display:none;height:100vh;top:0;width:100%}.modal-bg,.modal-bg .modal{left:0;position:fixed;right:0;z-index:99999}.modal-bg .modal{background:#fff;border-radius:10px;margin:0 auto;max-height:450px;min-height:150px;overflow:hidden;padding:45px 46px;top:30%;width:450px}.modal-bg .modal .iconblog{color:#acacac;cursor:pointer;font-size:12px;position:absolute;right:12px;top:12px}.modal-bg .modal .content{-webkit-line-clamp:6;-webkit-box-orient:vertical;color:#999;display:-webkit-box;overflow:hidden;position:relative;text-overflow:ellipsis}.modal-bg .modal .content .modal-title{color:#333}.modal-bg .modal .tip-box{color:#333;margin-bottom:50px;margin-top:20px}.modal-bg .modal .tip-box .zhiCustomBtn{color:#2d66fe}.modal-bg .modal .know-box{text-align:center}.modal-bg .modal .know-box .know-btn{border:1px solid #333;border-radius:4px;cursor:pointer;display:inline-block;height:40px;line-height:40px;text-align:center;width:150px}#Msg_Question .question{padding-bottom:22px}#Msg_Question h6{font-size:20px;margin-bottom:20px}#Msg_Question p{text-align:center}#Msg_Question .msgbtn{text-align:center!important}#Msg_Question .msgbtn button{margin-bottom:20px;margin-right:0!important}.blog-link{margin-top:.7rem}.tag-box{display:flex;margin-top:10px}.tag-box .tag-item{background:#f2f2f2;border-radius:4px;color:#6a6a6a;cursor:pointer;font-size:12px;font-weight:400;line-height:18px;margin-right:10px;padding:0 9px}.tag-box .tag-item a{color:#858585}.tag-box .tag-item:hover{background:#f1f5ff;color:#3e71f6}.tag-box .tag-item:hover a{color:#3e71f6}.tag,.type{border-radius:2px;color:#fff;font-size:12px;height:18px;line-height:18px;margin-right:6px;padding:0 3px;text-align:center}.tag.type_top,.type.type_top{background:#f8b57e}.tag.type_recommend,.type.type_recommend{background:#f3c352}.tag.type_original,.type.type_original{background:#99cea4}.tag.type_reprint,.type.type_reprint{background:#84c4fa}.tag.type_translation,.type.type_translation{background:#fea4a4}.tag.type_selected,.type.type_selected{background:#84a0fa}.infomessage{background:linear-gradient(144deg,#fdf6e8,#f9eddd);border-radius:4px;color:#ae7518;display:inline-block;font-size:12px;font-weight:500;line-height:21px;margin-right:10px;padding-left:28px;padding-right:9px;position:relative}.infomessage .blogIcon{display:inline-block;left:5px;position:absolute}.infomessage b{font-weight:400;margin-right:5px}.list-subjuct{align-items:center;background:#f1f5ff;border-radius:10px;box-sizing:border-box;display:flex;height:18px;line-height:18px;margin-left:21px;padding:0 8px 0 3px}.list-subjuct .fontsizeIcon{color:#3e71f6;font-size:14px}.list-subjuct span{color:#3e71f6;font-size:12px;font-weight:500;margin-left:3px;max-width:197px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.blogIcon{background-image:url("https://s2.51cto.com/blog/sprites/homeIcon12x.png");background-size:137px 80px}.webp .blogIcon{background-image:url("https://s2.51cto.com/blog/sprites/homeIcon12x.png?x-oss-process=image/format,webp")}.blogIcon-article{background-position:0 0;height:40px;width:40px}.blogIcon-huifu-2{background-position:-96px -18px;height:14px;width:20px}.blogIcon-icon_huati{background-position:-80px -39px;height:14px;width:14px}.blogIcon-icon_rank{background-position:-80px -18px;height:21px;width:16px}.blogIcon-icon_xiewenzhang{background-position:-94px -39px;height:14px;width:14px}.blogIcon-identity{background-position:-40px 0;height:40px;width:40px}.blogIcon-liulan{background-position:-116px -18px;height:14px;width:20px}.blogIcon-manager{background-position:0 -40px;height:40px;width:40px}.blogIcon-more1{background-position:-108px -39px;height:10px;width:6px}.blogIcon-more2{background-position:-114px -39px;height:10px;width:6px}.blogIcon-move{background-position:-40px -40px;height:40px;width:40px} 
+</style>
+             <style type="text/css">#waf_nc_block{position:fixed;_position:absolute;width:100%;height:100%;top:0;bottom:0;left:0;z-index:99999}.waf-nc-mask{background:#000;opacity:.5;filter:alpha(opacity=50);width:100%;height:100%}.waf-nc-wrapper{width:348px;height:236px;text-align:center;position:absolute;top:50%;left:50%;margin-top:-160px;margin-left:-200px;margin-bottom:16px;background:#fff;box-shadow:0 0 10px 0 rgba(0,0,0,0.15)}.waf-nc-title{margin-top:28px;font-size:24px;font-weight:500;color:#181818;letter-spacing:1.71px;text-align:center}.waf-nc-description{margin-top:24px;font-size:14px;color:#666;text-align:center}.waf-nc-traceid-class{margin-top:8px;font-size:12px;color:#999;text-align:center}#nocaptcha{margin-left:24px;margin-top:14px}.nc_bg{background:#fff3ea!important}.btn_slide{background:#ff6a00!important;border:0!important;color:#fff!important;width:48px!important;height:48px!important;font-size:30px;font-weight:900!important;line-height:48px!important}.btn_ok{background:#ff6a00!important;border:0!important;color:#fff!important;width:48px!important;height:48px!important;font-size:30px;font-weight:900!important;line-height:48px!important}.nc_scale{background:rgba(241,241,242,1)!important;height:48px!important}.nc-lang-cnt{height:48px!important;margin-left:10px!important;line-height:48px!important;font-size:14px!important}</style><script src="vi_files/awsc.js"></script><link rel="stylesheet" href="vi_files/pc_detailinline.min.css"><link rel="stylesheet" href="vi_files/pc_detail.min.css"><script charset="utf-8" src="vi_files/jquery-2.2.4.min.js"></script><script charset="utf-8" src="vi_files/interaction_iframe.js"></script><script charset="utf-8" src="vi_files/swiper-4.5.3.js"></script><script charset="utf-8" src="vi_files/svga.min.js"></script><script charset="utf-8" src="vi_files/pc_base.min.js"></script><script charset="utf-8" src="vi_files/mprime.js"></script><script charset="utf-8" src="vi_files/main.js"></script><script charset="utf-8" src="vi_files/pc_detail.min.js"></script><link href="https://static2.51cto.com/edu/blog/blog-static/static/css/pc_base.min.css?v=449f0f91d6" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/css/pc_newIndexinline.min.css?v=56c90a8906" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/css/pc_newListinline.min.css?v=a1051ef99f" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/css/pc_topicdetailinline.min.css?v=9d49bae709" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/js/pc_index_js.min.js?v=5331660aa2" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/js/pc_topic.min.js?v=873da4210c" rel="prefetch"><link href="https://static2.51cto.com/edu/blog/blog-static/static/js/pc_topicdetail.min.js?v=901345e7d5" rel="prefetch"><link href="vi_files/iframe.css" rel="stylesheet"></head>
+<body class="webp">
+<img src="vi_files/share_default.webp" style="width:0; height:0; position:absolute;" border="0">
+<div class="Content-box" style="min-height: 612px;">
+    <div class="Content detail-content-new">
+    <!--关注-->
+    <div class="fixtitle">
+        <div class="clearfix Page">
+            <h3 class="fl title">debian原装vi命令使用方法</h3>
+            <div class="messbox fr">
+                                                            <a id="checkFollow1_6787568" class="follow-1 checkFollow on">关注</a>
+                                                    <a href="https://blog.51cto.com/bomby" class="name" target="_blank" title="重新启航">重新启航</a>
+                <strong>
+                    <a href="https://blog.51cto.com/bomby" class="avatar" target="_blank">
+                        <img class="is-vip-img is-vip-img-4" data-uid="6787568" src="vi_files/noavatar_middle_002.gif">
+                    </a>
+                </strong>
+            </div>
+        </div>
+    </div>
+    <!--大模块引入-->
+    <div class="clearfix Page" id="page_center" style="position:relative;">
+                <article class="detail-content-left">
+    <div class="common-section common-spacing mb30 article-detail">
+    <div class="title">
+        <h1>debian原装vi命令使用方法</h1>
+         
+                <span class="original">原创</span>
+        
+    </div>
+    <div class="messbox">
+        <p class="clearfix mess-line1">
+            <a class="fl" href="https://blog.51cto.com/bomby" rel="nofollow">重新启航</a>
+            <time class="fl" pubdate="2023-05-21 13:55:49">2023-05-21 13:55:49</time>
+                            <span class="fl">博主文章分类：<a href="https://blog.51cto.com/bomby/category1" target="_blank">linux</a></span>
+                                        <span class="fr" id="copyright-btn">©著作权</span>
+                    </p>
+        <p class="clearfix mess-tag">
+                            <strong class="fl">
+                    <em class="fl">文章标签</em>
+                                            <a href="https://blog.51cto.com/topic/vi.html" class="fl shence_tag" target="_blank">vi</a>
+                                            <a href="https://blog.51cto.com/topic/debian.html" class="fl shence_tag" target="_blank">debian</a>
+                                    </strong>
+                                        <strong class="fl">
+                    <em class="fl">文章分类</em>
+                                                                                                                    <a href="https://blog.51cto.com/nav/ops" class="fl shence_cate" target="_blank" rel="nofollow">运维</a>
+                                                            </strong>
+                                <strong class="fl"><em class="fl">阅读数</em><b class="fl">2880</b></strong></p>
+    </div>
+                <div class="copytext" id="copytext">
+             ©著作权归作者所有：来自51CTO博客作者重新启航的原创作品，请联系作者获取转载授权，否则将追究法律责任        </div>
+            <div class="article-content-wrap">
+                    <div class="artical-content-bak main-content">
+                <div class="con artical-content editor-preview-side" id="markdownContent"><p>Debian 中的 vi 是一个非常流行的文本编辑器，它可以用来编辑 Unix/Linux 系统中的文本文件。下面是一些常用的 vi 命令：<br>
+vi 命令：进入 vi 编辑模式，按下 i 键开始输入，按下 Esc 键退出编辑模式。<br>
+:set 命令：设置编辑器的选项，例如设置插入模式为 i。<br>
+:i 命令：开始输入当前光标所在的行。<br>
+:r 命令：从当前位置开始查找并替换文本。<br>
+:c 命令：删除当前光标所在行。<br>
+:v 命令：进入插入模式，此时光标所在位置会出现一个红色的波浪线，可以输入插入的文本。<br>
+:a 命令：在当前位置插入一个新的空行。<br>
+:x 命令：删除当前光标所在行并将光标移到行首。<br>
+:b 命令：删除当前光标所在的列。<br>
+:d 命令：删除当前光标所在的字符串。<br>
+:j 命令：撤销上一个操作。<br>
+:k 命令：恢复上一个操作。<br>
+:n 命令：新建一个新的空行。<br>
+:p 命令：跳转到指定的行。<br>
+:q 命令：退出 vi 编辑模式。<br>
+这些命令可以帮助你进入和退出 vi 编辑模式，查找和替换文本，删除行和字符串，以及进行其他基本操作。</p>
+</div>
+            </div>
+        
+        <div id="asideoffset"></div>
+        <div class="clearfix label-list">
+
+            <!--            <span>本文包含：</span>-->
+            <!--          -->
+            <!--            <a href="" target="_blank"></a>-->
+
+        </div>
+            </div>
+    <div class="action-box">
+        <ul>
+                            <li>
+                    <strong class="appreciate-btn  appreciate-open ">
+                        <a href="javascript:;"><i class="iconblog blogshang"></i></a>
+                        <span>打赏</span>
+                    </strong>
+                </li>
+                        <li>
+                <strong class="is-praise  " type="1" blog_id="6319241" userid="6787568">
+                    <a href="javascript:;"><i></i></a>
+                    <span><b class="praise-num"></b>赞</span>
+                </strong>
+            </li>
+            <li>
+                <strong class="favorites-opt">
+                    <a href="javascript:;"><i></i></a>
+                    <span><b class="favorites-num"></b>收藏</span>
+                </strong>
+            </li>
+            <li>
+                <strong class="Topraise">
+                    <a href="javascript:;"><i class="iconblog blogpinglun"></i></a>
+                    <span><b class="comments_num"></b>评论</span>
+                </strong>
+            </li>
+            <li class="share">
+                <strong class="">
+                    <a href="javascript:;"><i class="iconblog blogfen"></i></a>
+                    <span>分享</span>
+                </strong>
+            </li>
+                            <li>
+                    <strong class="article-report">
+                        <a href="javascript:;"><i class="iconblog blogjubaobeifen report-icon" style="font-size: 23px"></i></a>
+                        <span>举报</span>
+                    </strong>
+                </li>
+                    </ul>
+    </div>
+    <div class="clearfix lists">
+                    <p class="fl"><span>上一篇：</span><a href="https://blog.51cto.com/bomby/6319230">debian安装后无法更新报cdrom://[Debian GNU/Linux xxxxx buster Release' does not have a Release file</a></p>
+                            <p class="fr"><span>下一篇：</span><a href="https://blog.51cto.com/bomby/6319305">debian更新慢更换为国内源</a></p>
+            </div>
+    <div class="text-aticle">
+
+    </div>
+</div>
+    
+
+<div class="common-section common-spacing mb30 comment-box" id="comment">
+    <div class="comment-textarea clearfix">
+        <div class="avatar">
+            <a href="https://blog.51cto.com/" class="header-img" target="_blank">
+                <img src="vi_files/noavatar_middle.gif">
+            </a>
+        </div>
+        <div class="textarea-box">
+            <div class="textarea-show clearfix">
+                <span>提问和评论都可以，用心的回复会被更多人看到</span>
+                <strong>评论</strong>
+            </div>
+            <div class="textarea-hide">
+                <div class="top">
+                    <textarea class="textareadiv textareadiv-publish" name="" id="textareadiv-publish" placeholder="提问和评论都可以，用心的回复会被更多人看到和认可" maxlength="500"></textarea>
+                </div>
+                <div class="bot clearfix">
+                    <strong class="fr publish-btn" flag="1" id="publish-btn">发布评论</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="comment-num" style="display:none;">
+        <strong>全部评论</strong>
+        <span>(<b id="CommentNum"></b>)</span>
+        <span class="fr sort" type="up_num" order="0"><i class="iconblog blogzuire"></i>最热</span>
+        <span class="fr sort on" type="create_time" order="0"><i class="iconblog blogzuixinblogzuixin"></i>最新</span>
+    </div>
+    <div class="comment-List-box"></div>
+</div>
+    
+    <section class="common-section common-spacing mb30">
+        <div class="clearfix common-sub-title">
+            <strong>相关文章</strong>
+        </div>
+        <ul class="recommend-about">
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_11578583/2455159" data-report-query="xiangguantuijian&amp;01" target="_blank" class="title">
+                            <div class="tit">vi使用方法</div>
+                            <p> 
+编辑命令使用方法vi/vim1)编辑命令模式信息命令模式:可以实现特殊功能操作编辑模式:可以编辑文件内容信息底行模式:可以输入特殊命令信息
+wqqwq!q!命令模式-i-&gt;编辑模式-esc-&gt;命令模式命令模式-:-&gt;底行模式-esc-&gt;命令模式2)命令模式
+---&gt;编辑模式i---在光标所在位置直接进入编辑模式I---将光标切换到行首进入编辑模式a---在光标所在位置下一</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         vi                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_285274/1688267" data-report-query="xiangguantuijian&amp;02" target="_blank" class="title">
+                            <div class="tit">Vi使用方法总结</div>
+                            <p> 
+1、vi的配置文
+件：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+全局配置/etc
+/vimrc&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+用户配置文件：~</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         vi                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/dason/504415" data-report-query="xiangguantuijian&amp;03" target="_blank" class="title">
+                            <div class="tit">linux-Vi使用方法</div>
+                            <p> &nbsp;&nbsp;&nbsp;&nbsp; 
+vi编辑器是所有Unix及Linux系统下标准的编辑器，它的强大不逊色于任何最新的文本编辑器，这里只是简单地介绍一下它的用法和一小部分指令。由于
+对Unix及Linux系统的任何版本，vi编辑器是完全相同的，因此您可以在其他任何介绍vi的地方进一步了解它。Vi也是Linux中最基本的文本编
+辑器，学会它后，您将在Linux的世界里畅行无阻。1、</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         linux                                    </span>
+                                                                    <span class="tag-item">
+                                         职场                                    </span>
+                                                                    <span class="tag-item">
+                                         vi                                    </span>
+                                                                    <span class="tag-item">
+                                         休闲                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/xjsunjie/397215" data-report-query="xiangguantuijian&amp;04" target="_blank" class="title">
+                            <div class="tit">solaris 的vi使用方法</div>
+                            <p> solaris 的vi使用方法</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         职场                                    </span>
+                                                                    <span class="tag-item">
+                                         solaris                                    </span>
+                                                                    <span class="tag-item">
+                                         休闲                                    </span>
+                                                                    <span class="tag-item">
+                                         vi使用方法                                     </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_358845/1693398" data-report-query="xiangguantuijian&amp;05" target="_blank" class="title">
+                            <div class="tit">vi/vim 使用方法讲解</div>
+                            <p> vi/vim 基本使用方法 
+vi编辑器是所有Unix及Linux系统下标准的编辑器，它的强大不逊色于任何最新的文本编辑器，这里只是简单地介绍一下它的用法和一小部分指令。由于
+对Unix及Linux系统的任何版本，vi编辑器是完全相同的，因此您可以在其他任何介绍vi的地方进一步了解它。Vi也是Linux中最基本的文本编
+辑器，学会它后，您将在Linux的世界里畅行无阻。1、vi的基本概念 &nbsp;</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         linux                                     </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/qibingtuan/1966701" data-report-query="xiangguantuijian&amp;06" target="_blank" class="title">
+                            <div class="tit">vi和vim使用方法</div>
+                            <p> vim 命令详解vi: Visual Interface 可视化接口vim: 
+VI iMproved	
+VI增强版全屏编辑器，模式化编辑器vim模式：编辑模式(命令模式)输入模式末行模式模式转换：编辑--&gt;输
+入：&nbsp;&nbsp;&nbsp;&nbsp;i:&nbsp;在当前光标所在字符的前面，转为输入模
+式；&nbsp;&nbsp;&nbsp;&nbsp;a:&nbsp;在当前光标所</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         vi和vim使用方法                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/mrxiong/689409" data-report-query="xiangguantuijian&amp;07" target="_blank" class="title">
+                            <div class="tit">solaris 10 vi使用方法</div>
+                            <p> 
+vi介
+绍&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&amp;nbs</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         职场                                    </span>
+                                                                    <span class="tag-item">
+                                         休闲                                    </span>
+                                                                    <span class="tag-item">
+                                         使用简介                                    </span>
+                                                                    <span class="tag-item">
+                                         solaris vi                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_15127626/4666695" data-report-query="xiangguantuijian&amp;08" target="_blank" class="title">
+                            <div class="tit">vi 命令 使用方法</div>
+                            <p> &nbsp; 
+一、Unix编辑器概述&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+编辑器是使用计算机的重要工具之中的一个，在各种操作系统中，编辑器都是不可缺少的部件。Unix及其类似的ix 
+操作系统系列中，为方便各种用户在各个不同的环境中使用，提供了一系列的ex编辑器，包含 ex, edit,ed 和 
+vi.当中ex,edit,ed都是行编辑器，如今已非常少有人使用，Unix提供他们的原因是考虑到满足各种用户特别是某些终端用户的须要。值得</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         输入模式                                    </span>
+                                                                    <span class="tag-item">
+                                         搜索                                    </span>
+                                                                    <span class="tag-item">
+                                         unix                                    </span>
+                                                                    <span class="tag-item">
+                                         寄存器                                    </span>
+                                                                    <span class="tag-item">
+                                         保存文件                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_15054039/4630889" data-report-query="xiangguantuijian&amp;09" target="_blank" class="title">
+                            <div class="tit">vi/vim 基本使用方法</div>
+                            <p> 文档操作vi/vim 基本使用方法本文介绍了vi 
+(vim)的基本使用方法，但对于普通用户来说基本上够了！鉴于关注vi退出的人挺多的，在此强调一下退出的方法：按Esc到命令格式，然后按住
+Shift输入两个大写Z就行了vi编辑器是所有Unix及Linux系统下标准的编辑器，它的强大不逊色于任何最新的文...</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         命令行                                    </span>
+                                                                    <span class="tag-item">
+                                         保存文件                                    </span>
+                                                                    <span class="tag-item">
+                                         命令模式                                    </span>
+                                                                    <span class="tag-item">
+                                         文件保存                                    </span>
+                                                                    <span class="tag-item">
+                                         linux系统                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_15067247/4282730" data-report-query="xiangguantuijian&amp;10" target="_blank" class="title">
+                            <div class="tit">vi使用方法详细介绍</div>
+                            <p> 知识点梳理来源于黑马教育 
+vi编辑器是所有Unix及Linux系统下标准的编辑器，它的强大不逊色于任何最新的文本编辑器，这里只是简单地介绍一下它的用法和一小部分指令。由于
+对Unix及Linux系统的任何版本，vi编辑器是完全相同的，因此您可以在其他任何介绍vi的地方进一步了解它。Vi也是Linux中 ...</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         完美世界手游                                    </span>
+                                                                    <span class="tag-item">
+                                         命令行                                    </span>
+                                                                    <span class="tag-item">
+                                         搜索                                    </span>
+                                                                    <span class="tag-item">
+                                         打开文件                                    </span>
+                                                                    <span class="tag-item">
+                                         保存文件                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_15064630/4032442" data-report-query="xiangguantuijian&amp;11" target="_blank" class="title">
+                            <div class="tit">Vi/Vim 替换使用方法</div>
+                            <p> vi/vim 中可以使用 ：s 
+命令来替换字符串。该命令有很多种不同细节使用方法，可以实现复杂的功能，记录几种在此，方便以后查询。 ：s/vivian/sky/ 
+替换当前行第一个 vivian 为 sky ：s/vivian/sky/g 替换当前行所有 vivian 为 s...</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         字符串                                    </span>
+                                                                    <span class="tag-item">
+                                         分隔符                                    </span>
+                                                                    <span class="tag-item">
+                                         搜索                                    </span>
+                                                                    <span class="tag-item">
+                                         unix                                    </span>
+                                                                    <span class="tag-item">
+                                         linux                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_16213590/8755967" data-report-query="xiangguantuijian&amp;12" target="_blank" class="title">
+                            <div class="tit">anaconda安装好了Python闪退 anaconda的spyder闪退</div>
+                            <p> Spyder版本号 [Spyder5.1.5&nbsp; 
+&nbsp;Python 3.9.12]1. 
+闪退时的现象早上还在用spyder分析数据，到下午再打开电脑就发现spyder闪退，利用anaconda的prompt进行启动，发现如下报错：
+(base) PS C:\Users\LittleSun&gt; spyder
+Traceback (most recent call last):
+  </p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         python                                    </span>
+                                                                    <span class="tag-item">
+                                         开发语言                                    </span>
+                                                                    <span class="tag-item">
+                                         pyqt                                    </span>
+                                                                    <span class="tag-item">
+                                         闪退                                    </span>
+                                                                    <span class="tag-item">
+                                         项目文件                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_16213648/8759185" data-report-query="xiangguantuijian&amp;13" target="_blank" class="title">
+                            <div class="tit">processon画图接口Java process on怎么画图</div>
+                            <p> process 
+on绘图教程在学习和工作工程中常常会用到流程图，虽然用word、WPS(word processing 
+system)也能绘制流程图，但是使用方法较为复杂，操作起来也不是很方便，尤其是word的图片排版有时候让人很难受。 
+下面给大家介绍使用process on来绘制流程图，操作方法很简洁方便。 一、首先登录process on官网添加链接描述，可以看到界面如下： 
+process o</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         processon画图接口Java                                    </span>
+                                                                    <span class="tag-item">
+                                         process on 绘图教程                                    </span>
+                                                                    <span class="tag-item">
+                                         流程图                                    </span>
+                                                                    <span class="tag-item">
+                                         插入图片                                    </span>
+                                                                    <span class="tag-item">
+                                         连线                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_16099181/8761609" data-report-query="xiangguantuijian&amp;14" target="_blank" class="title">
+                            <div class="tit">Java爬虫爬取html数据怎么跳过验证 java爬虫识别验证码</div>
+                            <p> 题记 最近发现了springboot本身就集成了selenium-java 
+，就拿来研究了一下，分布式爬虫是很大的一个架构，也比较复杂，没做研究，还是对爬虫的客户端实现有点兴趣，就想着用java做一个小爬虫客户端，其实
+selenium是做测试的，不过来拿来做小爬虫还是不错的，能真实模拟用户，不用担心异步加载爬取不到，还有一些元素获取不方便，更值得一提的是
+selenium-java 提供的元素获取的</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         selenium-java                                    </span>
+                                                                    <span class="tag-item">
+                                         selenium                                    </span>
+                                                                    <span class="tag-item">
+                                         java                                    </span>
+                                                                    <span class="tag-item">
+                                         SpringBoot                                    </span>
+                                                                    <span class="tag-item">
+                                         Sqllite+mybatis                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_16099314/8761730" data-report-query="xiangguantuijian&amp;15" target="_blank" class="title">
+                            <div class="tit">sql server查询总数量最多 sql语句查询数量最多</div>
+                            <p> 以下只针对SQL 
+Server，其它数据库类型可能会不支持某些函数或函数名不同。聚合函数聚合函数又称合计函数、组函数、多行函数，它通常是用来获得字段的最大值
+max()、最小值min()、平均值avg()、值总和sum()、记录条数count()等结果的：select max([price]) as 
+'max price' from titles;--最大值
+select min([price]) </p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         sql server查询总数量最多                                    </span>
+                                                                    <span class="tag-item">
+                                         数据库                                    </span>
+                                                                    <span class="tag-item">
+                                         字段                                    </span>
+                                                                    <span class="tag-item">
+                                         聚合函数                                    </span>
+                                                                    <span class="tag-item">
+                                         G1                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                            <li>
+                    <div class="about-aticle-list">
+                        <a href="https://blog.51cto.com/u_16213660/8762017" data-report-query="" target="_blank" class="title">
+                            <div class="tit">jQuery网络科技公司网站头部设计代码 js网站设计</div>
+                            <p> 视频演示：  
+ 大作业演示 
+图片看效果：&nbsp;&nbsp;&nbsp;网站规划设计1.结构设计共设计3个HTML界面：一个登陆界面，一个注册界面，以及主页面；2.内容
+规划登陆界面包含logo，输入用户名，输入密码和登陆按钮。用一个div的小盒子css样式规定这个界面出现的位置，并通过css样式设置内元素的位置
+和样式；并设置背景视频和音乐。点击logo可以进入注册界面（注册界面按钮隐藏在lo</p>
+                        </a>
+                        <!-- 标签页 -->
+                                                    <div class="tag-box">
+                                                                    <span class="tag-item">
+                                         javascript                                    </span>
+                                                                    <span class="tag-item">
+                                         webstorm                                    </span>
+                                                                    <span class="tag-item">
+                                         html5                                    </span>
+                                                                    <span class="tag-item">
+                                         css                                    </span>
+                                                                    <span class="tag-item">
+                                         html                                    </span>
+                                                            </div>
+                                                                    </div>
+
+                </li>
+                    </ul>
+    </section>
+
+</article>
+        
+<aside class="detail-content-right">
+    <!--右上角统计-->
+    <section class="common-section common-spacing mb24 user-intr">
+        <div class="user-content">
+            <div class="top">
+                <div class="avatar">
+                    <div class="avatar-img">
+                        <a href="https://blog.51cto.com/bomby" target="_blank" rel="nofollow">
+                            <img class="is-vip-img is-vip-img-4" data-uid="6787568" src="vi_files/noavatar_middle_002.gif">
+                        </a>
+                    </div>
+                </div>
+                <div class="clearfix username">
+                    <a href="https://blog.51cto.com/bomby" target="_blank"><span class="blog-user" title="重新启航" style="max-width: 272px;">重新启航</span></a>
+                    <div class="icon">
+                        <ul class="clearfix detail-list"></ul>
+                    </div>
+                </div>
+            </div>
+            <div class="identify-list"></div>
+            <div class="bottom" id="userStat"><div class="num-name num-top">
+                <ul class="first-num">
+                    <li>
+                        <div class="num"><a href="https://blog.51cto.com/bomby/original" target="_blank" rel="nofollow">94</a></div>
+                        <div class="label-name"><a href="https://blog.51cto.com/bomby/original" target="_blank" rel="nofollow">原创</a></div>
+                    </li>
+                    <li>
+                        <div class="num">16.6<span>万</span></div>
+                        <div class="label-name">人气</div>
+                    </li>
+                    <li>
+                        <div class="num"><a href="https://blog.51cto.com/bomby/followers" target="_blank" rel="nofollow">5<span></span></a></div>
+                        <div class="label-name"><a href="https://blog.51cto.com/bomby/followers" target="_blank" rel="nofollow">粉丝</a></div>
+                    </li>
+                    <li>
+                        <div class="num">0<span></span></div>
+                        <div class="label-name">评论</div>
+                    </li>
+                </ul>
+            </div>
+            <div class="lines"></div>
+            <div class="num-name num-bottom">
+                <ul>
+                    <li>
+                        <div class="num"><a href="https://blog.51cto.com/bomby/translate" target="_blank" rel="nofollow">0</a></div>
+                        <div class="label-name"><a href="https://blog.51cto.com/bomby/translate" target="_blank" rel="nofollow">翻译</a></div>
+                    </li>
+                    <li>
+                        <div class="num"><a href="https://blog.51cto.com/bomby/reproduce" target="_blank" rel="nofollow">9</a></div>
+                        <div class="label-name"><a href="https://blog.51cto.com/bomby/reproduce" target="_blank" rel="nofollow">转载</a></div>
+                    </li>
+                    <li>
+                        <div class="num"><a href="https://blog.51cto.com/bomby/following" target="_blank" rel="nofollow">2</a></div>
+                        <div class="label-name"><a href="https://blog.51cto.com/bomby/following" target="_blank" rel="nofollow">关注</a></div>
+                    </li>
+                    <li>
+                        <div class="num">4</div>
+                        <div class="label-name">收藏</div>
+                    </li>
+                    <div class="clear"></div>
+                </ul>
+            </div></div>
+            <div id="medalListBox" class="medal-list"><div title="博闻强识" class="medalItem item"><img src="vi_files/a8ef82362559226c848000f191ce5a08f03207.webp"></div><div title="持之以恒" class="medalItem item"><img src="vi_files/b67592a476d24a33731174926f050c7209f5df.webp"></div><div title="锋芒毕露" class="medalItem item"><img src="vi_files/f6f53e943b8feeab330770a0ec42efed855946.webp"></div><div title="周更新秀" class="medalItem item"><img src="vi_files/27b6f8c407c224d7b58171977cc2d5929bfc5b.webp"></div><div title="挑战自我" class="medalItem item"><img src="vi_files/03ea5c8040c00c2cbaf04751aae5540380427a.webp"></div><div title="打卡萌新" class="medalItem item"><img src="vi_files/73018cb72d1e136625d840df807c30a4444228.webp"></div><div title="知名人士" class="medalItem item"><img src="vi_files/15ab11299b3053d6c281582e1acf449c18b312.webp"></div><div title="崭露头角" class="medalItem item"><img src="vi_files/31b28da6607cbc93cd900122f89b19420ac8c5.webp"></div><div title="自成一派" class="medalItem item"><img src="vi_files/81ba9de79b69d05f4333211abd2d0d4a008a05.webp"></div><div title="初学乍练" class="medalItem item"><img src="vi_files/e6f51ba16aff6795ae8301531aecaf9001d3b3.webp"></div></div>
+            <div class="operating clearfix ">
+                                                            <a id="checkFollow2_6787568" class="follow-1 checkFollow on" rel="nofollow">关注</a>
+                                                    <button class="sx" data="https://home.51cto.com/space?uid=6787568" id="ToSx"><a href="javascript:;" rel="nofollow"><i class="iconblog blogsixin"></i>私信</a></button>
+            </div>
+        </div>
+    </section>
+    
+    <!-- 分类列表 -->
+            <section class="common-section common-spacing mb24">
+            <div class="clearfix common-sub-title">
+                <strong title="分类列表">分类列表</strong>
+                                    <a href="https://blog.51cto.com/bomby/classify" target="_blank" class="fr more">更多</a>
+                            </div>
+            <ul class="common-list" id="classification-list">
+                                    <li>
+                        <a href="https://blog.51cto.com/bomby/category1.html" target="_blank" title="#  linux"><span># linux</span><span>62篇</span></a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/bomby/category2.html" target="_blank" title="#  python"><span># python</span><span>10篇</span></a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/bomby/category3.html" target="_blank" title="#  数据库"><span># 数据库</span><span>23篇</span></a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/bomby/category5.html" target="_blank" title="#  docker"><span># docker</span><span>3篇</span></a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/bomby/category7.html" target="_blank" title="#  it运维"><span># it运维</span><span>4篇</span></a>
+                    </li>
+                            </ul>
+        </section>
+        <!-- 近期文章 -->
+            <section class="common-section common-spacing mb24">
+            <div class="clearfix common-sub-title">
+                <strong title="近期文章">近期文章</strong>
+            </div>
+            <ul class="common-list" id="updatelist">
+                                    <li>
+                        <a href="https://blog.51cto.com/u_16280456/8777888" target="_blank" title="经典中医药纪录片">1.经典中医药纪录片</a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/u_16163442/8777992" target="_blank" title="Android应届生技术不够硬是应该提高技术还是先找实习?">2.Android应届生技术不够硬是应该提高技术还是先找实习?</a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/u_16196891/8778068" target="_blank" title="12/11每日总结">3.12/11每日总结</a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/u_16216184/8777974" target="_blank" title="通过可解释的集成深度学习学习蛋白质组范围内蛋白质结合位点的蛋白质语言">4.通过可解释的集成深度学习学习蛋白质组范围内蛋白质结合位点的蛋白质语言</a>
+                    </li>
+                                    <li>
+                        <a href="https://blog.51cto.com/u_16265376/8777963" target="_blank" title="Java之list集合的详细解析">5.Java之list集合的详细解析</a>
+                    </li>
+                            </ul>
+        </section>
+        <section class="common-fix">
+        <!-- 新人活动 -->
+        <a href="https://blog.51cto.com/activity-first-publish#xiang" target="_blank" class="ac-box mb24">
+            <img src="vi_files/DetailsBride.gif" alt="新人福利" lazy="loaded">
+        </a>
+
+        <!-- 文章目录 -->
+            </section>
+
+
+
+</aside>
+    </div>
+    <!--悬浮小菜单-->
+        <aside class="minmenu">
+        <ul>
+            <li class="signIn" signid="2">
+                <button id="signIn">  每日签到</button>
+            </li>
+            <li class="editArticle" editid="2">
+                <!-- <div class="new_bloger ">新人福利</div> -->
+                 <button id="editArticle"><i class="iconblog blogxiewz"></i></button>
+            </li>
+            <li class="feedback">
+              <a href="https://blog.51cto.com/feedback?utm_medium=rightsuspension" target="_blank">意见<br>反馈</a>
+            </li>
+            <li class="scrollToTop">
+              <i class="iconblog bloggengduo1"></i>
+            </li>
+        </ul>
+    </aside>
+</div>
+<!-- 蒙层 -->
+<div class="Mask"></div>
+
+<div class="report-dialog-root">
+    <div class="report-dialog-container">
+        <p class="report-dialog-title">举报文章</p>
+        <div class="report-type-container model-split_top" data-type="0" id="report-specific-type">
+            <p class="report-type-tit">请选择举报类型</p>
+            <div class="report-type-enmu">
+                <span class="report-type-item type-item_first" data-type="1">内容侵权</span>
+                <span class="report-type-item type-item_first item-split" data-type="2">涉嫌营销</span>
+                <span class="report-type-item type-item_first item-split" data-type="3">内容抄袭</span>
+                <span class="report-type-item type-item_first item-split" data-type="4">违法信息</span>
+                <span class="report-type-item type-item_first item-split" data-type="5">其他</span>
+            </div>
+        </div>
+        <div class="report-type-container model-split_top report-hide-model" id="report-specific-reasons" data-type="0">
+            <p class="report-type-tit">具体原因</p>
+            <div class="report-type-enmu">
+                <span class="report-type-item type-item_second" data-type="1">包含不真实信息</span>
+                <span class="report-type-item type-item_second item-split" data-type="2">涉及个人隐私</span>
+            </div>
+        </div>
+        <div class="report-type-container model-split_top report-hide-model" id="report-original-link">
+            <p class="report-type-tit">原文链接（必填）</p>
+            <input type="text" placeholder="请输入被侵权的原文链接" class="report-orgin_input">
+        </div>
+        <div class="report-type-container model-split_top textarea-content">
+            <p class="report-type-tit">补充说明</p>
+            <textarea maxlength="200" class="report-reason_textarea" placeholder="请详细描述您的举报内容" id="report-more-info"></textarea>
+            <p class="report-textarea-tip"><span class="tip-left">0</span><span>/200</span></p>
+        </div>
+        <div class="report-type-container">
+            <p class="report-type-tit">上传截图</p>
+            <div class="report-img-container">
+                <i class="iconblog blogtianjiabeifen report-add-icon"></i>
+                <input type="file" accept="image/jpg,image/jpeg,image/png" name="file" class="repot-btn-select" onchange="selectImg(this)">
+            </div>
+            <p class="report-img_rule">格式支持JPEG/PNG/JPG，图片不超过1.9M</p>
+            <div class="report-img-show">
+                <img src="" alt="" id="report-img">
+                <div class="report-img-close">
+                    <i class="iconblog bloga-shanchutupian report-close-icon"></i>
+                </div>
+            </div>
+        </div>
+        <div class="report-btn-container">
+            <button class="report-btn-cancel">取消</button>
+            <button class="report-btn-concert">确认</button>
+        </div>
+        <div class="report-warm-tip report-hide-model">
+            已经收到您得举报信息，我们会尽快审核
+        </div>
+    </div>
+</div>
+<div class="imgViewDom disnone" style="display: none;">
+    <div class="img-content"></div>
+</div>
+<!--左边悬浮操作项-->
+<aside class="action-aside action-aside-left">
+    <div class="inner">
+        <ul>
+                            <li>
+                    <strong class="appreciate-btn  appreciate-open ">
+                        <a href="javascript:;"><i class="iconblog blogshang"></i></a>
+                        <span>打赏</span>
+                    </strong>
+                </li>
+                        <li>
+                <strong class="is-praise  " type="1" blog_id="6319241" userid="6787568">
+                    <a href="javascript:;"><i></i></a>
+                    <span><b class="praise-num"></b>赞</span>
+                </strong>
+            </li>
+            <li>
+                <strong class="favorites-opt">
+                    <a href="javascript:;"><i></i></a>
+                    <span><b class="favorites-num"></b>收藏</span>
+                </strong>
+            </li>
+            <li>
+                <strong class="Topraise">
+                    <a href="javascript:;"><i class="iconblog blogpinglun"></i></a>
+                    <span><b class="comments_num"></b>评论</span>
+                </strong>
+            </li>
+            <li class="share">
+                <strong class="">
+                    <a href="javascript:;"><i class="iconblog blogfen"></i></a>
+                    <span>分享</span>
+                </strong>
+            </li>
+        </ul>
+    </div>
+</aside>
+    <div class="modal-bg">
+         <div class="modal">
+            <i class="iconblog blogquxiao18 close-btn"></i>
+            <div class="content "></div>
+            <div class="tip-box">如有误判或任何疑问，可联系 <a href="javascript:;" class="zhiCustomBtn">「小助手微信：cto51cto」</a><span class="appeal_text">申诉及反馈</span>。</div>
+             <div class="know-box">
+                <span class="know-btn">我知道了</span>
+             </div>
+
+         </div>
+    </div>
+<div class="dialog-box">
+    <div class="mask"></div>
+    <div class="body">
+        <div id="close" class="close"></div>
+        <div id="medalListBox2"></div>
+    </div>
+</div>
+<div class="dialog-box-small">
+    <div class="mask"></div>
+    <div class="body">
+        <div id="close" class="close"></div>
+        <div id="medalBox2" class="medal-list">
+        </div>
+    </div>
+</div></div>
+  <header class="home-top">
+    <div class="Page">
+        <div class="top_box">
+            <div class="left_nav">
+                               <div class="item-lf "><a class="top" href="https://www.51cto.com/" target="_blank" rel="nofollow" data-id="1"> 51CTO首页                                </a></div>
+                               <div class="item-lf "><a class="top" href="https://www.51cto.com/dev?utm_source=hometop" target="_blank" rel="nofollow" data-id="2"> 内容精选                                </a></div>
+                               <div class="item-lf "><a class="top" href="https://blog.51cto.com/" target="_blank" rel="nofollow" data-id="3"> 博客                                </a></div>
+                               <div class="item-lf "><a class="subweb" href="https://edu.51cto.com/?utm_source=hometop" target="_blank" rel="nofollow" data-id="4"> 学堂                                </a></div>
+                               <div class="item-lf "><a class="subweb" href="https://e.51cto.com/?utm_platform=pc&amp;utm_medi-um=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar" target="_blank" rel="nofollow" data-id="5"> 精培                                </a></div>
+                               <div class="item-lf "><a class="subweb" href="https://b.51cto.com/index?utm_source=hometop" target="_blank" rel="nofollow" data-id="6"> 企业培训                                </a></div>
+                               <div class="item-lf "><a class="subweb" href="https://x.51cto.com/?www" target="_blank" rel="nofollow" data-id="7"> CTO训练营                                </a></div>
+                               <div class="item-lf "><a class="subweb" href="https://ost.51cto.com/?utm_source=hometop" target="_blank" rel="nofollow" data-id="9"> 鸿蒙开发者社区                                </a></div>
+                               <div class="item-lf "><a class="top" href="https://wot.51cto.com/?utm_source=dhl" target="_blank" rel="nofollow" data-id="10"> WOT全球技术创新大会                                </a></div>
+                           </div>
+            <div class="top_right">
+                <div class="item-rt"><a href="http://so.51cto.com/?keywords=&amp;sort=time" target="_blank" class="search-top" rel="nofollow"><i class="iconblog blogsou blog-search"></i></a></div>
+                <div class="item-rt"><span class="wechatlist" data-id="wechatImageList">公众号矩阵</span></div>
+                <div class="item-rt"><span class="applist" data-id="appImageList">移动端</span></div>
+
+            </div>
+        </div>
+    </div>
+    <div class="nav-more-container " style="height: 0px;">
+        <div class="Page nav-contant-box" style="height: 0px; z-index: 0;">
+                                                                        
+                                                           <div class="nav-contant " data-id="4" style="height: 0px; z-index: 0;">
+                                           <a href="https://edu.51cto.com/videolist/index.html?utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=dh" target="_blank">短视频</a>
+                                              <a href="https://edu.51cto.com/courselist/index-zh5.html?utm_source=hometop" target="_blank">免费课程</a>
+                                              <a href="https://edu.51cto.com/ranking/index.html?utm_source=hometop" target="_blank">课程排行</a>
+                                              <a href="https://e.51cto.com/ncamp/list?utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=13" target="_blank">直播课</a>
+                                              <a href="https://e.51cto.com/rk/?utm_platform=pc&amp;utm_medi-um=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=14" target="_blank">软考学堂</a>
+                                            </div>
+                                                                  <div class="nav-contant " data-id="5" style="height: 0px; z-index: 0;">
+                                           <a href="https://e.51cto.com/?utm_platform=pc&amp;utm_medi-um=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar" target="_blank">精品班</a>
+                                              <a href="https://e.51cto.com/wejob/list?pid=5&amp;utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=41" target="_blank">厂商认证</a>
+                                              <a href="https://e.51cto.com/wejob/list?pid=1&amp;utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=42" target="_blank">IT技术</a>
+                                              <a href="https://e.51cto.com/rk/?utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_xyzq_rightwzl&amp;rtm_frd=07&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=43" target="_blank">2024年软考</a>
+                                              <a href="https://e.51cto.com/wejob/list?pid=33&amp;utm_platform=pc&amp;utm_medium=51cto&amp;utm_source=zhuzhan&amp;utm_content=sy_topbar&amp;rtm_frd=44" target="_blank">PMP项目管理</a>
+                                              <a href="https://edu.51cto.com/rk/" target="_blank">软考资讯</a>
+                                            </div>
+                                                                  <div class="nav-contant " data-id="6" style="height: 0px; z-index: 0;">
+                                           <a href="https://b.51cto.com/index?utm_source=hometop" target="_blank">在线学习</a>
+                                            </div>
+                                                                  <div class="nav-contant " data-id="7" style="height: 0px; z-index: 0;">
+                                           <a href="https://x.51cto.com/?www" target="_blank">CTO训练营</a>
+                                              <a href="https://x.51cto.com/act/cto/tl" target="_blank">技术经理研习营</a>
+                                              <a href="https://x.51cto.com/act/cto/leatech2021?www1" target="_blank">LeaTech峰会</a>
+                                            </div>
+                                                                  <div class="nav-contant " data-id="9" style="height: 0px; z-index: 0;">
+                                           <a href="https://ost.51cto.com/postlist" target="_blank">文章</a>
+                                              <a href="https://ost.51cto.com/resource" target="_blank">资源</a>
+                                              <a href="https://ost.51cto.com/answerlist" target="_blank">问答</a>
+                                              <a href="https://ost.51cto.com/study" target="_blank">课堂</a>
+                                              <a href="https://ost.51cto.com/column" target="_blank">专栏</a>
+                                              <a href="https://ost.51cto.com/activity" target="_blank">直播</a>
+                                            </div>
+                                                                                            <div class="nav-contant wechatImageList" data-id="wechatImageList" style="height: 0px; z-index: 0;">
+                                           <div class="ewmbox"><div class="imgbox"><img src="vi_files/862966771f540df82857144db74b27ee5b4b23.jpeg"></div><span class="txt">51CTO</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/d53d67c771f5cc42bac359bceb138c4cb1713b.jpg"></div><span class="txt">鸿蒙开发者社区</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/58786f9973e5e929ef521783e1ee40413b04de.jpeg"></div><span class="txt">51CTO技术栈</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/c77c03983d48589b1af789dfc284acb6a7c529.jpeg"></div><span class="txt">51CTO官微</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/544d71641d983430fc9955636e625e6bb21ff9.jpeg"></div><span class="txt">51CTO学堂</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/f1bd61e720bf669483d941a8486c124f32c451.jpeg"></div><span class="txt">51CTO博客</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/4719e7b27bae3af5e33552481b6cb913288b01.jpeg"></div><span class="txt">CTO训练营</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/61a991f484307eed2fe9356cc215c4d8f2dc0f.jpg"></div><span class="txt">鸿蒙开发者社区订阅号</span></div>
+                                            </div>
+                                                        <div class="nav-contant appImageList" data-id="appImageList" style="height: 0px; z-index: 0;">
+                                           <div class="ewmbox"><div class="imgbox"><img src="vi_files/24febb8152cc24e264e642f8cb8bb515efea26.jpeg"></div><span class="txt">51CTO学堂APP</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/43cca7d0489cc5d1f70060be760bde17d552e2.jpeg"></div><span class="txt">51CTO学堂企业版APP</span></div>
+                                              <div class="ewmbox"><div class="imgbox"><img src="vi_files/c4d2220826890472539671d7c428f0c0ee9451.jpg"></div><span class="txt">鸿蒙开发者社区视频号</span></div>
+                                            </div>
+                        </div>
+    </div>
+</header>
+<div class="Header  " style="height:70px;">
+     <div class="header-content">
+        <div class="header-left">
+                            <div class="Logo"><a href="https://blog.51cto.com/"><img src="vi_files/logo.webp" alt="51CTO博客" title="51CTO博客" width="100">
+                    <h2>51CTO博客</h2>
+                </a></div>
+                  <ul class="Navigates  commonhide">
+            <li><a href="https://blog.51cto.com/">首页</a>
+                <div class="spam-classifications" style="display:none;">
+                    <div class="spam-classifications-content">
+                        <div class="classification-ipc" id="classification-ipc"></div>
+                        <div class="classification-primary-list-box" id="classification-primary-list-box"></div>
+
+                    </div>
+                </div>
+            </li>
+            <li><a href="https://blog.51cto.com/nav/following">关注</a></li>
+            <li><a href="https://blog.51cto.com/ranking/hot">排行榜</a></li>
+            <li class="">
+                <a href="https://blog.51cto.com/cloumn/index">订阅专栏</a>
+            </li>
+                            <li class="first"><a href="https://blog.51cto.com/activity-first-publish#shouye" target="_blank"><img alt="新人福利" src="vi_files/first2.gif"></a></li>
+                        </ul>
+     </div>
+        <ul class="header-right">
+                <li class="search">
+                    <form class=" form-search" method="get" action="https://blog.51cto.com/search/result" target="_blank" novalidate="">
+                        <input type="text" name="q" placeholder="搜索文章、作者" id="TopSearchInput" autocomplete="off" required="">
+                         <i class="iconblog  bloga-shanchutupian"></i>
+                        <button class="iconblog blogsou" id="TopSearchBtn"></button>
+                    </form>
+                    <div class="focusSelect focusSelect_his" style="display: none;">
+
+                        <div class="searchHistoryList" style="display: none;">
+                            <div class="clearfix hishead">搜索历史
+                                <span class="clearhis"><i class="iconblog blogshanchu18 "></i>清空</span>
+                            </div>
+                            <div class="hisitem-wrap"></div>
+                        </div>
+
+                        <div class="hotList" style="display: none;">
+                            <div class="clearfix hishead">热门搜索</div>
+                            <div class="hot-wrap"></div>
+                        </div>
+
+                    </div>
+
+                    <div class="focusSelect focusSelect_key" style="display: none;">
+                        <div class="keyitem-wrap">
+
+                        </div>
+                        <div class="clearfix checkSearchResult">
+                            <span>查看【</span>
+                            <span class="checkKey"></span>
+                            <span>】的结果</span>
+                        </div>
+                    </div>
+                </li>
+                                      <li class="write commonhide">
+                       
+                        <a href="javascript:;" id="toPublish" onclick="Login({scene:'write1'})" rel="nofollow"> <i class="iconblog  blogxiewenzhang"></i>写文章</a></li>
+                      <li class="creative"><a href="https://blog.51cto.com/creative-center/index">创作中心</a><a href="https://blog.51cto.com/creative-center/task" class="task"></a></li>
+                                                         <li class="logins">
+                    <a href="https://home.51cto.com/index?from_service=blog&amp;scene=login1&amp;reback=https://blog.51cto.com/bomby/6319241" target="_self" class="clearfix" rel="nofollow"><span class="fl">登录</span><b class="fgline fl"></b><span class="fl">注册</span></a>
+                </li>
+                    </ul>
+
+    </div>
+<div class="search-mask" style="display: none;"></div></div>
+    <!-- if publish show -->
+    <div class="Footer">
+        <div class="Page ">
+            <div class="fl">
+                <a href="https://blog.51cto.com/" class="Logo"><img src="vi_files/logo4.webp" alt="51CTO博客" title="51CTO博客" width="214"></a>
+                <p class="copy">Copyright © 2005-2023 <a href="https://www.51cto.com/" target="_blank">51CTO.COM</a>
+                    版权所有 京ICP证060544号</p>
+            </div>
+
+            <dl class="foot_ab fr">
+                <dt>关于我们</dt>
+                <dd>
+                    <table class="aboutList">
+                        <tbody><tr>
+                            <td><a href="https://blog.51cto.com/51ctoblog" target="_blank">官方博客</a></td>
+                            <td><a href="https://blog.51cto.com/nav" target="_blank">全部文章</a></td>
+                            <td><a href="https://blog.51cto.com/topic/all" target="_blank">热门标签</a></td>
+                            <td><a href="https://blog.51cto.com/class-blog/index" target="_blank" data-v-6e9e21b4="">班级博客</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.51cto.com/about/aboutus.html" target="_blank">了解我们</a></td>
+                            <td><a href="https://www.51cto.com/about/map.html" target="_blank">网站地图</a></td>
+                            <td><a href="https://blog.51cto.com/feedback?utm_medium=aboutus2" target="_blank">意见反馈</a></td>
+
+                        </tr>
+                    </tbody></table>
+                </dd>
+            </dl>
+
+
+            <dl class="foot_link fr">
+                <dt>友情链接</dt>
+                <dd>
+                    <table class="aboutList-2">
+                        <tbody><tr>
+                            <td><a href="https://ost.51cto.com/?utm_source=blogsitemap" target="_blank">鸿蒙开发者社区</a></td>
+                            <td><a href="https://edu.51cto.com/" target="_blank">51CTO学堂</a></td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://www.51cto.com/" target="_blank">51CTO</a></td>
+                            <td><a href="https://edu.51cto.com/rk/" target="_blank">软考资讯</a></td>
+                            <td> <a href="https://icv.51cto.com/" target="_blank">汽车开发者社区</a></td>
+                        </tr>
+                    </tbody></table>
+                </dd>
+            </dl>
+
+        </div>
+    </div>
+    
+
+<script>
+    var userId="";
+var uid="";
+var user_id=6787568;
+var isLogin=0;
+var imgpath="https://s2.51cto.com/";
+var BLOG_URL="https://blog.51cto.com/";
+var HOME_URL="https://home.51cto.com/";
+var STATICPATH="https://static2.51cto.com/edu/";
+var SA_SERVER_URL_YM="https://sc.51cto.com/sa?project=production";
+var cururl="https://blog.51cto.com/bomby/6319241";
+var login_url="https://home.51cto.com/mobile/client-login?reback=https://blog.51cto.com/bomby/6319241";
+var praise_url="https://blog.51cto.com/praise/praise";
+var qrcodeSid="";
+var qr_code="";
+var router="blog/index";
+var csrfParam="_csrf";
+var csrfToken="FGy8_bsxdkc73yQ8uX4bWe1EMi9I8HYP0YzMx5-GTZEob1rakA0GLiPFmF-NhIKzrH72rSIHtDH8VlH99l_PuA==";
+var is_load=0;
+var uc_url="https://ucenter.51cto.com/";
+var blog_url="https://blog.51cto.com/";
+var isBuy=1;
+var isPc=0;
+var writeMessage="©著作权归作者所有：来自51CTO博客作者重新启航的原创作品，请联系作者获取转载授权，否则将追究法律责任\r\ndebian原装vi命令使用方法\r\nhttps:\/\/blog.51cto.com\/bomby\/6319241";
+var isCodeCopy=0;
+var cid="";
+var fid=0;
+var commentListPage="";
+var originalUrl="https://blog.51cto.com/bomby/original";
+var followersUrl="https://blog.51cto.com/bomby/followers";
+var translateUrl="https://blog.51cto.com/bomby/translate";
+var reproduceUrl="https://blog.51cto.com/bomby/reproduce";
+var followingUrl="https://blog.51cto.com/bomby/following";
+var page="detail";
+var tipStatus=1;
+var addReply_url="https://blog.51cto.com/addBlogComment";
+var removeUrl="https://blog.51cto.com/delBlogComment";
+var blog_id=6319241;
+var is_comment=0;
+var comment_list="https://blog.51cto.com/getBlogCommentList";
+var index_url="https://blog.51cto.com/bomby";
+var img_url="https://static2.51cto.com/edu/blog/";
+var i_user_id="";
+var c_user_id=6787568;
+var collect_url="https://blog.51cto.com/addUserCollect";
+var is_old=0;
+var nicknameurl="https://blog.51cto.com/bomby";
+var nickname="重新启航";
+var shareimgUrl="/qr/qr-url?url=https%3A%2F%2Fblog.51cto.com%2Fbomby%2F6319241";
+var checkFollow=1;
+var articleContent="Debian \u4e2d\u7684 vi \u662f\u4e00\u4e2a\u975e\u5e38\u6d41\u884c\u7684\u6587\u672c\u7f16\u8f91\u5668\uff0c\u5b83\u53ef\u4ee5\u7528\u6765\u7f16\u8f91 Unix\/Linux \u7cfb\u7edf\u4e2d\u7684\u6587\u672c\u6587\u4ef6\u3002\u4e0b\u9762\u662f\u4e00\u4e9b\u5e38\u7528\u7684 vi \u547d\u4ee4\uff1a\nvi \u547d\u4ee4\uff1a\u8fdb\u5165 vi \u7f16\u8f91\u6a21\u5f0f\uff0c\u6309\u4e0b i \u952e\u5f00\u59cb\u8f93\u5165\uff0c\u6309\u4e0b Esc \u952e\u9000\u51fa\u7f16\u8f91\u6a21\u5f0f\u3002\n:set \u547d\u4ee4\uff1a\u8bbe\u7f6e\u7f16\u8f91\u5668\u7684\u9009\u9879\uff0c\u4f8b\u5982\u8bbe\u7f6e\u63d2\u5165\u6a21\u5f0f\u4e3a i\u3002\n:i \u547d\u4ee4\uff1a\u5f00\u59cb\u8f93\u5165\u5f53\u524d\u5149\u6807\u6240\u5728\u7684\u884c\u3002\n:r \u547d\u4ee4\uff1a\u4ece\u5f53\u524d\u4f4d\u7f6e\u5f00\u59cb\u67e5\u627e\u5e76\u66ff\u6362\u6587\u672c\u3002\n:c \u547d\u4ee4\uff1a\u5220\u9664\u5f53\u524d\u5149\u6807\u6240\u5728\u884c\u3002\n:v \u547d\u4ee4\uff1a\u8fdb\u5165\u63d2\u5165\u6a21\u5f0f\uff0c\u6b64\u65f6\u5149\u6807\u6240\u5728\u4f4d\u7f6e\u4f1a\u51fa\u73b0\u4e00\u4e2a\u7ea2\u8272\u7684\u6ce2\u6d6a\u7ebf\uff0c\u53ef\u4ee5\u8f93\u5165\u63d2\u5165\u7684\u6587\u672c\u3002\n:a \u547d\u4ee4\uff1a\u5728\u5f53\u524d\u4f4d\u7f6e\u63d2\u5165\u4e00\u4e2a\u65b0\u7684\u7a7a\u884c\u3002\n:x \u547d\u4ee4\uff1a\u5220\u9664\u5f53\u524d\u5149\u6807\u6240\u5728\u884c\u5e76\u5c06\u5149\u6807\u79fb\u5230\u884c\u9996\u3002\n:b \u547d\u4ee4\uff1a\u5220\u9664\u5f53\u524d\u5149\u6807\u6240\u5728\u7684\u5217\u3002\n:d \u547d\u4ee4\uff1a\u5220\u9664\u5f53\u524d\u5149\u6807\u6240\u5728\u7684\u5b57\u7b26\u4e32\u3002\n:j \u547d\u4ee4\uff1a\u64a4\u9500\u4e0a\u4e00\u4e2a\u64cd\u4f5c\u3002\n:k \u547d\u4ee4\uff1a\u6062\u590d\u4e0a\u4e00\u4e2a\u64cd\u4f5c\u3002\n:n \u547d\u4ee4\uff1a\u65b0\u5efa\u4e00\u4e2a\u65b0\u7684\u7a7a\u884c\u3002\n:p \u547d\u4ee4\uff1a\u8df3\u8f6c\u5230\u6307\u5b9a\u7684\u884c\u3002\n:q \u547d\u4ee4\uff1a\u9000\u51fa vi \u7f16\u8f91\u6a21\u5f0f\u3002\n\u8fd9\u4e9b\u547d\u4ee4\u53ef\u4ee5\u5e2e\u52a9\u4f60\u8fdb\u5165\u548c\u9000\u51fa vi \u7f16\u8f91\u6a21\u5f0f\uff0c\u67e5\u627e\u548c\u66ff\u6362\u6587\u672c\uff0c\u5220\u9664\u884c\u548c\u5b57\u7b26\u4e32\uff0c\u4ee5\u53ca\u8fdb\u884c\u5176\u4ed6\u57fa\u672c\u64cd\u4f5c\u3002";
+var seoTitle="";
+var articleABtest=0;
+var blog_source=0;
+var blog_source_video=0;
+var blog_add_time=1684648549;
+var word_type=0;
+var custom_id=1;
+var firstTwoCate=27;
+var webTitle="debian原装vi命令使用方法";
+            !function(f,p){"use strict";var h=new RegExp("\\.css"),y=p.head||p.getElementsByTagName("head")[0],r=+navigator.userAgent.replace(/.*(?:AppleWebKit|AndroidWebKit)\/?(\d+).*/i,"$1")<536;function s(e){return"complete"===e.readyState||"loaded"===e.readyState}function v(e,t,n){var o="onload"in e;function a(){e.onload=e.onreadystatechange=null,e=null,t()}"css"!==n||!r&&o?o?(e.onload=a,e.onerror=function(){e.onerror=null}):e.onreadystatechange=function(){s(e)&&a()}:setTimeout(function(){!function e(t,n){var o;t.sheet&&(o=!0),setTimeout(function(){o?n():e(t,n)},20)}(e,t)},1)}function u(t,n,e,o){if(t)if(h.test(t)){var a=t,r=e,c=u,i=p.createElement("link");if(r.attrs)for(var l in r.attrs)i.setAttribute(l,r.attrs[l]);r.prefetch?(i.href=a,i.rel="prefetch",c&&c()):(i.rel="stylesheet",v(i,c,"css"),i.href=a),y.appendChild(i)}else{var c=t,d=e,a=u,f=d.prefetch?p.createElement("link"):p.createElement("script");if(d.attrs)for(var s in d.attrs)f.setAttribute(s,d.attrs[s]);d.prefetch?(f.href=c,f.rel="prefetch",a&&a()):(f.charset="utf-8",v(f,a,"js"),f.async=!1,f.src=c),y.appendChild(f)}else setTimeout(function(){u()});function u(){var e=n.indexOf(t);-1<e&&n.splice(e,1),0===n.length&&o()}}function c(e="load",t){var n="object"==typeof t.option?t.option:{},t="function"==typeof t.callback?t.callback:null;return n.attrs="object"==typeof n.attrs?n.attrs:{},n.loaded="boolean"==typeof n.loaded&&n.loaded,n[e]=!0,{option:n,cb:t}}function i(c,e,t="load"){var n,o,a,r,i,l;function d(){var e=c,t=i,n=l;function o(){n&&n()}if(0===(e=Array.prototype.slice.call(e||[])).length)o();else for(var a=0,r=e.length;a<r;a++)u(e[a],e,t,o)}c&&c.length&&(i=e.option,l=e.cb,e=p,n=function(){"load"===t&&i.loaded?setTimeout(d,2e3):d()},("ready"===(o=t)?"loading"!==e.readyState:s(e))?n():(a=!1,r=function(){a||(n(),a=!0)},"load"===o?f.addEventListener("load",r):"ready"===o&&p.addEventListener("DOMContentLoaded",r),setTimeout(function(){r()},1500)))}f.PsLoader={ready:function(e,t,n={}){var o=[],a=[];e.forEach(function(e){(h.test(e)?o:a).push(e)}),n.loaded=!1,i(o,c("ready",{option:n,callback:function(){t(o)}}),"ready"),i(a,c("load",{option:n,callback:function(){t(a)}}))},load:function(e,t,n={}){i(e,c("load",{option:n,callback:t}))},prefetch:function(e,t,n={}){i(e,c("prefetch",{option:n,callback:t}))}}}(window,document);        !function(m,g){var t=["scroll","wheel","mousewheel","resize","animationend","transitionend","touchmove"];function n(e){if("object"!=typeof e)throw new Error("CLazy option is not Object");var f={defaultImg:e.defaultImg||"data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",preLoad:e.preLoad||1.3,preLoadTop:e.preLoadTop||0,complete:e.complete||null,events:e.events||t,capture:e.capture||!1},v=0,p={},h={},i={},A=this;function l(e){var t=e;if("object"!=typeof t)return!1;if(!t.el)for(var r in p)if(e===p[r].el){t=p[r];break}return t}function c(e){var e=e.getBoundingClientRect(),t=f.preLoad,r=f.preLoadTop;return e.top<m.innerHeight*t&&e.bottom>r&&e.left<m.innerWidth*t&&0<e.right}function u(e,t){var r,n=e.bindType,o=e.el;switch(t){case"loading":case"error":r=f.defaultImg;break;default:r=e.src}n?e.src&&(o.style[n]='url("'+r+'")'):o.getAttribute("src")!==r&&o.setAttribute("src",r),o.setAttribute("lazy",t)}this.add=function(e,t){var r=function(e){var t,r=!1;for(t in p)if(p[t].el===e){r=p[t];break}return r}(e);if(r)return this.check(r),!1;r="e_"+ ++v;if(p[r])return this.check(p[r]),!1;for(var n,o={id:r,el:e,bindType:"IMG"===e.tagName?null:"background-image",src:(n=e,(t=t)?t.value:n.getAttribute("ps-lazy")),$parent:function(e){if(!(e instanceof HTMLElement))return m;var t=e;for(;t&&t!==g.body&&t!==g.documentElement&&t.parentNode;){if(/(scroll|auto)/.test(function(e){return y(e,"overflow")+y(e,"overflow-y")+y(e,"overflow-x")}(t)))return t;t=t.parentNode}return m}(e)},a=(h[r]=function(e){A.check(o)},p[r]=o),i=h[r],c=0;c<f.events.length;c++){s=d=u=l=void 0;var[l,u,d,s=!1]=[a.$parent,f.events[c],i,f.capture];l&&l.addEventListener(u,d,s),m!==l&&m.addEventListener(u,d,s)}this.check(o)},this.remove=function(e){for(var e=l(e),t=(e.el&&e.el.removeAttribute("ps-lazy"),e),r=h[e.id],n=0;n<f.events.length;n++){c=i=a=o=void 0;var[o,a,i,c=!1]=[t.$parent,f.events[n],r,f.capture];o&&o.removeEventListener(a,i,c),m!==o&&m.removeEventListener(a,i,c)}delete h[e.id],delete p[e.id]},this.check=function(e){var t,r,n,o,a=l(e);c(a.el)&&(m===a.$parent||c(a.$parent))?(e=function(e){u(a,e),A.remove(a),f.complete&&f.complete({el:a.el,src:a.src,state:e})},a.src?(t=a.src,r=e,n=encodeURIComponent(t),i[n]?r(i[n]):((o=new Image).onload=function(){i[n]="loaded",r(i[n])},o.onerror=function(){i[n]="error",r(i[n])},o.src=t)):e("loaded")):u(a,"loading")},this.checkAll=function(){for(var e in p)A.check(p[e])}}function y(e,t){return"undefined"!=typeof getComputedStyle?getComputedStyle(e,null).getPropertyValue(t):e.style[t]}m.PsLazy=function(e={}){function t(e){for(var t=e.path||event.composedPath&&event.composedPath()||e._getPath&&e._getPath(),r=0;r<t.length;r++){var n=t[r];if(n&&"hasAttribute"in n&&n.hasAttribute("ps-lazy-check")){o.format();break}}}function r(){var e=g.querySelector("img[data-share]");e&&!e.getAttribute("src")&&e.setAttribute("src",e.getAttribute("data-share"))}var o=this;n.call(o,e),g.addEventListener("click",t),g.addEventListener("mouseover",t),this.format=function(){var e=g.querySelectorAll("[ps-lazy]");if(!e.length)return!1;for(var t=0;t<e.length;t++)o.add(e[t])},this.format();"complete"===(e=g).readyState||"loaded"===e.readyState?r():m.addEventListener("load",r,!1)}}(window,document);        PsLoader.load(["https://static2.51cto.com/edu/blog/blog-static/static/css/pc_detailinline.min.css?v=a64ca628b5","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_detail.min.css?v=2eae509705","https://cdn.51cto.com/jquery/jquery-2.2.4.min.js","https://static2.51cto.com/edu/center/js/interaction_iframe.js","https://cdn.51cto.com/jquery/swiper-4.5.3.js","https://cdn.51cto.com/svga/2.3.1/svga.min.js","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_base.min.js?v=d06e4f1e8b","https://static2.51cto.com/edu/blog/blog-static/js/mprime.js?v=2cb70144db","https://static2.51cto.com/edu/blog/blog-static/markdown/dist/js/main.js?v=12e5a1a2fe","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_detail.min.js?v=96a13e0327"], function() {
+                    articleCopy();
+            })
+    PsLoader.prefetch(["https://static2.51cto.com/edu/blog/blog-static/static/css/pc_base.min.css?v=449f0f91d6","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_indexinline.min.css?v=b8118d4d63","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_newIndexinline.min.css?v=56c90a8906","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_listinline.min.css?v=1c6a752fde","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_newListinline.min.css?v=a1051ef99f","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_topicinline.min.css?v=24e8f67e65","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_topicdetailinline.min.css?v=9d49bae709","https://static2.51cto.com/edu/blog/blog-static/static/css/pc_bloggerinline.min.css?v=5138b963c8","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_index_js.min.js?v=5331660aa2","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_list_js.min.js?v=8973c321c1","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_topic.min.js?v=873da4210c","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_topic_static.min.js?v=8533cb9e02","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_topicdetail.min.js?v=901345e7d5","https://static2.51cto.com/edu/blog/blog-static/static/js/pc_blogger_js.min.js?v=c7a4e3d003"]);
+    var Lazy = new PsLazy({
+        defaultImg: "https://s2.51cto.com/images/100/base/empty.png?x-oss-process=image/format,webp/ignore-error,1",
+        preLoad: 1.3,
+        complete: function(opt) {},
+    })
+</script>
+
+
+<div id="waf_nc_block" style="display: none;"><div class="waf-nc-mask"></div><div id="WAF_NC_WRAPPER" class="waf-nc-wrapper"><p class="waf-nc-title">访问验证</p><p class="waf-nc-description">为了更好的访问体验，请进行如下验证</p><p id="waf-nc-traceid" class="waf-nc-traceid-class"></p><div id="nocaptcha"></div></div></div><div style="background: url(&quot;https://static2.51cto.com/edu/blog/images/bg50.png&quot;); position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 10000000; display: none;"><div style="z-index:10000001;width:50px;height:50px;background:url(https://static2.51cto.com/edu/blog/images/loading2.gif) no-repeat center;background-size:50px 50px;position:absolute;left:50%;top:50%;margin-left:-25px;margin-top:-25px;"></div></div></body></html>
